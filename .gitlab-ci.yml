@@ -4,6 +4,7 @@ image: node:latest
 .deploy: &deploy
 - npm install -g firebase-tools@11.3.0
 - npm audit fix --force
+- firebase list
 - firebase use jg-workout --token "$FIREBASE_TOKEN"
 - npm install
 - npm run lint
