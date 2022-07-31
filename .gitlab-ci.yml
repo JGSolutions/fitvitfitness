@@ -1,37 +1,35 @@
 image: node:latest
 # image: node:14.18
 
-# .deploy: &deploy
-# - npm install -g firebase-tools@11.3.0
-# - npm audit fix --force
-# - firebase projects:list --token "$FIREBASE_TOKEN"
-# - firebase use jg-workout --token "$FIREBASE_TOKEN"
-# - npm install
-# - npm run lint
-# - npm run build
+.deploy: &deploy
+- npm install -g firebase-tools
+- npm audit fix --force
+- firebase use jg-workout
+- npm install
+- npm run lint
+- npm run build
 
-# cache:
-#   paths:
-#     - node_modules/
+cache:
+  paths:
+    - node_modules/
 
 stages:
   - deploy
 
 production:
   stage: deploy
-  # before_script:
-  #   - *deploy
+  before_script:
+    - *deploy
   only:
     - master
   when: always
-  # allow_failure: false
+  allow_failure: false
   script:
-    - npm install -g firebase-tools@11.3.0
-    - npm audit fix --force
-    - firebase projects:list
-    - firebase use jg-workout
-    - npm install
-    - npm run lint
-    - npm run build
+    # - npm install -g firebase-tools@11.3.0
+    # - npm audit fix --force
+    # - firebase projects:list
+    # - firebase use jg-workout
+    # - npm install
+    # - npm run lint
+    # - npm run build
     - firebase deploy --only hosting --token "$FIREBASE_TOKEN"
-    # - firebase deploy -m "Pipe $CI_PIPELINE_ID Build $CI_BUILD_ID" --only hosting:<YOUR TARGET NAME> --non-interactive --token $FIREBASE_TOKEN
