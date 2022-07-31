@@ -28,8 +28,8 @@ production:
   script:
     - npm install -g firebase-tools@11.3.0
     - npm audit fix --force
-    - firebase projects:list --token "$FIREBASE_TOKEN"
-    - firebase use jg-workout --token "$FIREBASE_TOKEN"
+    - firebase projects:list
+    - firebase use jg-workout
     - npm install
     - npm run lint
     - npm run build
