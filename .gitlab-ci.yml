@@ -1,14 +1,14 @@
 image: node:latest
 # image: node:14.18
 
-.deploy: &deploy
-- npm install -g firebase-tools@11.3.0
-- npm audit fix --force
-- firebase projects:list --token "$FIREBASE_TOKEN"
-- firebase use jg-workout --token "$FIREBASE_TOKEN"
-- npm install
-- npm run lint
-- npm run build
+# .deploy: &deploy
+# - npm install -g firebase-tools@11.3.0
+# - npm audit fix --force
+# - firebase projects:list --token "$FIREBASE_TOKEN"
+# - firebase use jg-workout --token "$FIREBASE_TOKEN"
+# - npm install
+# - npm run lint
+# - npm run build
 
 # cache:
 #   paths:
@@ -27,7 +27,7 @@ production:
   # allow_failure: false
   script:
     - npm install -g firebase-tools@11.3.0
-    - npm audit fix --force
+    # - npm audit fix --force
     - firebase projects:list
     - firebase use jg-workout
     - npm install
