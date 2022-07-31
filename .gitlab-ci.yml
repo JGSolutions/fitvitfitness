@@ -27,7 +27,7 @@ production:
   # allow_failure: false
   script:
     - npm install -g firebase-tools@11.3.0
-    # - npm audit fix --force
+    - npm audit fix --force
     - firebase projects:list
     - firebase use jg-workout
     - npm install
