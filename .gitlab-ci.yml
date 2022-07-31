@@ -28,6 +28,7 @@ production:
   script:
     - npm install -g firebase-tools@11.3.0
     - npm audit fix --force
+    - firebase login --reauth
     - firebase projects:list
     - firebase use jg-workout
     - npm install
