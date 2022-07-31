@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "jg-workout"
+  },
+  "targets": {
+    "jg-workout": {
+      "hosting": {
+        "marketing-prod": [
+          "fitvit-marketing"
+        ]
+      }
+    }
+  }
+}
