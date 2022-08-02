@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <Header></Header>
       <main className={styles.main}>
-        <section class="hero">
+        <section>
           Tracking workouts BUT tracking your health
           <span>
             Sync your logged workouts with Google Fit automatically and keeping you a healthier life
