@@ -11,11 +11,12 @@ export default function Header() {
             width={60}
             alt="fitVitfitness"
           />
-            <Link href="/privacy-policy/privacy-policy">
+            <Link href="">
             <a>home</a>
           </Link>
-          <Link href="/privacy-policy/privacy-policy">
-            <a>privacy policy</a>
+
+          <Link href="">
+            <a>about</a>
           </Link>
         </header>
     );

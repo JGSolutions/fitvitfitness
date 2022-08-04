@@ -1,19 +1,21 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header/header';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>FitVit - Free Planner Workout Tracker & With Google Fit</title>
-        <meta name="description" content="Free workout tracker tracking your workouts and keeping you healthy with Google Fit" />
+        <meta name="description" content="Free calisthenics, strength training & weight lifting tracking app. Track your workouts and health with Google Fit" />
         <link rel="icon" href="/favicon.ico" />
+        
       </Head>
       <Header></Header>
       <main className={styles.main}>
         <section>
-          Tracking workouts BUT tracking your health
+          Tracking gym or home workouts AND tracking your health
           <span>
             Sync your logged workouts with Google Fit automatically and keeping you a healthier life
           </span>
@@ -22,19 +24,58 @@ export default function Home() {
 
         <section>
           <h2>Our Goal</h2>
-          Providing you a free easy workout and health tracking app. We all know exercising is important to have a healthy life style. 
-          Having a tool to track your workouts 
-          and also keeping track of your health with.
-          Google Fit. Keeping you motivated with accumlating heart points with Google Fit
+          Providing a free easy workout and health tracking app. Not only exercising is important but seeing results, keeping track of your health
+          and staying motivated is key!
         </section>
 
         <section>
+          <h2>Google Fit</h2>
+          Syncing workouts with Google Fit for free also helping you track your health. Google Fit collaborated with 
+          the World Health Organization to develop Heart Points, an activity goal based on WHO’s global recommendations. 
+          We provide 3 specific types of activities and exercies to Google fit whichwill help you track those heart points 
+          and see the calories burned.
 
+          <a href="">More Info About Google Fit</a>
+        </section>
+
+        <section>
+          <h2>Key Features</h2>
+          <ul>
+            <li>Over 1000 Exercises with Illistrations</li>
+            <li>Select any workout program created from certified trainers (coming soon)</li>
+            <li>Customize exercises & create your own library (coming soon)</li>
+            <li>Plan a workout or jump into quick workout.</li>
+            <li>Log reps & weight, duration or distance for specific exercises.</li>
+            <li>Implement Super Sets & Dropsets (coming soon)</li>
+            <li>Desktop & Mobile Versions</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Track Progress (Coming Soon)</h2>
+          <ul>
+            <li>Advanced Exercise Charts(coming soon)</li>
+            <li>Keep Track of Body Weight(coming soon)</li>
+            <li>Improve on Exercises by setting goals (coming soon)</li>
+            <li>Keep track of weekly workouts</li>
+          </ul>
+        </section>
+        
+        <section>
+          <h2>Workouts Engagment</h2>
+          <ul>
+            <li>Share your Workout Routines</li>
+            <li>Share Workout Results</li>
+            <li>Save Other Routines</li>
+            <li>Compare workout results with friend (coming soon)</li>
+          </ul>
         </section>
       </main>
 
       <footer className={styles.footer}>
-        
+        <Link href="/privacy-policy/privacy-policy">
+          <a>privacy policy</a>
+        </Link>
       </footer>
     </div>
   )
