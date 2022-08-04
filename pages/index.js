@@ -24,30 +24,29 @@ export default function Home() {
 
         <section>
           <h2>Our Goal</h2>
-          Providing a free easy workout and health tracking app. Not only exercising is important but seeing results, keeping track of your health
+          Providing a free easy workout tool and health tracking app. Not only exercising is important but keeping track of your health
           and staying motivated is key!
         </section>
 
         <section>
           <h2>Google Fit</h2>
-          Syncing workouts with Google Fit for free also helping you track your health. Google Fit collaborated with 
-          the World Health Organization to develop Heart Points, an activity goal based on WHO’s global recommendations. 
-          We provide 3 specific types of activities and exercies to Google fit whichwill help you track those heart points 
-          and see the calories burned.
+          Google Fit collaborated with the World Health Organization to develop Heart Points, an activity goal based on WHO’s global recommendations. 
+          We allow you to track 3 specific types of workouts which are: calisthenics, strength training & weight lifting. Which our app will sync your
+          workouts to Google fit helping you track heart points and the calories burned burned for each workout.
 
-          <a href="">More Info About Google Fit</a>
+          <a href="">More About Google Fit >></a>
         </section>
 
         <section>
           <h2>Key Features</h2>
           <ul>
-            <li>Over 1000 Exercises with Illistrations</li>
-            <li>Select any workout program created from certified trainers (coming soon)</li>
+            <li>Over 1000 exercises with illustrations</li>
+            <li>Many free workout programs created from certified trainers (coming soon)</li>
             <li>Customize exercises & create your own library (coming soon)</li>
             <li>Plan a workout or jump into quick workout.</li>
             <li>Log reps & weight, duration or distance for specific exercises.</li>
             <li>Implement Super Sets & Dropsets (coming soon)</li>
-            <li>Desktop & Mobile Versions</li>
+            <li>Sync your account between desktop and your mobile phone</li>
           </ul>
         </section>
 
@@ -56,18 +55,18 @@ export default function Home() {
           <ul>
             <li>Advanced Exercise Charts(coming soon)</li>
             <li>Keep Track of Body Weight(coming soon)</li>
-            <li>Improve on Exercises by setting goals (coming soon)</li>
+            <li>Improve on certain exercises by setting goals (coming soon)</li>
             <li>Keep track of weekly workouts</li>
           </ul>
         </section>
         
         <section>
-          <h2>Workouts Engagment</h2>
+          <h2>Workout Engagment</h2>
           <ul>
             <li>Share your Workout Routines</li>
             <li>Share Workout Results</li>
             <li>Save Other Routines</li>
-            <li>Compare workout results with friend (coming soon)</li>
+            <li>Compare workout or exercise results with a friend (coming soon)</li>
           </ul>
         </section>
       </main>
