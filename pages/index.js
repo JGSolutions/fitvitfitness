@@ -34,7 +34,7 @@ export default function Home() {
           We allow you to track 3 specific types of workouts which are: calisthenics, strength training & weight lifting. Which our app will sync your
           workouts to Google fit helping you track heart points and the calories burned burned for each workout.
 
-          <a href="">More About Google Fit >></a>
+          <a href="">More About Google Fit</a>
         </section>
 
         <section>
