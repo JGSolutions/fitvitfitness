@@ -15,7 +15,7 @@ export default function Home() {
       <Header></Header>
       <main className={styles.main}>
         <section>
-          Tracking gym or home workouts AND tracking your health
+          Track gym or home workouts AND tracking your health.
           <span>
             Sync your logged workouts with Google Fit automatically and keeping you a healthier life
           </span>
@@ -31,7 +31,7 @@ export default function Home() {
         <section>
           <h2>Google Fit</h2>
           Google Fit collaborated with the World Health Organization to develop Heart Points, an activity goal based on WHO’s global recommendations. 
-          We allow you to track 3 specific types of workouts which are: calisthenics, strength training & weight lifting. Which our app will sync your
+          We allow you to track 3 specific types of workouts: calisthenics, strength training & weight lifting. Uur app will sync your
           workouts to Google fit helping you track heart points and the calories burned burned for each workout.
 
           <a href="">More About Google Fit</a>
@@ -41,12 +41,12 @@ export default function Home() {
           <h2>Key Features</h2>
           <ul>
             <li>Over 1000 exercises with illustrations</li>
-            <li>Many free workout programs created from certified trainers (coming soon)</li>
+            <li>Plenty of free workout programs to choose from (coming soon)</li>
             <li>Customize exercises & create your own library (coming soon)</li>
             <li>Plan a workout or jump into quick workout.</li>
             <li>Log reps & weight, duration or distance for specific exercises.</li>
             <li>Implement Super Sets & Dropsets (coming soon)</li>
-            <li>Sync your account between desktop and your mobile phone</li>
+            <li>Sync your account between desktop and mobile phone.</li>
           </ul>
         </section>
 
@@ -56,7 +56,6 @@ export default function Home() {
             <li>Advanced Exercise Charts(coming soon)</li>
             <li>Keep Track of Body Weight(coming soon)</li>
             <li>Improve on certain exercises by setting goals (coming soon)</li>
-            <li>Keep track of weekly workouts</li>
           </ul>
         </section>
         
@@ -64,10 +63,15 @@ export default function Home() {
           <h2>Workout Engagment</h2>
           <ul>
             <li>Share your Workout Routines</li>
-            <li>Share Workout Results</li>
-            <li>Save Other Routines</li>
+            <li>Share your workout results</li>
+            <li>Copy other routines</li>
             <li>Compare workout or exercise results with a friend (coming soon)</li>
           </ul>
+        </section>
+
+        <section>
+          <h2>For Certified Trainers</h2>
+          <p>Certified trainers having their own profile page and publishing workout routines within the community</p>
         </section>
       </main>
 
