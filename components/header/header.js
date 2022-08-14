@@ -16,8 +16,8 @@ export default function Header() {
       <div className={utilStyle.flexRowItems}>
         <Image
             src="/fitvit-logo.svg"
-            height={60}
-            width={60}
+            height={50}
+            width={50}
             alt="fitVitfitness"
           />
 

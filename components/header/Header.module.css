@@ -3,10 +3,10 @@
   height: 64px;
   padding: 16px;
   box-shadow: 0 2px 6px 0 rgb(32 33 37 / 10%);
-}
-
-.logo{
-
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
 }
 
 .menuOptions {

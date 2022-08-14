@@ -8,9 +8,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>FitVit - Free Planner Workout Tracker & With Google Fit</title>
-        <meta name="description" content="Free calisthenics, strength training & weight lifting tracking app. Track your workouts and health with Google Fit" />
+        <meta name="description" content="Free calisthenics, strength training & weight lifting tracking fitness app. Track your workouts and health with Google Fit" />
         <link rel="icon" href="/favicon.ico" />
         
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet"></link>
       </Head>
       <Header></Header>
       <main className={styles.main}>
