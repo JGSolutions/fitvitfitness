@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import buttonStyle from '../styles/Button.module.css'
 import Header from '../components/header/header';
 import Link from 'next/link';
 
@@ -7,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>FitVit - Free Planner Workout Tracker & With Google Fit</title>
+        <title>FitVit - Free Workout And Health Tracker App</title>
         <meta name="description" content="Free calisthenics, strength training & weight lifting tracking fitness app. Track your workouts and health with Google Fit" />
         <link rel="icon" href="/favicon.ico" />
         
@@ -22,7 +23,7 @@ export default function Home() {
           <span>
             Sync your logged workouts with Google Fit automatically and keeping you a healthier life
           </span>
-          <a href=''>Start Workout</a>
+          <a href='' className={buttonStyle.fvButton}>Start Workout</a>
         </section>
 
         <section>

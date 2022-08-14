@@ -5,3 +5,7 @@
     padding: 6px 36px;
     border-radius: 4px;
 }
+
+a.fvButton  {
+    text-decoration: none;
+}
