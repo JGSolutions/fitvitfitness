@@ -2,6 +2,8 @@
   --primary: #2C58A6;
   --secondary: #5BC7B2;
   --drop-shadow: 0 2px 6px 0 rgb(32 33 37 / 10%);
+
+
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Montserrat", sans-serif;
 
@@ -91,8 +93,4 @@ select {
     color: white;
     background: black;
   }
-}
-
-.fvButton {
-  background-color: var(--primary);
 }
