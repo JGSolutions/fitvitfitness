@@ -7,11 +7,18 @@
 
 .footer {
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
+  padding: 16px;
   border-top: 1px solid #eaeaea;
+  flex-direction: column;
+}
+
+.footerLinks {
+  display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
+  justify-content: space-between;
+
 }
 
 .footer a {
@@ -19,6 +26,9 @@
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 14px;
 }
 
 /* .title a:hover,
@@ -73,7 +83,7 @@
   .footer {
     border-color: #222;
   }
-  
+
   .code {
     background: #111;
   }

@@ -88,18 +88,28 @@ export default function Home() {
           </div>
         </section>
 
-        {/* <section>
-          <h2>Key Features</h2>
-          <ul>
-            <li>Over 1000 exercises with illustrations</li>
-            <li>Plenty of free workout programs to choose from (coming soon)</li>
-            <li>Customize exercises & create your own library (coming soon)</li>
-            <li>Plan a workout or jump into quick workout.</li>
-            <li>Log reps & weight, duration or distance for specific exercises.</li>
-            <li>Implement Super Sets & Dropsets (coming soon)</li>
-            <li>Sync your account between desktop and mobile phone.</li>
-          </ul>
-        </section> */}
+        <section className={styles.sections}>
+          <div>
+            <Image
+                  width={250}
+                  height={513}
+                  src="/google-fit-app.png"
+                  alt="Google Fit App"
+                />
+          </div>
+          <div>
+            <h2 className={styles.subTitle}>Key Features</h2>
+            <ul>
+              <li>Over 1000 exercises with illustrations</li>
+              <li>Plan a workout routine or start a quick workout</li>
+              <li>Log reps, weight, duration or distance sets.</li>
+              <li>View previous results to improve during workout.</li>
+              <li>Share your workout routines & results.</li>
+              <li>View you account between desktop and mobile phone.</li>
+              <li>Sync your account between desktop and mobile phone.</li>
+            </ul>
+          </div>
+        </section>
 
         {/* <section>
           <h2>Track Progress (Coming Soon)</h2>
@@ -126,11 +136,27 @@ export default function Home() {
         </section> */}
       </main>
 
-      {/* <footer className={styles.footer}>
-        <Link href="/privacy-policy/privacy-policy">
-          <a>privacy policy</a>
-        </Link>
-      </footer> */}
+      <footer className={styles.footer}>
+        <div className={styles.footerLinks}>
+          <div>
+            <Image
+                  src="/fitvit-logo.svg"
+                  height={50}
+                  width={50}
+                  alt="fitVitfitness"
+                />
+          </div>
+          <div style={{ display: 'flex', alignItems: 'flex-end'}}>
+            <Link href="/privacy-policy/privacy-policy">
+              <a>privacy policy</a>
+            </Link>
+          </div>
+        </div>
+
+        <div style={{ display: 'flex', fontSize: '12px'}}>
+          © 2022 JGSolutions. All right reserved.
+        </div>
+      </footer>
     </div>
   )
 }
