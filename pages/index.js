@@ -27,7 +27,7 @@ export default function Home() {
       </div> */}
 
         <section className={utilsStyle.sections}>
-          <div className={utilsStyle.flexCol} style={{alignItems: 'flex-start'}}>
+          <div className={utilsStyle.flexCol} style={{alignItems: 'flex-start', marginBottom: '48px'}}>
             <h1 className={styles.heroText}>
               Track <span className={utilsStyle.secondaryColor}>gym</span> <br/> or <span className={utilsStyle.primaryColor}>home</span> <br/> workouts AND <br/> your <span className={utilsStyle.secondaryColor}>health</span>.
             </h1>
