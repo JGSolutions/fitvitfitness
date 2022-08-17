@@ -14,11 +14,6 @@ export default function Home() {
         <title>FitVit - Free Workout And Health Tracker App</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="description" content="Free calisthenics, strength training & weight lifting tracking fitness app. Track your workouts and health with Google Fit" />
-        <link rel="icon" href="/favicon.ico" />
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-        {/* <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin></link> */}
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Header></Header>
