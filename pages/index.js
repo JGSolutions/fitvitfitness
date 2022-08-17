@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import buttonStyle from '../styles/Button.module.css'
 import utilsStyle from '../styles/Utils.module.css'
 import Header from '../components/header/header';
+import Footer from '../components/footer/footer';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -22,7 +23,7 @@ export default function Home() {
 
       <Header></Header>
       
-      <main className={styles.main}>
+      <main className={utilsStyle.main}>
 
       {/* <div>
         <a href='http://academy.hubspot.com/certification' title='SEO'>
@@ -30,8 +31,7 @@ export default function Home() {
         </a>
       </div> */}
 
-        <section className={styles.sections}>
-          
+        <section className={utilsStyle.sections}>
           <div className={utilsStyle.flexCol} style={{alignItems: 'flex-start'}}>
             <h1 className={styles.heroText}>
               Track <span className={utilsStyle.secondaryColor}>gym</span> <br/> or <span className={utilsStyle.primaryColor}>home</span> <br/> workouts AND <br/> your <span className={utilsStyle.secondaryColor}>health</span>.
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.sections}>
+        <section className={utilsStyle.sections}>
           <div style={{ width: '75%', paddingRight: '16px' }}>
             <div className={styles.googleFitContainer}>
               <Image
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.sections}>
+        <section className={utilsStyle.sections}>
           <div>
             <Image
                   width={250}
@@ -135,28 +135,8 @@ export default function Home() {
           <p>Certified trainers having their own profile page and publishing workout routines within the community</p>
         </section> */}
       </main>
-
-      <footer className={styles.footer}>
-        <div className={styles.footerLinks}>
-          <div>
-            <Image
-                  src="/fitvit-logo.svg"
-                  height={50}
-                  width={50}
-                  alt="fitVitfitness"
-                />
-          </div>
-          <div style={{ display: 'flex', alignItems: 'flex-end'}}>
-            <Link href="/privacy-policy/privacy-policy">
-              <a>privacy policy</a>
-            </Link>
-          </div>
-        </div>
-
-        <div style={{ display: 'flex', fontSize: '12px'}}>
-          © 2022 JGSolutions. All right reserved.
-        </div>
-      </footer>
+      
+      <Footer></Footer>
     </div>
   )
 }
