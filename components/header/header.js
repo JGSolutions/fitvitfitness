@@ -13,7 +13,10 @@ export default function Header() {
             alt="fitVitfitness"
           />
 
-        <p>FitVit</p>
+        <p className={styles.logoText}>
+          <span className={styles.logoTextColor1}>Fit</span>
+          <span className={styles.logoTextColor2}>Vit</span>
+        </p>
       </div>
 
         {/* <div className={styles.menuOptions}>

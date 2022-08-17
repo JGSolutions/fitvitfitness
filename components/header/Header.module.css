@@ -18,6 +18,19 @@
   align-items: center;
 }
 
+.logoText {
+  font-family: var(--ff-logo);
+  font-size: 28px;
+}
+
+.logoTextColor1 {
+  color: var(--primary);
+}
+
+.logoTextColor2 {
+  color: var(--secondary);
+}
+
 .menuOptions {
   width: 100px;
 }
