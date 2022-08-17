@@ -12,6 +12,12 @@
     margin-bottom: 36px;
 }
 
+@media (max-width: 600px) {
+    .main {
+        margin: 0 16px 0 16px;
+    }
+}
+
 .sections {
     display: flex;
     justify-content: space-between;
