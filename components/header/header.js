@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './Header.module.css'
 import buttonStyle from '../../styles/Button.module.css'
 
@@ -29,7 +30,10 @@ export default function Header() {
           </Link>
         </div> */}
 
-        <button className={buttonStyle.fvButton}>login</button>
+        <Link href="https://app.fitvitfitness.com">
+          <a className={buttonStyle.fvButton}>login</a>
+        </Link>
+
     </header>
   );
 }

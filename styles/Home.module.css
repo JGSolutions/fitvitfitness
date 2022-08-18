@@ -22,13 +22,56 @@
 }
 
 .googleFitContainer {
+  width: 75%; 
+  padding-right: 16px;
+}
+
+.googleFitHeader {
   display: flex;
   margin-bottom: 24px;
   align-items: center;
 }
 
-.googleFitContainer h2 {
+.googleFitHeader h2 {
   padding-left: 16px;
+}
+
+.keyFeatures {
+  display: flex;
+  justify-content: space-between;
+}
+
+.keyFeatures .featuresList{
+  order: 2;
+}
+
+.keyFeatures .screenShots{
+  order: 1;
+}
+
+@media (max-width: 700px) {
+  .googleFitContainer {
+    width: 100%; 
+    padding: 0;
+  }
+
+  .googleFitScreenshot {
+    text-align: center;
+  }
+
+  .keyFeatures {
+    flex-direction: column;
+  }
+
+  .keyFeatures .screenShots{
+    text-align: center;
+    order: 2;
+  }
+
+  .keyFeatures .featuresList{
+    order: 1;
+    margin-bottom: 16px;
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {
