@@ -41,13 +41,22 @@
   justify-content: space-between;
 }
 
-.keyFeatures .featuresList{
+.keyFeatures .featuresList {
   order: 2;
+  width: 50%;
 }
 
-.keyFeatures .screenShots{
+.keyFeatures .screenShots {
   order: 1;
+  width: 50%;
 }
+
+.featuresList .list {
+  line-height: 2.5rem;
+  font-size: 16px;
+  padding-left: 36px;
+}
+
 
 @media (max-width: 700px) {
   .googleFitContainer {
@@ -63,14 +72,16 @@
     flex-direction: column;
   }
 
-  .keyFeatures .screenShots{
+  .keyFeatures .screenShots {
     text-align: center;
     order: 2;
+    width: 100%;
   }
 
-  .keyFeatures .featuresList{
+  .keyFeatures .featuresList {
     order: 1;
-    margin-bottom: 16px;
+    margin-bottom: 36px;
+    width: 100%;
   }
 }
 

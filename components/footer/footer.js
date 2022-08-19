@@ -21,9 +21,9 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* <div style={{ display: 'flex', fontSize: '12px'}}>
-          © 2022 JGSolutions. All right reserved.
-        </div> */}
+        <div style={{ display: 'flex', fontSize: '12px', width: '100%', justifyContent: 'center'}}>
+          <div>© 2022 Created by </div><a href="https://www.jgsolutions.ca" style={{display: 'block'}}>JGSolutions</a>
+        </div>
     </footer>
   );
 }

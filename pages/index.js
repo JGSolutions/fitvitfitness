@@ -51,6 +51,30 @@ export default function Home() {
           </div>
         </section>
 
+        <section style={{ display: 'flex', flexDirection: 'column', width: '100%', maxWidth: '1024px'}}>
+          <h2 className={styles.subTitle} style={{ marginBottom: '24px'}}>FitVit Features</h2>
+          <div className={styles.keyFeatures}>
+            <div className={styles.screenShots}>
+              <Image
+                    width={250}
+                    height={513}
+                    src="/google-fit-app.png"
+                    alt="Google Fit App"
+                  />
+            </div>
+            <div className={styles.featuresList}>
+              <ul className={styles.list}>
+                <li>Over 1000 exercises with illustrations</li>
+                <li>Plan a routine or start a quick workout</li>
+                <li>Log reps, weight, duration or distance sets</li>
+                <li>Previous exercise history for progressive overload</li>
+                <li>Share your workout routines & results.</li>
+                <li>Web based. No app installation needed.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
         <section className={utilsStyle.sections}>
           <div className={styles.googleFitContainer}>
             <div className={styles.googleFitHeader}>
@@ -80,31 +104,6 @@ export default function Home() {
                 src="/google-fit-app.png"
                 alt="Google Fit App"
               />
-          </div>
-        </section>
-
-        <section style={{ display: 'flex', flexDirection: 'column', width: '100%', maxWidth: '1024px'}}>
-          <h2 className={styles.subTitle} style={{ marginBottom: '24px'}}>Key Features</h2>
-          <div className={styles.keyFeatures}>
-            <div className={styles.screenShots}>
-              <Image
-                    width={250}
-                    height={513}
-                    src="/google-fit-app.png"
-                    alt="Google Fit App"
-                  />
-            </div>
-            <div className={styles.featuresList}>
-              <ul>
-                <li>Over 1000 exercises with illustrations</li>
-                <li>Plan a workout routine or start a quick workout</li>
-                <li>Log reps, weight, duration or distance sets.</li>
-                <li>View previous results to improve during workout.</li>
-                <li>Share your workout routines & results.</li>
-                <li>View you account between desktop and mobile phone.</li>
-                <li>Sync your account between desktop and mobile phone.</li>
-              </ul>
-            </div>
           </div>
         </section>
 
