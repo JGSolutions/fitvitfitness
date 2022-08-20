@@ -56,10 +56,10 @@ export default function Home() {
           <div className={styles.keyFeatures}>
             <div className={styles.screenShots}>
               <Image
-                    width={250}
-                    height={513}
-                    src="/google-fit-app.png"
-                    alt="Google Fit App"
+                    width={461}
+                    height={686}
+                    src="/screenshot1.svg"
+                    alt="FitVit Screen Shot App"
                   />
             </div>
             <div className={styles.featuresList}>
@@ -68,8 +68,8 @@ export default function Home() {
                 <li>Plan a routine or start a quick workout</li>
                 <li>Log reps, weight, duration or distance sets</li>
                 <li>Previous exercise history for progressive overload</li>
-                <li>Share your workout routines & results.</li>
-                <li>Web based. No app installation needed.</li>
+                <li>Share your workout routines & results</li>
+                <li>Web based. No app installation needed</li>
               </ul>
             </div>
           </div>
