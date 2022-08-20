@@ -17,11 +17,12 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  gap: 6px;
 }
 
 .logoText {
   font-family: var(--ff-logo);
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .logoTextColor1 {

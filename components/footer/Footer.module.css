@@ -14,11 +14,7 @@
 }
   
 .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  padding-left: 4px;
   text-decoration: none;
-  text-transform: capitalize;
-  font-size: 14px;
+  font-size: 12px;
 }

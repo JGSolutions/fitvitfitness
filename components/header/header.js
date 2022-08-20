@@ -11,8 +11,8 @@ export default function Header() {
           <div className={styles.logoContainer}>
             <Image
                 src="/fitvit-logo.svg"
-                height={50}
-                width={50}
+                height={35}
+                width={35}
                 alt="fitVitfitness"
               />
           
