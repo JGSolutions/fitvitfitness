@@ -6,6 +6,7 @@ import Header from '../components/header/header';
 import Footer from '../components/footer/footer';
 import Link from 'next/link';
 import Image from 'next/image';
+import classNames from 'classnames';
 
 export default function Home() {
   return (
@@ -116,20 +117,22 @@ export default function Home() {
           </ul>
         </section> */}
         
-        {/* <section>
-          <h2>Workout Engagment</h2>
-          <ul>
-            <li>Share your Workout Routines</li>
-            <li>Share your workout results</li>
-            <li>Copy other routines</li>
-            <li>Compare workout or exercise results with a friend (coming soon)</li>
-          </ul>
-        </section> */}
+        <section className={classNames(utilsStyle.sections, styles.blueBGSection)}>
+          <div className={styles.screenShots}>
+            <Image
+                src="/web-screenshots.svg"
+                height={594}
+                width={462}
+                alt="responsive fitvit screenshots"
+              />
+          </div>
 
-        {/* <section>
-          <h2>For Certified Trainers</h2>
-          <p>Certified trainers having their own profile page and publishing workout routines within the community</p>
-        </section> */}
+          <div className={styles.description}>
+            <h2 className={styles.subTitle} style={{ marginBottom: '24px'}}>No App Installtion</h2>
+            <p className={utilsStyle.textParagraph}>We are focused offering web based platform avoiding the need to install on your mobile phone or tablet.</p>
+            <p className={utilsStyle.textParagraph}>Managing workout routines, selecting, searchng for exercises and analysing your workouts will be easier viewing it on any device your comfortable with. When ready use your mobile phone on the go to perform the workouts! All your data will be synced on any device.</p>
+          </div>
+        </section>
       </main>
       
       <Footer></Footer>

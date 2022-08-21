@@ -57,8 +57,26 @@
   padding-left: 36px;
 }
 
+.blueBGSection {
+  background-color: var(--primary);
+  padding: 24px;
+  color: white;
+  gap: 20px;
+}
 
-@media (max-width: 700px) {
+.blueBGSection .screenShots {
+  flex: 0 0 50%;
+  /* display: flex; */
+}
+
+.blueBGSection .description {
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
   .googleFitContainer {
     width: 100%; 
     padding: 0;
@@ -82,6 +100,18 @@
     order: 1;
     margin-bottom: 36px;
     width: 100%;
+  }
+
+  .blueBGSection .screenShots {
+    flex: 0 0 50%;
+    order: 2;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .blueBGSection .description { 
+    flex: 0 0 50%;
+    order: 1;
   }
 }
 
