@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>FitVit - Free Workout And Health Tracker App</title>
+        <title>FitVitFitness - Workout Fitness Tracker for Gym and Home training</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta name="description" content="Free calisthenics, strength training & weight lifting tracking fitness app. Track your workouts and health with Google Fit" />
+        <meta name="description" content="Free workout tracking app. Track calisthenics, strength training & weight lifting routine programs. Sync your workouts with Google Fit." />
       </Head>
 
       <Header></Header>
