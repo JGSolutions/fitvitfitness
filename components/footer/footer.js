@@ -14,9 +14,13 @@ export default function Footer() {
             alt="fitVitfitness"
           />
         </div>
-        <div style={{ display: 'flex', alignItems: 'flex-end'}}>
+        <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', width: '160px'}}>
+          <Link href="mailto:jerrygag@gmail.com">
+            <a>Contact Us</a>
+          </Link>
+    
           <Link href="/privacy-policy/privacy-policy">
-            <a>privacy policy</a>
+            <a>Privacy Policy</a>
           </Link>
         </div>
       </div>
