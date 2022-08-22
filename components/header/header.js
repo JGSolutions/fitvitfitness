@@ -6,7 +6,6 @@ import buttonStyle from '../../styles/Button.module.css'
 export default function Header() {
   return (
     <header className={styles.header}>
-      
         <Link href="https://fitvitfitness.com">
           <div className={styles.logoContainer}>
             <Image
