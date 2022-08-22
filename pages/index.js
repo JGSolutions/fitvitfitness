@@ -128,7 +128,7 @@ export default function Home() {
           </div>
 
           <div className={styles.description}>
-            <h2 className={styles.subTitle} style={{ marginBottom: '24px'}}>No App Installtion</h2>
+            <h2 className={styles.subTitle} style={{ marginBottom: '24px'}}>No App Installation</h2>
             <p className={utilsStyle.textParagraph}>We are focused offering web based platform avoiding the need to install on your mobile phone or tablet.</p>
             <p className={utilsStyle.textParagraph}>Managing workout routines, selecting, searchng for exercises and analysing your workouts will be easier viewing it on any device your comfortable with. When ready use your mobile phone on the go to perform the workouts! All your data will be synced on any device.</p>
           </div>
