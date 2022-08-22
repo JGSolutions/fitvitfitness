@@ -7,7 +7,7 @@ import Footer from '../components/footer/footer';
 import Link from 'next/link';
 import Image from 'next/image';
 import classNames from 'classnames';
-import GoogleAnalytics from '../components/googleAnalytics';
+
 export default function Home() {
   return (
     <div>
@@ -16,7 +16,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta name="description" content="Free workout tracking app. Track calisthenics, strength training & weight lifting routine programs. Sync your workouts with Google Fit." />
       </Head>
-      <GoogleAnalytics />
       <Header></Header>
       
       <main className={utilsStyle.main}>
