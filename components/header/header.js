@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Header.module.css'
-import buttonStyle from '../../styles/Button.module.css'
 
 export default function Header() {
   return (
@@ -23,19 +22,7 @@ export default function Header() {
           </div>
         </Link>
 
-        {/* <div className={styles.menuOptions}>
-          <Link href="">
-            <a>home</a>
-          </Link>
 
-          <Link href="">
-            <a>about</a>
-          </Link>
-        </div> */}
-
-        <Link href="https://app.fitvitfitness.com">
-          <a className={buttonStyle.fvButton}>login</a>
-        </Link>
 
     </header>
   );

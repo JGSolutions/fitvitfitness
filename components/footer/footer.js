@@ -16,11 +16,11 @@ export default function Footer() {
         </div>
         <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', width: '160px'}}>
           <Link href="mailto:jerrygag@gmail.com">
-            <a>Contact Us</a>
+            Contact Us
           </Link>
     
           <Link href="/privacy-policy/privacy-policy">
-            <a>Privacy Policy</a>
+            Privacy Policy
           </Link>
         </div>
       </div>
