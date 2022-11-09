@@ -1,11 +1,9 @@
-export default function DashboardLayout({
-    children, // will be a page or nested layout
-  }) {
-    return (
-        <section>
-            <nav></nav>
+export default function BlogLayout({children}) {
+  return (
+    <section>
+      <nav></nav>
 
-            {children}
-        </section>
-    );
-  }
+      {children}
+    </section>
+  );
+}
