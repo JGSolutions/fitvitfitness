@@ -22,7 +22,7 @@ export default function Header() {
           </div>
         </Link>
 
-
+        <Link href="/blog"> blog</Link>
 
     </header>
   );
