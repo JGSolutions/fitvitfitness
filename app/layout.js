@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content="Free workout tracking app. Track calisthenics, strength training & weight lifting routine programs. Sync your workouts with Google Fit." />
 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="JGSolution's Blog" />
+        <meta property="og:title" content="FitVit Blog" />
         <meta property="og:description" content="Blogging about the web and development" />
         <meta name="image" property="og:image" content="https://jgsolutions.ca/jerry-pic.jpeg" itemProp="image"/>
 
