@@ -10,6 +10,7 @@ const nextConfig = {
   //     '/blog': { page: '/blog' },
   //   }
   // },
+  distDir: 'out',
   reactStrictMode: true,
   trailingSlash: true,
   swcMinify: true,
