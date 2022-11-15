@@ -1,15 +1,16 @@
 :root {
   --primary: #2C58A6;
   --secondary: #5BC7B2;
-  --drop-shadow: 0 2px 6px 0 rgb(32 33 37 / 10%);
+  /* --drop-shadow: 0 2px 6px 0 rgb(32 33 37 / 10%); */
 
-  --ff-primary: "Roboto", sans-serif;
+  --ff-primary: "Poppins", sans-serif;
   --ff-secondary: "Montserrat", sans-serif;
-  --ff-logo: "Dosis", sans-serif;
 
   --fw-regular: 400;
-  --fw-semi-bold: 500;
+  --fw-semi-bold: 600;
   --fw-bold: 700;
+
+  --primary-text: #5B5858;
 }
 
 /* Box sizing rules */
