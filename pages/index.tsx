@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import utilStyles from '../styles/utils.module.css';
 import Header  from '../components/header/header';
-// import HeroSection from '../components/hero/hero'
 import Footer from '../components/footer/footer'
 
 export default function Home() {
@@ -25,10 +23,10 @@ export default function Home() {
 			<meta name="twitter:creator" content=""></meta>
 		</Head>
 
-		<div className={utilStyles.topSection}>
-		<div className="container-lg">
-			<Header/>
-		</div>
+		<div>
+			<div className="container-lg">
+				<Header/>
+			</div>
 		</div>
 
 		<main className={styles.main}>
