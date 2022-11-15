@@ -11,6 +11,18 @@
   --fw-bold: 700;
 
   --primary-text: #5B5858;
+
+  --padding-xs: 6px;
+  --padding-sm: 10px;
+  --padding-regular: 12px;
+  --padding-medium: 16px;
+
+  --fs-caption: 12px;
+  --fs-sm: 14px;
+  --fs-reg: 16px;
+  --fs-m: 20px;
+  --fs-l: 36px;
+  --fs-xl: 48px;
 }
 
 /* Box sizing rules */
