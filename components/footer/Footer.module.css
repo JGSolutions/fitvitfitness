@@ -1,6 +1,7 @@
 .footer {
     display: flex;
     width: 100%;
+    justify-content: space-between;
 }
 
 .footer a {
@@ -29,4 +30,21 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+}
+
+@media (max-width: 600px) {
+
+    .footer {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .menuOptions {
+        flex-direction: column;
+    }
+
+    .nav {
+        width: 100%;
+    }
 }
