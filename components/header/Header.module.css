@@ -13,20 +13,3 @@
   display: flex;
   align-items: center;
 }
-
-.menuOptions {  
-  list-style: none;
-  display: flex;
-  gap: var(--padding-medium);
-}
-
-.menuOptions a {
-  color: var(--primary-text);
-  text-decoration: none;
-  font-weight: var(--fw-regular);
-}
-
-.menuOptions a:hover {
-  color: var(--primary);
-  text-decoration: underline;
-}

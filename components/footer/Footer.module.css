@@ -1,20 +1,32 @@
 .footer {
-  display: flex;
-  padding: 16px;
-  border-top: 1px solid #eaeaea;
-  flex-direction: column;
+    display: flex;
+    width: 100%;
 }
 
-.footerLinks {
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-between;
-}
-  
 .footer a {
-  padding-left: 4px;
-  text-decoration: none;
-  font-size: 12px;
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-regular);
+}
+
+.copyRight {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw-regular);
+}
+
+.socialMedia {
+    display: flex;
+    gap: var(--padding-medium);
+    list-style: none;
+}
+
+.logo {
+    display: flex;
+    gap: var(--padding-medium);
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
