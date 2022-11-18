@@ -1,4 +1,3 @@
-import utilStyles from '../../styles/utils.module.css';
 import styles from './about.module.css';
 import Head from 'next/head'
 import Header  from '../../components/header/header';
@@ -23,12 +22,12 @@ export default function Blog() {
                 <meta name="twitter:creator" content=""></meta>
             </Head>
 
-            <div className={utilStyles.topSection}>
+            <div>
                 <div className="container-lg">
                     <Header/>
                     <section className={styles.headerPageSection}>
-                        <h1 className={utilStyles.headerPageTitle}>About</h1>
-                        <p className={utilStyles.headerPageSlogan}>Latest and updated news about projects, development tips and general experiences around the web.</p>
+                        <h1>About</h1>
+                        <p>Latest and updated news about projects, development tips and general experiences around the web.</p>
                     </section>
                 </div>
             </div>
