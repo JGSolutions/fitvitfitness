@@ -30,7 +30,6 @@ export default function Footer() {
 						</ul>
 					</nav>
 
-
 					<ul className={styles.socialMedia}>
 						<li>
 							<Link href="https://www.linkedin.com/in/christopher-daoud-9b72ba1a7/">
