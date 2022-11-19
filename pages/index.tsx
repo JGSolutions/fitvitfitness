@@ -27,6 +27,7 @@ export default function Home() {
 			</div>
 
 			<main className={styles.main}>
+
 			</main>
 			<Footer/>
 		</>
