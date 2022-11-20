@@ -2,10 +2,20 @@
     background-color: var(--primary);
     color: white;
     border: none;
-    padding: 6px 36px;
+    padding: 4px 16px;
     border-radius: 4px;
+    font-size: var(--fs-sm);
 }
 
-a.fvButton  {
+.fvButtonStroke {
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 4px 16px;
+    border-radius: var(--border-radius);
+    font-size: var(--fs-sm);
+}
+
+a.fvButton, a.fvButtonStroke  {
     text-decoration: none;
 }

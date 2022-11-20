@@ -1,124 +1,47 @@
-.heroText {
-  font-family: var(--ff-secondary);
-  font-weight: var(--fw-bold);
-  font-size: 48px;
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	margin-top: 100px;
 }
 
-.heroSubTextContainer {
-  margin: 24px 0;
+.section {
+	width: 100%;
+	display: flex;
+	gap: 24px;
 }
 
-.subTitle {
-  font-family: var(--ff-secondary);
-  font-size: 24px;
-  font-weight: var(--fw-bold);
+.section .row {
+	flex: 1;
 }
 
-.googleFitContainer {
-  width: 75%; 
-  padding-right: 16px;
+.headerSection {
+	gap: 36px;
+	display: flex;
+	flex-direction: column;
 }
 
-.googleFitHeader {
-  display: flex;
-  margin-bottom: 24px;
-  align-items: center;
+.buttonHeaderWrapper {
+	display: flex; 
+	gap: 10px;
 }
 
-.googleFitHeader h2 {
-  padding-left: 16px;
+.headerText {
+	color: var(--primary-text);
+	font-family: var(--ff-secondary);
+	font-size: var(--fs-xl);
+	font-weight: var(--fw-bold);
 }
 
-.keyFeatures {
-  display: flex;
-  justify-content: space-between;
+.subTitles {
+	color: var(--primary-text);
+	font-family: var(--ff-secondary);
+	font-size: var(--fs-l);
+	font-weight: var(--fw-bold);
 }
 
-.keyFeatures .featuresList {
-  order: 2;
-  width: 50%;
+.text {
+	color: var(--primary-text);
+	font-size: var(--fs-reg);
+	font-weight: var(--fw-regular);
 }
-
-.keyFeatures .screenShots {
-  order: 1;
-  width: 50%;
-}
-
-.featuresList .list {
-  line-height: 2.5rem;
-  font-size: 16px;
-  padding-left: 36px;
-}
-
-.blueBGSection {
-  background-color: var(--primary);
-  padding: 24px;
-  color: white;
-  gap: 20px;
-}
-
-.blueBGSection .screenShots {
-  flex: 0 0 50%;
-  /* display: flex; */
-}
-
-.blueBGSection .description {
-  flex: 0 0 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-@media (max-width: 800px) {
-  .googleFitContainer {
-    width: 100%; 
-    padding: 0;
-  }
-
-  .googleFitScreenshot {
-    text-align: center;
-  }
-
-  .keyFeatures {
-    flex-direction: column;
-  }
-
-  .keyFeatures .screenShots {
-    text-align: center;
-    order: 2;
-    width: 100%;
-  }
-
-  .keyFeatures .featuresList {
-    order: 1;
-    margin-bottom: 36px;
-    width: 100%;
-  }
-
-  .blueBGSection .screenShots {
-    flex: 0 0 50%;
-    order: 2;
-    justify-content: center;
-    display: flex;
-  }
-  
-  .blueBGSection .description { 
-    flex: 0 0 50%;
-    order: 1;
-  }
-}
-
-/* @media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-
-  .code {
-    background: #111;
-  }
-
-  .logo img {
-    filter: invert(1);
-  }
-} */
