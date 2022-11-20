@@ -46,7 +46,7 @@ export default function Home() {
 								</div>
 							</div>
 							<div className={styles.row}>
-								<Image src="/hero-image.svg" width={488} height="540" alt="" />
+								<Image src="/hero.svg" width={673} height={603} alt="" />
 							</div>
 						</section>
 
