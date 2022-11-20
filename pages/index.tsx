@@ -69,7 +69,7 @@ export default function Home() {
 								</div>
 							</div>
 							<div className="row">
-								<div className="col">
+								<div className="col-sm-6 col-md-6">
 									<p className={styles.text}>
 										“ I was struggling to accommodate a workout routine into a new busy work schedule and I couldn’t find the time
 										to train anymore while I was cutting. Then I discovered Chris’ personal training services and worked with him
@@ -85,17 +85,17 @@ export default function Home() {
 										<p>Online Client from Montreal, Quebec</p>
 									</div>
 								</div>
-								<div className="col">
-									<p className={styles.text}>
+								<div className="col-sm-6 col-md-6">
+									<div className={styles.text}>
 										<p className={utilStyles.textParagraph}>I was scared to go back to the gym after a stroke in 2018.
-										 	I didn’t want to be judged or laughed at. I had lost my confidence.
-										 </p>
+											I didn’t want to be judged or laughed at. I had lost my confidence.
+										</p>
 
 										<p className={utilStyles.textParagraph}>In the spring I noticed how incredibly clumsy I was. I fell twice in one day, and I decided I needed to get help. I went to a gym and had an assessment of my overall health done by Chris. He was kind and patient and never once said “you can’t”. He went over a fitness program, and I signed up that day! He helped me get my confidence back. Chris smiles all the time and is a very intelligent man. He was very knowledgeable about balance exercises, machines, free weights, and nutrition. If anyone needs encouragement, Chris is there for you. </p>
 
 										<p className={utilStyles.textParagraph}>I count myself fortunate to have met Chris, now I can go to the gym and enjoy my friends and my workouts. Thank you, Chris. I am lucky that you helped me when I needed it most!! </p>
 
-									</p>
+									</div>
 
 									<div className={styles.from}>
 										<p>Sharon Preston</p>

@@ -77,6 +77,7 @@
 	font-weight: var(--fw-semi-bold);
 	display: flex;
 	margin-top: var(--padding-medium);
+	margin-bottom: var(--padding-large);
 	flex-direction: column;
 }
 
