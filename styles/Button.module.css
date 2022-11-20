@@ -2,8 +2,8 @@
     background-color: var(--primary);
     color: white;
     border: none;
-    padding: 4px 16px;
-    border-radius: 4px;
+    padding: var(--padding-xs) var(--padding-medium);
+    border-radius: var(--border-radius);
     font-size: var(--fs-sm);
 }
 
@@ -11,7 +11,7 @@
     background-color: white;
     color: var(--primary);
     border: 1px solid var(--primary);
-    padding: 4px 16px;
+    padding: var(--padding-xs) var(--padding-medium);
     border-radius: var(--border-radius);
     font-size: var(--fs-sm);
 }

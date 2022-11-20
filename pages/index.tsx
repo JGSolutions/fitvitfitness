@@ -45,7 +45,7 @@ export default function Home() {
 								</Link>
 							</div>
 						</div>
-						<div className={styles.row}>sdfds</div>
+						<div className={styles.row}>image will go here</div>
 					</section>
 
 					<section className={styles.section}>
