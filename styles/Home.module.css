@@ -1,14 +1,13 @@
 .main {
 	display: flex;
 	flex-direction: column;
-	gap: 60px;
+	gap: 50px;
 	margin-top: 100px;
 }
 
 .section {
 	width: 100%;
 	display: flex;
-	gap: 24px;
 }
 
 .section .row {
@@ -44,4 +43,33 @@
 	color: var(--primary-text);
 	font-size: var(--fs-reg);
 	font-weight: var(--fw-regular);
+}
+
+.trainerDetails {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: var(--padding-large);
+	width: 60%;
+}
+
+.trainerImageRow {
+	display: flex;
+	justify-content: center;
+	flex: 1;
+	width: 40%;
+}
+
+@media (max-width: 800px) {
+	.section {
+		flex-direction: column;
+	}
+
+	.trainerDetails {
+		width: 100%;
+	}
+	
+	.trainerImageRow {
+		width: 100%;
+	}
 }

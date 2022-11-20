@@ -49,14 +49,14 @@ export default function Home() {
 					</section>
 
 					<section className={styles.section}>
-						<div>
-							<Image src="/chris-trainer.svg" width={381} height={431} alt="Chris Daoud Trainer" />
-						</div>
-						<div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', gap: '24px'}}>
+						<div className={styles.trainerDetails}>
 							<h2 className={styles.subTitles}>Certified Trainer with Chris Daoud</h2>
 							<p className={styles.text}>
 								As a certified trainer you will be able to submit workout routines to and get known through out the community.  Create your personal profile page and share within your social media platorms
 							</p>
+						</div>
+						<div className={styles.trainerImageRow}>
+							<Image src="/chris-trainer.svg" width={430} height={380} alt="Chris Daoud Trainer" />
 						</div>
 					</section>
 				</main>
