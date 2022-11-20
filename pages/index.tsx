@@ -26,41 +26,86 @@ export default function Home() {
 				<meta name="twitter:creator" content=""></meta>
 			</Head>
 
-			<div className="container-lg">
 				<Header/>
 				<main className={styles.main}>
-					<section className={styles.section}>
-						<div className={`${styles.row} ${styles.headerSection}`}>
-							<h1 className={styles.headerText}>
-								Reach Your <span className={utilStyles.primaryColor}>Full Potiential</span> With <span className={utilStyles.secondaryColor}>Gym</span> & <span className={utilStyles.secondaryColor}>Home Workouts</span>
-							</h1>
-							<p className={styles.text}>Fitness solution for busy people. Helping you keep motivated in your fitness journey with tips from a personal trainer.</p>
-							<div className={styles.buttonHeaderWrapper}>
-								<Link href="" className={button.fvButton}>
-									Start Workout
-								</Link>
+					<div className="container-lg">
+						<section className={styles.section}>
+							<div className={`${styles.row} ${styles.headerSection}`}>
+								<h1 className={styles.headerText}>
+									Reach Your <span className={utilStyles.primaryColor}>Full Potiential</span> With <span className={utilStyles.secondaryColor}>Gym</span> & <span className={utilStyles.secondaryColor}>Home Workouts</span>
+								</h1>
+								<p className={styles.text}>Fitness solution for busy people. Helping you keep motivated in your fitness journey with tips from a personal trainer.</p>
+								<div className={styles.buttonHeaderWrapper}>
+									<Link href="" className={button.fvButton}>
+										Start Workout
+									</Link>
 
-								<Link href="" className={button.fvButtonStroke}>
-									Book A Session
-								</Link>
+									<Link href="" className={button.fvButtonStroke}>
+										Book A Session
+									</Link>
+								</div>
 							</div>
-						</div>
-						<div className={styles.row}>image will go here</div>
-					</section>
+							<div className={styles.row}>image will go here</div>
+						</section>
 
-					<section className={styles.section}>
-						<div className={styles.trainerDetails}>
-							<h2 className={styles.subTitles}>Certified Trainer with Chris Daoud</h2>
-							<p className={styles.text}>
-								As a certified trainer you will be able to submit workout routines to and get known through out the community.  Create your personal profile page and share within your social media platorms
-							</p>
-						</div>
-						<div className={styles.trainerImageRow}>
-							<Image src="/chris-trainer.svg" width={430} height={380} alt="Chris Daoud Trainer" />
+						<section className={styles.section}>
+							<div className={styles.trainerDetails}>
+								<h2 className={styles.subTitles}>Certified Trainer with Chris Daoud</h2>
+								<p className={styles.text}>
+									As a certified trainer you will be able to submit workout routines to and get known through out the community.  Create your personal profile page and share within your social media platorms
+								</p>
+							</div>
+							<div className={styles.trainerImageRow}>
+								<Image src="/chris-trainer.svg" width={430} height={380} alt="Chris Daoud Trainer" />
+							</div>
+						</section>
+					</div>
+
+					<section className={`${styles.testimonialSection}`}>
+						<div className="container-lg">
+							<div className="row">
+								<div className="col">
+									<h2 className={styles.subTitles}>Testimonials</h2>
+								</div>
+							</div>
+							<div className="row">
+								<div className="col">
+									<p className={styles.text}>
+										“ I was struggling to accommodate a workout routine into a new busy work schedule and I couldn’t find the time
+										to train anymore while I was cutting. Then I discovered Chris’ personal training services and worked with him
+										for 6 months. During that time, he did an amazing job at building a training program that would fit both my schedule
+										and fitness goals. He then provided follow-up sessions every two weeks to see how I was doing and provided great 
+										feedback for the issues I was having. At the end of the program, I had lost over 10 pounds and re-created a habit
+										of training a little bit every day with the exercises he provided. All of it was done remotely as I live 12 hours 
+										away from him. I was impressed with the depth of his knowledge and it was an amazing experience, I would highly recommend Chris. “
+									</p>
+
+									<div className={styles.from}>
+										<p>Iaroslav Rybakov</p>
+										<p>Online Client from Montreal, Quebec</p>
+									</div>
+								</div>
+								<div className="col">
+									<p className={styles.text}>
+										<p className={utilStyles.textParagraph}>I was scared to go back to the gym after a stroke in 2018.
+										 	I didn’t want to be judged or laughed at. I had lost my confidence.
+										 </p>
+
+										<p className={utilStyles.textParagraph}>In the spring I noticed how incredibly clumsy I was. I fell twice in one day, and I decided I needed to get help. I went to a gym and had an assessment of my overall health done by Chris. He was kind and patient and never once said “you can’t”. He went over a fitness program, and I signed up that day! He helped me get my confidence back. Chris smiles all the time and is a very intelligent man. He was very knowledgeable about balance exercises, machines, free weights, and nutrition. If anyone needs encouragement, Chris is there for you. </p>
+
+										<p className={utilStyles.textParagraph}>I count myself fortunate to have met Chris, now I can go to the gym and enjoy my friends and my workouts. Thank you, Chris. I am lucky that you helped me when I needed it most!! </p>
+
+									</p>
+
+									<div className={styles.from}>
+										<p>Sharon Preston</p>
+										<p>In-person client from Kingsville, Ontario  </p>
+									</div>
+								</div>
+							</div>
 						</div>
 					</section>
 				</main>
-			</div>
 
 			<Footer/>
 		</>

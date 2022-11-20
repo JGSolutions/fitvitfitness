@@ -3,6 +3,7 @@
 	flex-direction: column;
 	gap: 50px;
 	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .section {
@@ -58,6 +59,25 @@
 	justify-content: center;
 	flex: 1;
 	width: 40%;
+}
+
+.testimonialSection {
+	background-color: var(--secondary-background);
+	padding: var(--padding-large) 0;
+}
+
+.testimonialSection .text {
+	font-size: var(--fs-sm);
+	margin-top: var(--padding-medium);
+	font-weight: var(--fw-regular);
+}
+
+.testimonialSection .from {
+	font-size: var(--fs-sm);
+	font-weight: var(--fw-semi-bold);
+	display: flex;
+	margin-top: var(--padding-medium);
+	flex-direction: column;
 }
 
 @media (max-width: 800px) {
