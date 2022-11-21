@@ -43,6 +43,7 @@
 	.coverImage {
 		height: 275px;
 		order: 1;
+		box-shadow: inset -32px -29px 62px 27px var(--main-background);
 	}
 
 	.container {
