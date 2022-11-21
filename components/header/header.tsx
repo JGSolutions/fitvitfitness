@@ -9,7 +9,7 @@ export default function Header() {
 		<header className={`${styles.header}`}>
 			{/* <div className={`container-lg ${styles.header}`}> */}
 
-				<Link href="https://fitvitfitness.com">
+				<Link href="/">
 					<div className={styles.logoContainer}>
 						<Image
 						src="/fitvit-logo.svg"
@@ -23,7 +23,7 @@ export default function Header() {
 				<nav>
 					<ul className={utilStyles.menuOptions}>
 						<li>
-							<Link href="/blog">About me</Link>
+							<Link href="/about">About me</Link>
 						</li>
 						<li>
 							<Link href="/blog">Blog</Link>
