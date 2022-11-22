@@ -44,6 +44,27 @@ export default function About() {
                     <p className={utilsStyle.textParagraph}>
                         Fitness has had a profound impact on all areas of my life. Since I started this journey, my self-efficacy and confidence have improved significantly. My goal is to help others experience similar transformations as I have had. Helping others achieve optimal health and seeing how this impacts other areas of their life brings me tremendous amounts of joy and satisfaction.
                     </p>
+
+                    <h3 className={styles.h3}>Contact me</h3>
+                    <p>
+                        Ready to get started? Reach out to book your free initial consultation. I will get back to you within 24 hours.
+                    </p>
+
+                    <div className={styles.contactInfo}>
+                        <div className={styles.contactDetails}>
+                            <div className={styles.icon}>
+                                <img src="/email.svg" />
+                            </div>
+                            <p>christophercharbeldaoud@gmail.com</p>
+                        </div>
+
+                        <div className={styles.contactDetails}>
+                            <div className={styles.icon}>
+                                <img src="/cell.svg" />
+                            </div>
+                            <p>514 29 3586 (call or text)</p>
+                        </div>
+                    </div>
                 </div>
             </main>
             <Footer/>
