@@ -29,7 +29,7 @@
 .headerText {
 	color: var(--primary-text);
 	font-family: var(--ff-secondary);
-	font-size: var(--fs-xl);
+	font-size: clamp(36px, 5vw, var(--fs-xl));
 	font-weight: var(--fw-bold);
 }
 
@@ -82,6 +82,10 @@
 }
 
 @media (max-width: 900px) {
+	.main {
+		margin-top: 50px;
+	}
+
 	.section {
 		flex-direction: column;
 	}
