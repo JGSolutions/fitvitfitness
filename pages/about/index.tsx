@@ -1,4 +1,4 @@
-import styles from './About.module.css';
+import styles from './about.module.css';
 import utilsStyle from '../../styles/Utils.module.css';
 import Head from 'next/head'
 import Image from 'next/image'
