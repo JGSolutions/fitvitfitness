@@ -1,0 +1,136 @@
+.articleLayout {
+    position: relative;
+    top: -130px; 
+    background-color: var(--primary-background);
+}
+
+.headerPageSection { 
+    padding: 65px 0 160px 0;
+}
+
+@media (max-width: 990px) {
+    .headerPageSection { 
+        padding: 65px 16px 160px 16px;
+    }
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-background);
+    padding: 16px 10px;
+}
+
+.author {
+    font-size: var(--fs-small);
+}
+
+.authorDetails {
+    display: fleex; 
+    flex-direction: column;
+}
+
+.authorDate {
+    color: var(--secondary-text);
+    font-family: var(--ff-secondary);
+    font-size: var(--fs-caption);
+}
+
+.tags {
+    width: min-content;
+    gap: 6px;
+    display: flex;
+}
+
+/*  article  formatting  */
+.article {
+    margin-top: 16px;
+    padding: 60px 50px;
+}
+
+.article p {
+    margin-bottom: 24px;
+}
+
+.article  strong {
+    font-weight: var(--fw-bold);
+}
+
+.article  h2 {
+    margin-top: 30px;
+    font-weight: var(--fw-semi-medium);
+    color: var(--primary);
+    font-size: var(--fs-blog-header);
+}
+
+.article ul {
+    list-style-type: decimal;
+    padding: 6px;
+    margin-bottom: 24px;
+    margin-left: 40px;
+}
+
+.article  li {
+    padding: 5px 10px;
+}
+
+.article a {
+    color: var(--primary-text);
+    font-weight: var(--fw-semi-medium);
+}
+
+.article em {
+    font-style: italic;
+    font-size: var(--fs-small);
+}
+
+.article blockquote {
+    font-style: italic;
+    padding: 0 24px;
+}
+
+.article pre {
+    background-color: var(--third-background);
+    border-radius: 6px;
+    padding: 24px;
+    font-size: var(--fs-small);
+    font-weight: var(--fs-regular);
+    color: var(--secondary-text);
+    margin-bottom: 16px;
+    width: fit-content;
+}
+
+.articleText {
+    line-height: 32px;
+    text-justify: newspaper;
+}
+
+.contactSignature {
+    background-color: var(--secondary-background);
+    border-radius: 6px;
+    padding: 16px;
+    margin: 60px 0 24px 0;
+    width: 100%;
+}
+
+.contactSignature p {
+    margin-bottom: 16px;
+}
+
+.contactSignature a {
+    color: var(--primary-text);
+    text-decoration: none;
+    font-weight: var(--fw-semi-medium);
+}
+
+@media (max-width: 767px) {
+    .article {
+        padding: 50px 10px;
+    }
+}
+
+@media (max-width: 990px) {
+    .details {
+        padding: 16px 16px;
+    }
+}
