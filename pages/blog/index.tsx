@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Header  from '../../components/header/header';
 import Footer  from '../../components/footer/footer';
+import PageHeaderSolid  from '../../components/page-header-solid/page-header-solid';
 import BlogItem from '../../components/blog-item/blog-item';
 import { getSortedPostsData } from '../../lib/posts';
 
@@ -35,8 +36,9 @@ export default function Blog({ allPostsData }) {
             </Head>
 
             <Header />
+            <PageHeaderSolid headerTitle={'Blog'} subTitle={'All articles about fitness'} />
             <main>
-            <div className="container-lg">
+                <div className="container-lg">
                     <div className="row">
                         {allPostsData.map(({ id, date, title, description, coverImage }) => (
                             <div className={`col col-sm-6 col-md-4 col-lg-3 col-12 ${styles.col}`} key={id}>
