@@ -1,4 +1,4 @@
-import styles from './Blog.module.css';
+import styles from './blog.module.css';
 import Head from 'next/head'
 import Link from 'next/link'
 import Header  from '../../components/header/header';
