@@ -37,11 +37,11 @@ export default function Blog({ allPostsData }) {
 
             <Header />
             <PageHeaderSolid headerTitle={'Blog'} subTitle={'All articles about fitness'} />
-            <main>
+            <main className={styles.main}>
                 <div className="container-lg">
                     <div className="row">
                         {allPostsData.map(({ id, date, title, description, coverImage }) => (
-                            <div className={`col col-sm-6 col-md-4 col-lg-3 col-12 ${styles.col}`} key={id}>
+                            <div className={`col col-sm-6 col-md-6 col-lg-4 col-xl-3 col-12 ${styles.col}`} key={id}>
                                 <Link href={`/posts/${id}`} className={styles.blogItem}>
                                     <BlogItem 
                                         id={id}

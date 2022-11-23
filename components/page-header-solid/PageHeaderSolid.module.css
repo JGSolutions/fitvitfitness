@@ -26,7 +26,7 @@
 .subTitle {
 	font-family: var(--ff-secondary);
 	font-size: var(--fs-m);
-	font-weight: var( --fw-bold);
+	font-weight: var(--fw-regular);
 	color: white;
 }
 
@@ -34,13 +34,13 @@
 	.container {
 		flex-direction: column;
 		height: auto;
+		padding: var(--padding-xlarge) 0;
 	}
 
 	.titleSection {
 		position: relative;
 		width: fit-content;
 		height: auto;
-		order: 2;
 	}
 
 	.h1 {
