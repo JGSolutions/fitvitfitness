@@ -30,8 +30,6 @@ export default function About() {
             <div className='container-lg'>
                 <PageHeader image="/chris-test.png" headerTitle="About me" subTitle="dkdkdk"></PageHeader>
             </div>
-
-
             <main className={styles.main}>
                 <div className='container-lg'>
                     <p className={utilsStyle.textParagraph}>

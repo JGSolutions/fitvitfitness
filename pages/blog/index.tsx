@@ -1,8 +1,8 @@
-import styles from './blog.module.css';
+import styles from './Blog.module.css';
 import Head from 'next/head'
-// import Header  from '../../components/header/header';
+import Header  from '../../components/header/header';
 import Footer  from '../../components/footer/footer';
-// import BlogItem from '../../components/blog-item/blog-item';
+import BlogItem from '../../components/blog-item/blog-item';
 import { getSortedPostsData } from '../../lib/posts';
 
 export async function getStaticProps() {
@@ -33,8 +33,22 @@ export default function Blog({ allPostsData }) {
                 <meta name="twitter:creator" content=""></meta>
             </Head>
 
+            <Header />
             <main>
-
+            <div className="container-lg">
+                    <div className="row">
+                    {allPostsData.map(({ id, date, updateDate, title, tags, author, description, coverImage }) => (
+                        <div className={`col col-12`} key={id}>
+                            <BlogItem 
+                                id={id}
+                                image={coverImage}
+                                title={title} 
+                                description={description}
+                                date={date} />
+                        </div>
+                    ))}
+                    </div>
+                </div>
             </main>
             <Footer/>
         </>

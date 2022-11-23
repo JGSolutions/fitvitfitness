@@ -56,8 +56,6 @@
 
 .trainerImageRow {
 	display: flex;
-	justify-content: center;
-	flex: 1;
 	width: 40%;
 }
 

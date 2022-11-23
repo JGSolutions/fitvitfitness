@@ -2,7 +2,7 @@ import styles from './blog-item.module.css'
 import FormatDate from '../date';
 import Image from 'next/image';
 
-export default function BlogItem({title, description, image, date}) {
+export default function BlogItem({id, title, description, image, date}) {
     return (
         <div className={styles.wrapper}>
             <div className={styles.titleSection}>{title}</div>
