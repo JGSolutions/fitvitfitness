@@ -8,6 +8,7 @@
 .titleSection {
     padding: var(--padding-regular) var(--padding-large);
     font-weight: var(--fw-semi-bold);
+    font-size: var(--fs-reg);
     color: var(--primary)
 }
 

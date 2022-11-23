@@ -1,5 +1,6 @@
 import styles from './Blog.module.css';
 import Head from 'next/head'
+import Link from 'next/link'
 import Header  from '../../components/header/header';
 import Footer  from '../../components/footer/footer';
 import BlogItem from '../../components/blog-item/blog-item';
@@ -37,16 +38,18 @@ export default function Blog({ allPostsData }) {
             <main>
             <div className="container-lg">
                     <div className="row">
-                    {allPostsData.map(({ id, date, updateDate, title, tags, author, description, coverImage }) => (
-                        <div className={`col col-12`} key={id}>
-                            <BlogItem 
-                                id={id}
-                                image={coverImage}
-                                title={title} 
-                                description={description}
-                                date={date} />
-                        </div>
-                    ))}
+                        {allPostsData.map(({ id, date, title, description, coverImage }) => (
+                            <div className={`col col-sm-6 col-md-4 col-lg-3 col-12 ${styles.col}`} key={id}>
+                                <Link href={`/posts/${id}`} className={styles.blogItem}>
+                                    <BlogItem 
+                                        id={id}
+                                        image={coverImage}
+                                        title={title} 
+                                        description={description}
+                                        date={date} />
+                                </Link>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </main>

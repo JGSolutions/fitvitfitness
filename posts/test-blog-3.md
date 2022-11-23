@@ -6,18 +6,10 @@ date: '2022-10-24T12:30:07.322Z'
 updateDate: '2022-10-24T12:30:07.322Z'
 author: Jerry Gagliano
 picture: ''
-path: '/posts/test-blog'
+path: '/posts/test-blog-3'
 ---
 
 Content will go here
 
 
 ## Final Thoughts
-
-end of blog
-
-Cheers!
-
-
-
-
