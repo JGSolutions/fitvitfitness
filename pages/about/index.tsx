@@ -1,6 +1,7 @@
 import styles from './about.module.css';
 import utilsStyle from '../../styles/Utils.module.css';
 import Head from 'next/head'
+import Image from 'next/image'
 import Header  from '../../components/header/header';
 import Footer  from '../../components/footer/footer';
 import PageHeader from '../../components/page-header/page-header';
@@ -34,11 +35,11 @@ export default function About() {
             <main className={styles.main}>
                 <div className='container-lg'>
                     <p className={utilsStyle.textParagraph}>
-                        Helping individuals see what they are truly capable of has always been a passion of mine. Over the past decade, I've been helping friends and family improve their physical performance, health, and body composition. In 2021 I decided to take my passion to the next level by becoming a canfitpro certified personal trainer. Since then, I've helped dozens of individuals achieve their goals and reach their full potential.
+                        Helping individuals see what they are truly capable of has always been a passion of mine. Over the past decade, I&#39;ve been helping friends and family improve their physical performance, health, and body composition. In 2021 I decided to take my passion to the next level by becoming a canfitpro certified personal trainer. Since then, I&#39;ve helped dozens of individuals achieve their goals and reach their full potential.
                     </p>
 
                     <p className={utilsStyle.textParagraph}>
-                        My passion for fitness began in my teenage years. When I first started working out, I was obese and unfit. Within five months, I lost 60 pounds through resistance training, cardio, and improved nutrition. I started slowly and built from there. At first, I couldn't even run for 5 minutes. However, within a few months, I was running for an hour at a time without any issues. My nutrition changed significantly too. I went from a diet filled with processed foods and refined sugars to one based on whole, natural, and unprocessed foods. I truly believe that nutrition is just as important as exercise to achieve optimal health. Since then, I've continued to push myself physically. I enjoy hiking in the mountains, running marathons, and doing martial arts. I also enjoy playing a variety of sports, including basketball and tennis.
+                        My passion for fitness began in my teenage years. When I first started working out, I was obese and unfit. Within five months, I lost 60 pounds through resistance training, cardio, and improved nutrition. I started slowly and built from there. At first, I couldn&#39;t even run for 5 minutes. However, within a few months, I was running for an hour at a time without any issues. My nutrition changed significantly too. I went from a diet filled with processed foods and refined sugars to one based on whole, natural, and unprocessed foods. I truly believe that nutrition is just as important as exercise to achieve optimal health. Since then, I&#39;ve continued to push myself physically. I enjoy hiking in the mountains, running marathons, and doing martial arts. I also enjoy playing a variety of sports, including basketball and tennis.
                     </p>
 
                     <p className={utilsStyle.textParagraph}>
@@ -53,14 +54,14 @@ export default function About() {
                     <div className={styles.contactInfo}>
                         <div className={styles.contactDetails}>
                             <div className={styles.icon}>
-                                <img src="/email.svg" />
+                                <Image src="/email.svg" width={24} height={24} alt="email" />
                             </div>
                             <p>christophercharbeldaoud@gmail.com</p>
                         </div>
 
                         <div className={styles.contactDetails}>
                             <div className={styles.icon}>
-                                <img src="/cell.svg" />
+                                <Image src="/cell.svg" width={13} height={24} alt="email" />
                             </div>
                             <p>514 29 3586 (call or text)</p>
                         </div>
