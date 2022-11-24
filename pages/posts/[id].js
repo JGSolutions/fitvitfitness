@@ -1,10 +1,11 @@
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import FormatDate from '../../components/date';
-import utilStyles from '../../styles/Utils.module.css'
+// import utilStyles from '../../styles/Utils.module.css'
 import styles from './Posts.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
+import PageHeader from '../../components/page-header/page-header';
 // import Link from 'next/link'
 
 export async function getStaticProps({ params }) {
@@ -25,12 +26,10 @@ export async function getStaticPaths() {
 }
 
 export default function Post({ postData }) {
-  // const tags =  generateTagsElements(postData.tags);
-
   const env = process.env.NODE_ENV;
   let url;
   if (env === "production") {
-    url ='https://jgsolutions.ca';
+    url ='https://fitvitfitness.com';
   } else {
     url ='http://localhost:3000';
   }
@@ -54,25 +53,18 @@ export default function Post({ postData }) {
         <meta property="twitter:creator" content="@"></meta>
       </Head>
       
-      <div className={utilStyles.topSection}>
-        <div className="container-lg">
-          <Header/>
-          {/* <section className={styles.headerPageSection}>
-            <Link href="/blog" passHref className={utilStyles.back} rel="noopener noreferrer">
-                &larr; Go Back
-            </Link>
-            <h1 className={utilStyles.headerPageTitle}>{postData.title}</h1>
-          </section> */}
-        </div>
+      <Header/>
+      <div className="container-lg">
+        <PageHeader image={postData.coverImage} headerTitle={postData.title} subTitle={postData.description}></PageHeader>
       </div>
 
-      <main>
-        <div className={`container-lg ${styles.articleLayout}`}>
+      <main className={styles.main}>
+        <div className={`container-lg`}>
           <div className="row">
             <div className={`col ${styles.details}`}>
               <div className={styles.authorDetails}>
                 <p className={styles.author}>By {postData.author}</p>
-                <p className={styles.authorDate}><FormatDate dateString={postData.updateDate} /></p>
+                <p className={styles.authorDate}>Created on: <FormatDate dateString={postData.date} /></p>
               </div>
             </div>
           </div>
@@ -81,6 +73,8 @@ export default function Post({ postData }) {
               <article className={styles.article}>
                 <div className={styles.articleText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
               </article>
+
+              <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p>
             </div>
           </div>
         </div>

@@ -14,10 +14,6 @@ Content will go here
 
 ## Final Thoughts
 
-end of blog
+Ok so this si the end of blog and i hope u get into shape.end of blog.
 
 Cheers!
-
-
-
-
