@@ -55,7 +55,7 @@ export default function Post({ postData }) {
       
       <Header/>
       <div className="container-lg">
-        <PageHeader image={postData.coverImage} headerTitle={postData.title} subTitle={postData.description}></PageHeader>
+        <PageHeader image={postData.coverImage} headerTitle={postData.title} subTitle={postData.description} backHref="/blog"></PageHeader>
       </div>
 
       <main className={styles.main}>

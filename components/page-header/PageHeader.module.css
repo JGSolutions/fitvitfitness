@@ -25,6 +25,12 @@
 	align-items: center;
 }
 
+a.backLink {
+	text-decoration: none;
+	color: var(--primary);
+	font-size: var(--fs-m);
+}
+
 .h1 {
 	font-family: var(--ff-secondary);
 	font-size: var(--fs-xl);

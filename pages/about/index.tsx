@@ -28,7 +28,7 @@ export default function About() {
             <Header/>
 
             <div className='container-lg'>
-                <PageHeader image="/chris-test.png" headerTitle="About me" subTitle="dkdkdk"></PageHeader>
+                <PageHeader image="/chris-test.png" headerTitle="About me" subTitle="dkdkdk" backHref={''}></PageHeader>
             </div>
             <main className={styles.main}>
                 <div className='container-lg'>
