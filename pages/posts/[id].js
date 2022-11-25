@@ -1,12 +1,10 @@
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import FormatDate from '../../components/date';
-// import utilStyles from '../../styles/Utils.module.css'
 import styles from './Posts.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import PageHeader from '../../components/page-header/page-header';
-// import Link from 'next/link'
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id);
@@ -80,7 +78,7 @@ export default function Post({ postData }) {
         </div>
       </main>
 
-      <Footer></Footer>
+      <Footer />
     </div>
   )
 }
