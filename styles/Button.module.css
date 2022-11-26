@@ -2,7 +2,6 @@
     background-color: var(--primary);
     color: white;
     border: none;
-    padding: var(--padding-xs) var(--padding-medium);
     border-radius: var(--border-radius);
     font-size: var(--fs-sm);
 }
@@ -11,11 +10,11 @@
     background-color: white;
     color: var(--primary);
     border: 1px solid var(--primary);
-    padding: var(--padding-xs) var(--padding-medium);
     border-radius: var(--border-radius);
     font-size: var(--fs-sm);
 }
 
 a.fvButton, a.fvButtonStroke  {
     text-decoration: none;
+    padding: var(--padding-medium) var(--padding-large);
 }

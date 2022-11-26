@@ -36,11 +36,11 @@ export default function Home() {
 								</h1>
 								<p className={styles.text}>Fitness solution for busy people. Helping you keep motivated in your fitness journey with tips from a personal trainer.</p>
 								<div className={styles.buttonHeaderWrapper}>
-									<Link href="" className={button.fvButton}>
+									{/* <Link href="" className={button.fvButton}>
 										Start Workout
-									</Link>
+									</Link> */}
 
-									<Link href="" className={button.fvButtonStroke}>
+									<Link href="/personal-training" className={button.fvButtonStroke}>
 										Book A Session
 									</Link>
 								</div>
@@ -56,9 +56,11 @@ export default function Home() {
 							</div>
 							<div className={styles.trainerDetails}>
 								<h2 className={styles.subTitles}>Christopher Daoud - Certified Trainer</h2>
-								<p className={styles.text}>
-									As a certified trainer you will be able to submit workout routines to and get known through out the community.  Create your personal profile page and share within your social media platorms
-								</p>
+								<div>
+									<Link href="/about" className={button.fvButton}>
+										More About Me
+									</Link>
+								</div>
 							</div>
 		
 						</section>
