@@ -26,6 +26,9 @@ export default function Header() {
 							<Link href="/about">About me</Link>
 						</li>
 						<li>
+							<Link href="/personal-training">Personal training</Link>
+						</li>
+						<li>
 							<Link href="/blog">Blog</Link>
 						</li>
 					</ul>

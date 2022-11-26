@@ -55,7 +55,7 @@ export default function Home() {
 								<Image src="/chris-trainer.svg" width={430} height={380} alt="Chris Daoud Trainer" />
 							</div>
 							<div className={styles.trainerDetails}>
-								<h2 className={styles.subTitles}>Certified Trainer with Chris Daoud</h2>
+								<h2 className={styles.subTitles}>Christopher Daoud - Certified Trainer</h2>
 								<p className={styles.text}>
 									As a certified trainer you will be able to submit workout routines to and get known through out the community.  Create your personal profile page and share within your social media platorms
 								</p>
