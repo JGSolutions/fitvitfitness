@@ -39,3 +39,10 @@
 	font-size: var(--fs-reg);
 	font-weight: var(--fw-bold);
 }
+
+.main {
+    color: var(--primary-text);
+    font-weight: var(--fw-regular);
+    margin-top: var(--padding-xlarge);
+    margin-bottom: var(--padding-large);
+}

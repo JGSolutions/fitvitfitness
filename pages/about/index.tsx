@@ -1,7 +1,6 @@
 import styles from './about.module.css';
 import utilsStyle from '../../styles/Utils.module.css';
 import Head from 'next/head'
-import Image from 'next/image'
 import Header  from '../../components/header/header';
 import Footer  from '../../components/footer/footer';
 import PageHeader from '../../components/page-header/page-header';
@@ -29,9 +28,9 @@ export default function About() {
             <Header/>
 
             <div className='container-lg'>
-                <PageHeader image="/chris-test.png" headerTitle="About me" subTitle="dkdkdk" backHref={''}></PageHeader>
+                <PageHeader image="/chris-test.png" headerTitle="About me" subTitle="Christopher Daoud - Personal Trainer" backHref={''}></PageHeader>
             </div>
-            <main className={styles.main}>
+            <main className={utilsStyle.main}>
                 <div className='container-lg'>
                     <p className={utilsStyle.textParagraph}>
                         Helping individuals see what they are truly capable of has always been a passion of mine. Over the past decade, I&#39;ve been helping friends and family improve their physical performance, health, and body composition. In 2021 I decided to take my passion to the next level by becoming a canfitpro certified personal trainer. Since then, I&#39;ve helped dozens of individuals achieve their goals and reach their full potential.
@@ -45,7 +44,7 @@ export default function About() {
                         Fitness has had a profound impact on all areas of my life. Since I started this journey, my self-efficacy and confidence have improved significantly. My goal is to help others experience similar transformations as I have had. Helping others achieve optimal health and seeing how this impacts other areas of their life brings me tremendous amounts of joy and satisfaction.
                     </p>
 
-                    <h3 className={styles.h3}>Contact me</h3>
+                    <h3 className={utilsStyle.h3}>Contact me</h3>
                     <p>
                         Ready to get started? Reach out to book your free initial consultation. I will get back to you within 24 hours.
                     </p>

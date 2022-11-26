@@ -16,7 +16,7 @@ export default function PersonalTraining() {
             <Header></Header>
             <PageHeaderSolid headerTitle={'Personal Training'} subTitle={'with Christopher Daoud'} />
 
-            <main className={privacy.main}>
+            <main className={utilStyles.main}>
                 <div className="container-lg">
                     <h2 className={utilStyles.h2}>My Approach</h2> 
 
