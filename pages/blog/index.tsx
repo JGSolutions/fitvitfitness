@@ -20,19 +20,19 @@ export default function Blog({ allPostsData }) {
     return (
         <>
             <Head>
-                <title></title>
-                <meta name="description" content="" />
+                <title>FitVitFitness - Articles about fitness and tips</title>
+                <meta name="description" content="Free fitness workouts information and tips keeping you in shape." />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="" />
-                <meta property="og:description" content="" />
+                <meta property="og:title" content="Articles about fitness and tips" />
+                <meta property="og:description" content="Free fitness workouts information and tips keeping you in shape." />
                 <meta name="image" property="og:image" content="" itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="" />
-                <meta name="twitter:description" content="" />
+                <meta name="twitter:title" content="Articles about fitness and tips" />
+                <meta name="twitter:description" content="Free fitness workouts information and tips keeping you in shape." />
                 <meta name="twitter:image" content="" />
-                <meta name="twitter:creator" content=""></meta>
+                {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
 
             <Header />
