@@ -13,7 +13,7 @@
 .menuOptions {  
     list-style: none;
     display: flex;
-    gap: var(--padding-medium);
+    gap: var(--padding-xlarge);
 }
 
 .menuOptions a {
@@ -32,4 +32,10 @@
 	font-size: var(--fs-m);
 	font-weight: var(--fw-bold);
     margin-bottom: var(--padding-medium);
+}
+
+.h3 {
+	color: var(--primary);
+	font-size: var(--fs-reg);
+	font-weight: var(--fw-bold);
 }

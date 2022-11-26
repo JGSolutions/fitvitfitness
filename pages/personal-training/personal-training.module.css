@@ -1,3 +1,4 @@
 .main {
-    margin-top: 24px;
+    margin-top: var(--padding-xlarge);
+    margin-bottom: var(--padding-xlarge);
 }

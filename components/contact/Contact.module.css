@@ -1,0 +1,16 @@
+.contactInfo {
+    margin-top: var(--padding-large);
+    display: flex;
+    flex-direction: column;
+    gap: var(--padding-xs);
+}
+
+.contactDetails {
+    display: flex;
+    gap: var(--padding-xs);
+    font-size: var(--fs-sm);
+}
+
+.icon {
+    width: 36px;
+}

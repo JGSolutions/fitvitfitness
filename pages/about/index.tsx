@@ -5,6 +5,7 @@ import Image from 'next/image'
 import Header  from '../../components/header/header';
 import Footer  from '../../components/footer/footer';
 import PageHeader from '../../components/page-header/page-header';
+import Contact from '../../components/contact/contact';
 
 export default function About() {
     return (
@@ -49,21 +50,7 @@ export default function About() {
                         Ready to get started? Reach out to book your free initial consultation. I will get back to you within 24 hours.
                     </p>
 
-                    <div className={styles.contactInfo}>
-                        <div className={styles.contactDetails}>
-                            <div className={styles.icon}>
-                                <Image src="/email.svg" width={24} height={24} alt="email" />
-                            </div>
-                            <p>christophercharbeldaoud@gmail.com</p>
-                        </div>
-
-                        <div className={styles.contactDetails}>
-                            <div className={styles.icon}>
-                                <Image src="/cell.svg" width={13} height={24} alt="email" />
-                            </div>
-                            <p>514 29 3586 (call or text)</p>
-                        </div>
-                    </div>
+                    <Contact/>
                 </div>
             </main>
             <Footer/>
