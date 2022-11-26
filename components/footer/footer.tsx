@@ -25,7 +25,7 @@ export default function Footer() {
 								<Link href="mailto:jerrygag@gmail.com">Contact Me</Link>
 							</li>
 							<li>
-								<Link href="/privacy-policy/privacy-policy"> Privacy Policy </Link>
+								<Link href="/privacy-policy"> Privacy Policy </Link>
 							</li>
 						</ul>
 					</nav>

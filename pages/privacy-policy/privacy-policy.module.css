@@ -1,0 +1,17 @@
+.main {
+    margin-top: 24px;
+    font-size: var(--fs-sm);
+}
+
+.p {
+    margin-bottom: 24px;
+}
+
+.h2 {
+    font-size: var(--fs-reg);
+    font-weight: var(--fw-bold);
+}
+
+.list {
+    margin: 0 0 var(--padding-xlarge) var(--padding-xlarge);
+}
