@@ -2,30 +2,22 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Header.module.css";
 import utilStyles from "../../styles/Utils.module.css";
-import { useEffect, useState, useRef } from "react";
+import { useState } from "react";
 
 export default function Header() {
 	const [hamburgerOpen, setHamburgerOpen] = useState(false);
-	const node = useRef();
 	const toogleMenu = () => {
-		setHamburgerOpen(!hamburgerOpen);
+		const isOpen = !hamburgerOpen;
+
+		if (isOpen) {
+			document.body.classList.add(styles.disableSroll);
+		} else {
+			document.body.classList.remove(styles.disableSroll);
+		}
+
+		setHamburgerOpen(isOpen);
 	}
 
-	const useOnClickOutside = (ref, handler) => {
-		useEffect(() => {
-			const listener = event => {
-				if (hamburgerOpen) {
-					handler(event);
-				}
-			};
-			document.addEventListener('pointerdown', listener);
-			return () => document.removeEventListener('pointerdown', listener);
-		},
-		[ref, handler],
-		);
-	};
-
-	// useOnClickOutside(node, () => toogleMenu());
 	return (
 		<>
 			<header className={`${styles.header}`}>
@@ -64,7 +56,7 @@ export default function Header() {
 				</button>
 			</header>
 
-			<div className={`${styles.menuPanel} ${hamburgerOpen ? styles.openPanel : styles.closePanel}`} ref={node}>
+			<div className={`${styles.menuPanel} ${hamburgerOpen ? styles.openPanel : styles.closePanel}`}>
 				<div className={styles.headerPanel}>
 					<button className={styles.menuButton} onClick={toogleMenu}>
 						<Image

@@ -60,6 +60,10 @@
   text-decoration: none;
 }
 
+.disableScroll {
+  overflow: hidden;
+}
+
 .openPanel {
   transform: translateX(0);
 }
