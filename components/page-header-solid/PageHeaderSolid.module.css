@@ -38,11 +38,14 @@
 
 	.titleSection {
 		position: relative;
-		width: fit-content;
-		height: auto;
+		width: none;
+	}
+
+	.subTitle {
+		font-size: var(--fs-reg);
 	}
 
 	.h1 {
-		font-size: var(--fs-l);
+		font-size: var(--fs-m);
 	}
 }
