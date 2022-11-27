@@ -14,3 +14,24 @@
   display: flex;
   align-items: center;
 }
+
+.menuButton {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .menuNavigation {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+}

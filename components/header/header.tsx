@@ -7,20 +7,18 @@ export default function Header() {
 	return (
 
 		<header className={`${styles.header}`}>
-			{/* <div className={`container-lg ${styles.header}`}> */}
-
 				<Link href="/">
 					<div className={styles.logoContainer}>
 						<Image
 						src="/fitvit-logo.svg"
 						height={35}
 						width={116}
-						alt="fitVitfitness"
+						alt="fitVitfitness logo"
 						/>
 					</div>
 				</Link>
 
-				<nav>
+				<nav className={styles.menuNavigation}>
 					<ul className={utilStyles.menuOptions}>
 						<li>
 							<Link href="/about">About me</Link>
@@ -33,7 +31,15 @@ export default function Header() {
 						</li>
 					</ul>
 				</nav>
-			{/* </div> */}
+
+				<button className={styles.menuButton}>
+					<Image
+						src="/menu.svg"
+						height={28}
+						width={32}
+						alt="menu"
+						/>
+				</button>
 		</header>
 	);
 }

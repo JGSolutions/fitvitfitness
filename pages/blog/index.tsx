@@ -37,6 +37,7 @@ export default function Blog({ allPostsData }) {
 
             <Header />
             <PageHeaderSolid headerTitle={'Blog'} subTitle={'All articles about fitness'} />
+            <div className={styles.panel}></div>
             <main className={styles.main}>
                 <div className="container-lg">
                     <div className="row">
