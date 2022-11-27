@@ -75,7 +75,7 @@ export default function Header() {
 							/>
 					</button>
 				</div>
-				<ul>
+				<ul className={styles.menuPanelLinks}>
 					<li>
 						<Link href="/about">About me</Link>
 					</li>

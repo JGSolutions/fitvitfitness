@@ -46,6 +46,20 @@
   justify-content: flex-end;
 }
 
+.menuPanelLinks {
+  list-style: none;
+}
+
+.menuPanelLinks li {
+  padding:  var(--padding-medium) 0;
+}
+
+.menuPanelLinks a {
+  color: white;
+  font-size: var(--fs-m);
+  text-decoration: none;
+}
+
 .openPanel {
   transform: translateX(0);
 }
