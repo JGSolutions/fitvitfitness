@@ -56,7 +56,7 @@ export default function Home() {
 							</div>
 							<div className={styles.trainerDetails}>
 								<h2 className={styles.subTitles}>Christopher Daoud - Certified Trainer</h2>
-								<div>
+								<div style={{ display: 'flex', justifyContent: 'center'}}>
 									<Link href="/about" className={button.fvButton}>
 										More About Me
 									</Link>

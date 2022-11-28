@@ -32,7 +32,6 @@
 @media (max-width: 600px) {
 	.container {
 		flex-direction: column;
-		height: auto;
 		padding: var(--padding-xlarge) 0;
 	}
 
@@ -46,6 +45,6 @@
 	}
 
 	.h1 {
-		font-size: var(--fs-m);
+		font-size: var(--fs-l);
 	}
 }
