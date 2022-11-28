@@ -95,6 +95,7 @@
 	
 	.trainerImageRow {
 		width: 100%;
+		justify-content: center;
 		order: 2;
 	}
 }

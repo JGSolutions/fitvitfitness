@@ -32,14 +32,16 @@
 @media (max-width: 600px) {
 	.container {
 		flex-direction: column;
-		height: auto;
 		padding: var(--padding-xlarge) 0;
 	}
 
 	.titleSection {
 		position: relative;
-		width: fit-content;
-		height: auto;
+		width: none;
+	}
+
+	.subTitle {
+		font-size: var(--fs-reg);
 	}
 
 	.h1 {
