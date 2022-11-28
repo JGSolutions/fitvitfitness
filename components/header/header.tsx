@@ -6,18 +6,7 @@ import { useState } from "react";
 import SideNav from "../sidenav/sidenav";
 
 export default function Header() {
-	const [hamburgerOpen, setOpenPanel] = useState(false);
-	const toogleMenu = () => {
-		const isOpen = !hamburgerOpen;
-
-		if (isOpen) {
-			document.body.classList.add(styles.disableScroll);
-		} else {
-			document.body.classList.remove(styles.disableScroll);
-		}
-
-		setOpenPanel(isOpen);
-	}
+	const [open, setOpenPanel] = useState(false);
 
 	return (
 		<>
@@ -47,7 +36,7 @@ export default function Header() {
 					</ul>
 				</nav>
 
-				<button className={styles.menuButton} onClick={toogleMenu}>
+				<button className={styles.menuButton} onClick={() => setOpenPanel(!open)}>
 					<Image
 						src="/menu.svg"
 						height={28}
@@ -57,9 +46,9 @@ export default function Header() {
 				</button>
 			</header>
 			
-			<SideNav open={hamburgerOpen}>
+			<SideNav open={open}>
 				<div className={styles.headerPanel}>
-					<button className={styles.menuButton} onClick={toogleMenu}>
+					<button className={styles.menuButton} onClick={() => setOpenPanel(false)}>
 						<Image
 							src="/close.svg"
 							height={28}

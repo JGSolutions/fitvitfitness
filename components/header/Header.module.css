@@ -46,10 +46,6 @@
   text-decoration: none;
 }
 
-.disableScroll {
-  overflow: hidden;
-}
-
 @media (max-width: 700px) {
   .header {
     justify-content: space-between;

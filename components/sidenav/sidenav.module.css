@@ -19,8 +19,12 @@
     transform: translateX(-100%);
 }
 
+.disableScroll {
+    overflow: hidden;
+}
+
 @media (min-width: 701px) {
     .menuPanel {
         display: none;
     }
-  }
+}
