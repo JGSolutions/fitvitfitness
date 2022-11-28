@@ -3,19 +3,20 @@ import Link from "next/link";
 import styles from "./Header.module.css";
 import utilStyles from "../../styles/Utils.module.css";
 import { useState } from "react";
+import SideNav from "../sidenav/sidenav";
 
 export default function Header() {
-	const [hamburgerOpen, setHamburgerOpen] = useState(false);
+	const [hamburgerOpen, setOpenPanel] = useState(false);
 	const toogleMenu = () => {
 		const isOpen = !hamburgerOpen;
 
 		if (isOpen) {
-			document.body.classList.add(styles.disableSroll);
+			document.body.classList.add(styles.disableScroll);
 		} else {
-			document.body.classList.remove(styles.disableSroll);
+			document.body.classList.remove(styles.disableScroll);
 		}
 
-		setHamburgerOpen(isOpen);
+		setOpenPanel(isOpen);
 	}
 
 	return (
@@ -55,8 +56,8 @@ export default function Header() {
 						/>
 				</button>
 			</header>
-
-			<div className={`${styles.menuPanel} ${hamburgerOpen ? styles.openPanel : styles.closePanel}`}>
+			
+			<SideNav open={hamburgerOpen}>
 				<div className={styles.headerPanel}>
 					<button className={styles.menuButton} onClick={toogleMenu}>
 						<Image
@@ -78,7 +79,7 @@ export default function Header() {
 						<Link href="/blog">Blog</Link>
 					</li>
 				</ul>
-			</div>
+			</SideNav>
 		</>
 	);
 }
