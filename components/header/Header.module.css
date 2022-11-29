@@ -8,7 +8,7 @@
   align-items: center;
   gap: var(--padding-large);
   padding: 0 var(--padding-large);
-  background-color: var(--main-background);
+  background-color: rgba(245, 247, 246, 0.9);
 }
 
 .logoContainer {
