@@ -42,7 +42,7 @@ export default function Footer() {
 							</Link>
 						</li>
 						<li>
-							<Link href="https://www.facebook.com/chris.daoud/">
+							<Link href="https://www.instagram.com/fitness.lover.4life/">
 								<Image
 									src="/social-icons/instagram.svg"
 									height={34}
@@ -52,7 +52,7 @@ export default function Footer() {
 							</Link>
 						</li>
 						<li>
-							<Link href="https://www.instagram.com/fitness.lover.4life/">
+							<Link href="https://www.facebook.com/chris.daoud/">
 								<Image
 									src="/social-icons/facebook.svg"
 									height={34}
