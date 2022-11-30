@@ -20,17 +20,17 @@ export default function Blog({ allPostsData }) {
     return (
         <>
             <Head>
-                <title>FitVitFitness - Articles about fitness and tips</title>
-                <meta name="description" content="Free fitness workouts information and tips keeping you in shape." />
+                <title>Fitness & Workout Articles | FitVit</title>
+                <meta name="description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Articles about fitness and tips" />
-                <meta property="og:description" content="Free fitness workouts information and tips keeping you in shape." />
+                <meta property="og:title" content="Fitness & Workout Articles" />
+                <meta property="og:description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
                 <meta name="image" property="og:image" content="" itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Articles about fitness and tips" />
-                <meta name="twitter:description" content="Free fitness workouts information and tips keeping you in shape." />
+                <meta name="twitter:title" content="Fitness & Workout Articles" />
+                <meta name="twitter:description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
                 <meta name="twitter:image" content="" />
                 {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
