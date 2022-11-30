@@ -27,7 +27,7 @@ export default function Home() {
 
 				<Header/>
 				<main className={styles.main}>
-					<div className="container-lg">
+					<div className="container-lg" style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
 						<section className={styles.section}>
 							<div className={`${styles.row} ${styles.headerSection}`}>
 								<h1 className={styles.headerText}>
@@ -75,7 +75,7 @@ export default function Home() {
 					</div>
 
 					<section className={`${styles.testimonialSection}`}>
-						<div className="container-lg">
+						<div className="container-lg" style={{gap: 0}}>
 							<div className="row">
 								<div className="col">
 									<h2 className={styles.subTitles}>Testimonials</h2>
