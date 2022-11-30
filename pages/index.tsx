@@ -55,6 +55,15 @@ export default function Home() {
 							</div>
 							<div className={styles.trainerDetails}>
 								<h2 className={styles.subTitles}>Christopher Daoud - Certified Trainer</h2>
+								<ul className={styles.dd}>
+									<li>Canfitpro PTS</li>
+									<li>15+ years of experience lifting weights.</li>
+									<li>Playing and training for a variety of sports including tennis, hockey, football, lacrosse, basketball, and martial arts. </li>
+									<li>Trained for a variety of race events including half marathons and Tough Mudders.  </li>
+									<li>
+										Lost 60 pounds and increased my fitness through exercise and diet. I enjoy helping others achieve similar results.
+									</li>
+								</ul>
 								<div style={{ display: 'flex', justifyContent: 'center'}}>
 									<Link href="/about" className={button.fvButton}>
 										More About Me

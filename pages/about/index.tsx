@@ -10,7 +10,7 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>FitVitFitness - About Christopher Daoud</title>
+                <title>FitVit - About Christopher Daoud</title>
                 <meta name="description" content="About Christopher Daoud a certified trainer helping other get in shape and motivated" />
 
                 <meta property="og:type" content="website" />

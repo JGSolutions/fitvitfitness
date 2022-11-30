@@ -1,7 +1,7 @@
 .main {
 	display: flex;
 	flex-direction: column;
-	gap: 50px;
+	gap: 175px;
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
@@ -52,6 +52,18 @@
 	flex-direction: column;
 	gap: var(--padding-large);
 	width: 60%;
+}
+
+.dd {
+	list-style-type: none;
+}
+
+.dd li {
+	height: auto;
+    min-height: 50px;
+    padding-left: 44px;
+    margin-bottom: 10px;
+	background: url('/list-bullet.svg') no-repeat left top;
 }
 
 .trainerImageRow {

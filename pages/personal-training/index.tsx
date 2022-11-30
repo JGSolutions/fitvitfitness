@@ -7,7 +7,7 @@ import Contact from '../../components/contact/contact';
 
 export default function PersonalTraining() {
     return (
-        <div>
+        <>
             <Head>
                 <title>FitVit - Personal Training Sessions</title>
                 <meta name="description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
@@ -71,6 +71,6 @@ export default function PersonalTraining() {
 
             <Footer></Footer>
 
-        </div>
+        </>
     );
 }
