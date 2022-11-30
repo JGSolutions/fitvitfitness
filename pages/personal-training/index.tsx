@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import privacy from './personal-training.module.css';
 import utilStyles from '../../styles/Utils.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
@@ -10,7 +9,19 @@ export default function PersonalTraining() {
     return (
         <div>
             <Head>
-                <title>FitVitFitness - Personal Training</title>
+                <title>FitVit - Personal Training Sessions</title>
+                <meta name="description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
+
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Personal Training Sessions" />
+                <meta property="og:description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
+                <meta name="image" property="og:image" content="" itemProp="image"/>
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Personal Training Sessions" />
+                <meta name="twitter:description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
+                <meta name="twitter:image" content="" />
+                <meta name="twitter:creator" content=""></meta>
             </Head>
 
             <Header></Header>
@@ -21,9 +32,7 @@ export default function PersonalTraining() {
                     <h2 className={utilStyles.h2}>My Approach</h2> 
 
                     <p className={utilStyles.textParagraph}>
-                        I work with individuals who want to achieve optimal health and become the best versions of
-                        themselves. Using information collected from the consultation and physical assessment, I design
-                        periodized workout routines to help them achieve their goals. My approach is science-based, client-centric, and personable. No matter where you are in life, you can and deserve to reach your full potential. I will help you get there. 
+                        I work with individuals who want to achieve optimal health and become the best versions of themselves. Using information collected from the consultation and physical assessment, I design periodized workout routines to help them achieve their goals. My approach is science-based, client-centric, and personable. No matter where you are in life, you can and deserve to reach your full potential. I&#39;ll help you get there. 
                     </p>
 
                     <h2 className={utilStyles.h2}>Training</h2>
@@ -39,7 +48,7 @@ export default function PersonalTraining() {
 
                     <h3 className={utilStyles.h3}>Step 1: Free Consultation</h3>
                     <p className={utilStyles.textParagraph}>
-                        This in-depth conversation where we will go over what you want to accomplish. We will discuss your goals, strengths, weaknesses, and past fitness experiences. 
+                        This in-depth conversation where we&#39;ll go over what you want to accomplish. We will discuss your goals, strengths, weaknesses, and past fitness experiences. 
                     </p>
 
                     <h3 className={utilStyles.h3}>Step 2: Physical Assessment</h3>
@@ -49,7 +58,7 @@ export default function PersonalTraining() {
 
                     <h3 className={utilStyles.h3}>Step 3: Your Personal Training Program</h3>
                     <p className={utilStyles.textParagraph}>
-                        Every personal training program is 100% customized based. Your program is based on your goals and your body.  
+                        Every personal training program is 100% customized based. Your program is based on your goals and your body.    
                     </p>
 
                     <div>
