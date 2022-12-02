@@ -9,20 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.2.3",
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",
-    "next": "13.0.4",
+    "next": "13.0.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1"
   },
   "devDependencies": {
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
+    "@types/node": "18.11.10",
+    "@types/react": "18.0.26",
     "eslint": "^8.28.0",
-    "eslint-config-next": "13.0.4",
+    "eslint-config-next": "13.0.6",
     "eslint-config-prettier": "^8.5.0"
   }
 }
