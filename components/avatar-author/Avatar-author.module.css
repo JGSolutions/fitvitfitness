@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-regular);
+}
+
+.contactDetails {
+    display: flex;
+    gap: var(--padding-xs);
+    font-size: var(--fs-sm);
+}
+
+.img {
+    border-radius: 50%;
+}

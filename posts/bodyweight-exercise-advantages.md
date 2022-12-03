@@ -5,7 +5,7 @@ coverImage: '/blog/body-weight-blog.png'
 date: '2022-11-28T12:30:07.322Z'
 updateDate: '2022-11-28T12:30:07.322Z'
 author: Christopher Daoud
-picture: ''
+picture: 'chris-avatar.png'
 path: '/posts/bodyweight-exercise-advantages'
 ---
 
