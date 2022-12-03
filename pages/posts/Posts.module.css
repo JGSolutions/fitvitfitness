@@ -10,10 +10,6 @@
     padding-bottom: var(--padding-xlarge);
 }
 
-.author {
-    font-size: var(--fs-reg);
-}
-
 .authorDetails {
     display: flex; 
     flex-direction: column;
