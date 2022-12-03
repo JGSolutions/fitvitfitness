@@ -18,5 +18,4 @@ a.item {
 
 a.item:hover {
     transform: scale(1.55);
-    text-decoration: underline;
 }

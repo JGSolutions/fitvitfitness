@@ -42,7 +42,7 @@ export default function Workouts({ allPostsData }) {
                     <div className="row">
                         {allPostsData.map(({ id, title, description, duration, times, numExercises }) => (
                             <div className={`col col-md-6 col-lg-4 col-xl-4 col-12 ${styles.col}`} key={id}>
-                                <Link href={`/posts/${id}`} className={styles.item}>
+                                <Link href={`/workout/${id}`} className={styles.item}>
                                     <WorkoutItem 
                                         id={id}
                                         title={title} 
