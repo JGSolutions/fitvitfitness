@@ -40,13 +40,15 @@ export default function Blog({ allPostsData }) {
             <main className={styles.main}>
                 <div className="container-lg">
                     <div className="row">
-                        {allPostsData.map(({ id, date, title, description, coverImage }) => (
+                        {allPostsData.map(({ id, date, title, description, coverImage, author, avatar }) => (
                             <div className={`col col-md-6 col-lg-4 col-xl-4 col-12 ${styles.col}`} key={id}>
                                 <Link href={`/posts/${id}`} className={styles.blogItem}>
                                     <BlogItem 
                                         id={id}
                                         image={coverImage}
                                         title={title} 
+                                        author={author}
+                                        avatar={avatar}
                                         description={description}
                                         date={date} />
                                 </Link>
