@@ -6,17 +6,17 @@
     margin-bottom: var(--padding-large);
 }
 
-a.blogItem {
+a.item {
     text-decoration: none;
     margin-bottom: 24px;
 }
 
-a.blogItem {
+a.item {
     transform: scale(1);
     transition: transform 0.3s;
 }
 
-a.blogItem:hover {
+a.item:hover {
     transform: scale(1.55);
     text-decoration: underline;
 }

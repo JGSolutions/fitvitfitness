@@ -3,8 +3,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Header  from '../../components/header/header';
 import Footer  from '../../components/footer/footer';
+import WorkoutItem  from '../../components/workout-item/workout-item';
 import PageHeaderSolid  from '../../components/page-header-solid/page-header-solid';
-// import BlogItem from '../../components/blog-item/blog-item';
 import { getWorkoutData } from '../../lib/workouts';
 
 export async function getStaticProps() {
@@ -40,15 +40,17 @@ export default function Workouts({ allPostsData }) {
             <main className={styles.main}>
                 <div className="container-lg">
                     <div className="row">
-                        {allPostsData.map(({ id, date, title, description, coverImage }) => (
+                        {allPostsData.map(({ id, title, description, duration, times, numExercises }) => (
                             <div className={`col col-md-6 col-lg-4 col-xl-4 col-12 ${styles.col}`} key={id}>
-                                <Link href={`/posts/${id}`} className={styles.blogItem}>
-                                    {/* <BlogItem 
+                                <Link href={`/posts/${id}`} className={styles.item}>
+                                    <WorkoutItem 
                                         id={id}
-                                        image={coverImage}
                                         title={title} 
                                         description={description}
-                                        date={date} /> */}
+                                        duration={duration}
+                                        numExercises={numExercises}
+                                        times={times}
+                                        />
                                 </Link>
                             </div>
                         ))}
