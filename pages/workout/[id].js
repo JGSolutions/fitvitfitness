@@ -1,4 +1,4 @@
-import { getAllPostIds, getPostData } from '../../lib/posts';
+import { getWorkoutById, getWorkoutIds } from '../../lib/workouts';
 import Head from 'next/head';
 import FormatDate from '../../components/date';
 import styles from './Workout.module.css'
@@ -7,7 +7,7 @@ import Footer from '../../components/footer/footer';
 import PageHeader from '../../components/page-header/page-header';
 
 export async function getStaticProps({ params }) {
-    const postData = await getPostData(params.id);
+    const postData = await getWorkoutById(params.id);
     return {
         props: {
           postData,
@@ -16,7 +16,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllPostIds();
+  const paths = getWorkoutIds();
   return {
     paths,
     fallback: false,
@@ -62,7 +62,7 @@ export default function Workout({ postData }) {
             <div className={`col ${styles.details}`}>
               <div className={styles.authorDetails}>
                 <p className={styles.author}>By {postData.author}</p>
-                <p className={styles.authorDate}>Created on: <FormatDate dateString={postData.date} /></p>
+                {/* <p className={styles.authorDate}>Created on: <FormatDate dateString={postData.date} /></p> */}
               </div>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Workout({ postData }) {
                 <div className={styles.articleText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
               </article>
 
-              <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p>
+              {/* <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p> */}
             </div>
           </div>
         </div>

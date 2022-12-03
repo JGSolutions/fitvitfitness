@@ -3,9 +3,8 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
-import { sorting } from './utils';
 
-const postsDirectory = path.join(process.cwd(), 'workouts');
+const postsDirectory = path.join(process.cwd(), 'workout');
 
 export function getWorkoutData() {
   // Get file names under /posts
