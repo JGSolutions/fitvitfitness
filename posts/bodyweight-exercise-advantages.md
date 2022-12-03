@@ -1,11 +1,11 @@
 ---
 title: 'Bodyweight Exercise Advantages'
-description: 'some description'
+description: 'Bodyweight exercises are a fixture in my workout routines. Learn more about why I find them so effective and efficient.'
 coverImage: '/blog/body-weight-blog.png'
 date: '2022-11-28T12:30:07.322Z'
 updateDate: '2022-11-28T12:30:07.322Z'
 author: Christopher Daoud
-picture: ''
+avatar: '/avatar/chris-avatar.png'
 path: '/posts/bodyweight-exercise-advantages'
 ---
 

@@ -17,14 +17,14 @@
 
 .h1 {
 	font-family: var(--ff-secondary);
-	font-size: var(--fs-xl);
+	font-size: var(--fs-l);
 	font-weight: var( --fw-bold);
 	color: white;
 }
 
 .subTitle {
 	font-family: var(--ff-secondary);
-	font-size: var(--fs-m);
+	font-size: var(--fs-reg);
 	font-weight: var(--fw-regular);
 	color: white;
 }

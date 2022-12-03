@@ -4,6 +4,7 @@ import FormatDate from '../../components/date';
 import styles from './Posts.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
+import AvatarAuthor from '../../components/avatar-author/avatar-author';
 import PageHeader from '../../components/page-header/page-header';
 
 export async function getStaticProps({ params }) {
@@ -61,7 +62,7 @@ export default function Post({ postData }) {
           <div className="row">
             <div className={`col ${styles.details}`}>
               <div className={styles.authorDetails}>
-                <p className={styles.author}>By {postData.author}</p>
+                <AvatarAuthor author={postData.author} avatar={postData.avatar} />
                 <p className={styles.authorDate}>Created on: <FormatDate dateString={postData.date} /></p>
               </div>
             </div>
