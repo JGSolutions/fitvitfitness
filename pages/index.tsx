@@ -35,9 +35,9 @@ export default function Home() {
 								</h1>
 								<p className={styles.text}>Fitness solution for busy people. Helping you keep motivated in your fitness journey with tips from a personal trainer.</p>
 								<div className={styles.buttonHeaderWrapper}>
-									{/* <Link href="" className={button.fvButton}>
-										Start Workout
-									</Link> */}
+									<Link href="/workouts" className={button.fvButton}>
+										Start A Workout
+									</Link>
 
 									<Link href="/personal-training" className={button.fvButtonStroke}>
 										Book A Session

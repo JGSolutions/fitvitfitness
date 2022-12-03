@@ -31,6 +31,9 @@ export default function Header() {
 							<Link href="/personal-training">Personal training</Link>
 						</li>
 						<li>
+							<Link href="/workouts">Workouts</Link>
+						</li>
+						<li>
 							<Link href="/blog">Blog</Link>
 						</li>
 					</ul>
@@ -63,6 +66,9 @@ export default function Header() {
 					</li>
 					<li>
 						<Link href="/personal-training">Personal training</Link>
+					</li>
+					<li>
+						<Link href="/workouts">Workouts</Link>
 					</li>
 					<li>
 						<Link href="/blog">Blog</Link>
