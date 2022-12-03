@@ -33,14 +33,16 @@ export default function Home() {
 								<h1 className={styles.headerText}>
 									Reach Your <span className={utilStyles.primaryColor}>Full Potiential</span> With <span className={utilStyles.secondaryColor}>Gym</span> & <span className={utilStyles.secondaryColor}>Home Workouts</span>
 								</h1>
-								<p className={styles.text}>Fitness solution for busy people. Helping you keep motivated in your fitness journey with tips from a personal trainer.</p>
+								<p className={styles.text}>
+								Fitness solutions for busy people. Helping you reach your full potential and achieve optimal health.
+								</p>
 								<div className={styles.buttonHeaderWrapper}>
 									{/* <Link href="" className={button.fvButton}>
 										Start Workout
 									</Link> */}
 
 									<Link href="/personal-training" className={button.fvButtonStroke}>
-										Book A Session
+										Learn More
 									</Link>
 								</div>
 							</div>
