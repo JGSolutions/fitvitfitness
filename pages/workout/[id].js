@@ -1,6 +1,6 @@
 import { getWorkoutById, getWorkoutIds } from '../../lib/workouts';
 import Head from 'next/head';
-import FormatDate from '../../components/date';
+import WorkoutSpec from '../../components/workout-specs/workout-specs';
 import styles from './Workout.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
@@ -53,11 +53,18 @@ export default function Workout({ postData }) {
       
       <Header/>
       <div className="container-lg">
-        <PageHeader image={postData.coverImage} headerTitle={postData.title} subTitle={postData.description} backHref="/blog"></PageHeader>
+        <PageHeader headerTitle={postData.title} subTitle={postData.description} backHref="/workouts"></PageHeader>
       </div>
 
       <main className={styles.main}>
         <div className={`container-lg`}>
+          <div className="row">
+            <div className="col">
+              <div className={styles.specs}>
+                <WorkoutSpec duration={postData.duration} times={postData.times} numExercises={postData.numExercises}/>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className={`col ${styles.details}`}>
               <div className={styles.authorDetails}>
@@ -71,8 +78,6 @@ export default function Workout({ postData }) {
               <article className={styles.article}>
                 <div className={styles.articleText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
               </article>
-
-              {/* <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p> */}
             </div>
           </div>
         </div>

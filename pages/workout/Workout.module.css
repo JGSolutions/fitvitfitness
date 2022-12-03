@@ -2,6 +2,11 @@
     margin-bottom: var(--padding-large);
 }
 
+.specs {
+    width: 100%;
+    max-width: 400px;
+}
+
 .details {
     display: flex;
     justify-content: space-between;
