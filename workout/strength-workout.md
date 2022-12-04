@@ -1,19 +1,19 @@
 ---
-title: 'Bodyweight Workout'
-description: 'This is a 3x-a-week beginner to advanced bodyweight workout routine. Since each day includes full-body exercises, a day of rest is recommended between workouts. On your rest days, you can do cardio, go for a walk, or just take it easy. The numbers next to each exercise indicate beginner-intermediate-advanced suggestions. Feel free to do more or less, depending on your abilities.'
+title: 'Strength Workout'
+description: 'This is a strength-building routine split into two workouts - A and B. A day of rest is recommended between each workout. On your rest days, you can do cardio, go for a walk, or take it easy.'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/workout/bodyweight-workout'
-numExercises: '19'
+path: '/workout/strength-workout'
+numExercises: '16'
 duration: '30-35'
 times: '3'
 ---
 
-## Day 1
+## Workout A
 Repeat this circuit three times: 
 
-**Bodyweight squats.**  
-(15 beginner - 35 intermediate - 60 advanced)
+**Barbell Squat (Glutes/Legs)**  
+3 sets x 5reps
 
 **Push-ups**  
 (10 beginner - 30 intermediate - 50 advanced)
