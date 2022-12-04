@@ -6,6 +6,7 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
 import Link from 'next/link';
+import { domainByEnvironment } from '../../lib/utils';
 
 export async function getStaticProps({ params }) {
     const postData = await getWorkoutById(params.id);
@@ -25,13 +26,7 @@ export async function getStaticPaths() {
 }
 
 export default function Workout({ postData }) {
-  const env = process.env.NODE_ENV;
-  let url;
-  if (env === "production") {
-    url ='https://fitvitfitness.com';
-  } else {
-    url ='http://localhost:3000';
-  }
+  const url = domainByEnvironment();
 
   return (
     <div>
