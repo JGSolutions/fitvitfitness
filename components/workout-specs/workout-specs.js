@@ -5,17 +5,17 @@ export default function WorkoutSpec({duration, numExercises, times}) {
         <div className={styles.wrapper}>
             <div className={styles.item}>
                 <span className={styles.value}>{duration}</span>
-                <span className={styles.label}>minutes</span>
+                <span className={styles.label}>Minutes</span>
             </div>
 
             <div className={styles.item}>
                 <span className={styles.value}>{times}</span>
-                <span className={styles.label}>week</span>
+                <span className={styles.label}>Weeks</span>
             </div>
 
             <div className={styles.item}>
                 <span className={styles.value}>{numExercises}</span>
-                <span className={styles.label}>exercises</span>
+                <span className={styles.label}>Exercises</span>
             </div>
         </div>
     )

@@ -1,6 +1,6 @@
 ---
 title: 'Strength Workout'
-description: 'This is a strength-building routine split into two workouts - A and B. A day of rest is recommended between each workout. On your rest days, you can do cardio, go for a walk, or take it easy.'
+description: 'This is a strength-building routine split into two workouts. Aim to complete 3-4 workouts per week, alternating between A and B. A day of rest is recommended between each workout. On your rest days, you can do cardio, go for a walk, or take it easy.'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
 path: '/workout/strength-workout'
