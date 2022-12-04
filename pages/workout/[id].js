@@ -5,6 +5,7 @@ import styles from './Workout.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
+import Link from 'next/link';
 
 export async function getStaticProps({ params }) {
     const postData = await getWorkoutById(params.id);
@@ -57,10 +58,12 @@ export default function Workout({ postData }) {
         <div className={`container-lg`}>
           <div className="row">
             <div className="col">
-
+              
               <div className={styles.headerHero}>
+                <Link href="/workouts" passHref className={styles.backLink} rel="noopener noreferrer">
+                  &larr; Go Back
+                </Link>
                 <h1 className={styles.h1}>{postData.title}</h1>
-
                 <div className={styles.specs}>
                   <WorkoutSpec duration={postData.duration} times={postData.times} numExercises={postData.numExercises}/>
                 </div>

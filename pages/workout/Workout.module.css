@@ -21,12 +21,19 @@
     font-size: var(--fs-reg);
     color: v
 }
+
 .specs {
     width: 100%;
     max-width: 400px;
 }
-/*  article  formatting  */
 
+a.backLink {
+	text-decoration: none;
+	color: var(--primary);
+	font-size: var(--fs-m);
+}
+
+/*  article  formatting  */
 .articleText {
     margin-bottom: var(--padding-large);
     font-weight: var(--fw-regular);

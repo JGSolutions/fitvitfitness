@@ -17,7 +17,7 @@ Time: 45 minutes
 **Barbell Squat (Glutes/Legs)**  
 3 sets x 5 reps
 
-**Barbell Glute Bridge Two Legs on Bench**
+**Barbell Glute Bridge Two Legs on Bench**  
 4 sets x 10 reps
 
 **Barbell Bench Press**  
