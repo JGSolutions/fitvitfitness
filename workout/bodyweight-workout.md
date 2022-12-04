@@ -8,3 +8,26 @@ numExercises: '19'
 duration: '30-35'
 times: '3'
 ---
+
+## Day 1
+Repeat this circuit three times: 
+
+**Bodyweight squats.**  
+(15 beginner - 35 intermediate - 60 advanced)
+
+**Push-ups**  
+(10 beginner - 30 intermediate - 50 advanced)
+
+**Walking lunges** (each leg)  
+(10 beginner - 30 intermediate - 50 advanced)
+
+**Dumbbell rows (use a milk jug or other weight)**  
+(10 beginner - 20 intermediate - 30 advanced).
+
+**Plank**  
+(20s beginner - 60s intermediate - 120s advanced)
+
+**Jumping jacks**  
+(20s beginner - 60s intermediate - 120s advanced) 
+
+## Day 2

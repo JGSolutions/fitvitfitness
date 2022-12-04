@@ -4,7 +4,6 @@ import WorkoutSpec from '../../components/workout-specs/workout-specs';
 import styles from './Workout.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
-import PageHeader from '../../components/page-header/page-header';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
 
 export async function getStaticProps({ params }) {
@@ -53,24 +52,27 @@ export default function Workout({ postData }) {
       </Head>
       
       <Header/>
-      <div className="container-lg">
-        <PageHeader headerTitle={postData.title} subTitle={postData.description} backHref="/workouts"></PageHeader>
-      </div>
-
+ 
       <main className={styles.main}>
         <div className={`container-lg`}>
           <div className="row">
             <div className="col">
-              <div className={styles.specs}>
-                <WorkoutSpec duration={postData.duration} times={postData.times} numExercises={postData.numExercises}/>
+
+              <div className={styles.headerHero}>
+                <h1 className={styles.h1}>{postData.title}</h1>
+
+                <div className={styles.specs}>
+                  <WorkoutSpec duration={postData.duration} times={postData.times} numExercises={postData.numExercises}/>
+                </div>
+
+                <AvatarAuthor author={postData.author} avatar={postData.avatar} />
               </div>
             </div>
           </div>
-          <div className="row">
-            <AvatarAuthor author={postData.author} avatar={postData.avatar} />
-          </div>
+
           <div className="row">
             <div className="col">
+              <div className={styles.description}>{postData.description}</div>
               <article className={styles.article}>
                 <div className={styles.articleText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
               </article>

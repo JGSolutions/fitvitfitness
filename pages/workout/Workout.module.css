@@ -2,6 +2,25 @@
     margin-bottom: var(--padding-large);
 }
 
+/** header **/
+.headerHero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 48px 0;
+}
+
+.h1 {
+    font-family: var(--ff-secondary);
+	font-size: var(--fs-l);
+	font-weight: var( --fw-bold);
+}
+/** end of header **/
+
+.description {
+    font-size: var(--fs-reg);
+    color: v
+}
 .specs {
     width: 100%;
     max-width: 400px;
@@ -15,7 +34,7 @@
 }
 
 .article p {
-    margin-bottom: var(--padding-large);
+    margin-bottom: var(--padding-medium);
 }
 
 .article  strong {
@@ -30,14 +49,14 @@
 }
 
 .article ul {
-    list-style-type: decimal;
-    padding: var(--padding-xs);
+    /* padding: var(--padding-xs); */
     margin-bottom: var(--padding-large);
-    margin-left: 40px;
+    margin-left: 0;
+    list-style-type: none;
 }
 
 .article  li {
-    padding: var(--padding-xs) var(--padding-sm);
+    /* padding: var(--padding-xs) var(--padding-sm); */
 }
 
 .article a {
