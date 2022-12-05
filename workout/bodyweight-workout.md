@@ -6,7 +6,7 @@ avatar: '/avatar/chris-avatar.png'
 path: '/workout/bodyweight-workout'
 numExercises: '19'
 duration: '30-35'
-times: '3'
+times: '8'
 ---
 
 ## Day 1

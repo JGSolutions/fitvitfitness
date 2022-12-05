@@ -6,7 +6,7 @@ avatar: '/avatar/chris-avatar.png'
 path: '/workout/speed-and-power-workout.md'
 numExercises: '13'
 duration: '25-30'
-times: '3'
+times: '8'
 ---
 
 ## Push

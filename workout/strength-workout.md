@@ -6,7 +6,7 @@ avatar: '/avatar/chris-avatar.png'
 path: '/workout/strength-workout'
 numExercises: '16'
 duration: '30-45'
-times: '3'
+times: '6'
 ---
 
 ## Workout A
