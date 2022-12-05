@@ -9,7 +9,11 @@
     padding: var(--padding-regular) var(--padding-large);
     font-weight: var(--fw-semi-bold);
     font-size: var(--fs-reg);
-    color: var(--primary)
+    color: var(--primary);
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .imageSection {
@@ -32,6 +36,12 @@
     font-size: var(--fs-sm);
     width: 100%;
     margin-bottom: var(--padding-medium);
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .date {
