@@ -59,6 +59,7 @@ html,
 body {
   height: 100%;
   font-family: var(--ff-primary);
+  color: var(--primary-text);
 }
 
 body {

@@ -37,9 +37,9 @@ export default function Home() {
 								Fitness solutions for busy people. Helping you reach your full potential and achieve optimal health.
 								</p>
 								<div className={styles.buttonHeaderWrapper}>
-									{/* <Link href="" className={button.fvButton}>
-										Start Workout
-									</Link> */}
+									<Link href="/workouts" className={button.fvButton}>
+										Start A Workout
+									</Link>
 
 									<Link href="/personal-training" className={button.fvButtonStroke}>
 										Learn More

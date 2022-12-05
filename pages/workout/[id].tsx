@@ -1,15 +1,15 @@
-import { getAllPostIds, getPostData } from '../../lib/posts';
+import { getWorkoutById, getWorkoutIds } from '../../lib/workouts';
 import Head from 'next/head';
-import FormatDate from '../../components/date';
-import styles from './Posts.module.css'
+import WorkoutSpec from '../../components/workout-specs/workout-specs';
+import styles from './Workout.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
-import PageHeader from '../../components/page-header/page-header';
+import Link from 'next/link';
 import { domainByEnvironment } from '../../lib/utils';
 
 export async function getStaticProps({ params }) {
-    const postData = await getPostData(params.id);
+    const postData = await getWorkoutById(params.id);
     return {
         props: {
           postData,
@@ -18,14 +18,14 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const paths = getAllPostIds();
+  const paths = getWorkoutIds();
   return {
     paths,
     fallback: false,
   };
 }
 
-export default function Post({ postData }) {
+export default function Workout({ postData }) {
   const url = domainByEnvironment();
 
   return (
@@ -37,38 +37,43 @@ export default function Post({ postData }) {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={postData.title} />
         <meta property="og:description" content={postData.description} />
-        <meta name="image" property="og:image" content={`${url}${postData.coverImage}`} itemProp="image"/>
+        {/* <meta name="image" property="og:image" content={`${url}${postData.coverImage}`} itemProp="image"/> */}
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={`${url}${postData.path}`} />
         <meta property="twitter:title" content={postData.title} />
         <meta property="twitter:description" content={postData.description} />
-        <meta property="twitter:image" content={`${url}${postData.coverImage}`} />
+        {/* <meta property="twitter:image" content={`${url}${postData.coverImage}`} /> */}
         <meta property="twitter:creator" content="@"></meta>
       </Head>
       
       <Header/>
-      <div className="container-lg">
-        <PageHeader image={postData.coverImage} headerTitle={postData.title} subTitle={postData.description} backHref="/blog"></PageHeader>
-      </div>
-
+ 
       <main className={styles.main}>
         <div className={`container-lg`}>
           <div className="row">
-            <div className={`col ${styles.details}`}>
-              <div className={styles.authorDetails}>
+            <div className="col">
+              
+              <div className={styles.headerHero}>
+                <Link href="/workouts" passHref className={styles.backLink} rel="noopener noreferrer">
+                  &larr; Go Back
+                </Link>
+                <h1 className={styles.h1}>{postData.title}</h1>
+                <div className={styles.specs}>
+                  <WorkoutSpec duration={postData.duration} times={postData.times} numExercises={postData.numExercises}/>
+                </div>
+
                 <AvatarAuthor author={postData.author} avatar={postData.avatar} />
-                <p className={styles.authorDate}>Created on: <FormatDate dateString={postData.date} /></p>
               </div>
             </div>
           </div>
+
           <div className="row">
             <div className="col">
+              <div className={styles.description}>{postData.description}</div>
               <article className={styles.article}>
                 <div className={styles.articleText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
               </article>
-
-              <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p>
             </div>
           </div>
         </div>

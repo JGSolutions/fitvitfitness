@@ -9,3 +9,12 @@ export function sorting(data: unknown[]): unknown[] {
         }
     });
 }
+
+export function domainByEnvironment(): string {
+    const env = process.env.NODE_ENV;
+    if (env === "production") {
+        return 'https://fitvitfitness.com';
+    } else {
+        return 'http://localhost:3000';
+    }
+}

@@ -1,10 +1,9 @@
 .container {
 	width: 100%;
 	position: relative;
-	height: 300px;
+	height: 200px;
 	display: flex;
 	justify-content: flex-end;
-	background-color: var(--primary);
 }
 
 .titleSection {
@@ -19,14 +18,14 @@
 	font-family: var(--ff-secondary);
 	font-size: var(--fs-l);
 	font-weight: var( --fw-bold);
-	color: white;
+	color: var(--primary);
 }
 
 .subTitle {
-	font-family: var(--ff-secondary);
+	/* font-family: var(--ff-secondary); */
 	font-size: var(--fs-reg);
 	font-weight: var(--fw-regular);
-	color: white;
+	color: var(--primary-text);
 }
 
 @media (max-width: 600px) {
