@@ -1,12 +1,14 @@
 .container {
 	width: 100%;
-	height: 100%;
+	height: 400px;
 	position: relative;
-	max-height: 320px;
-	min-height: 250px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+.contentWrapper {
+	height: 100%;
 }
 
 .titleSection {
@@ -39,7 +41,7 @@ a.backLink {
 .subTitle {
 	font-family: var(--ff-secondary);
 	font-size: var(--fs-reg);
-	font-weight: var( --fw-bold);
+	font-weight: var(--fw-semi-bold);
 	color: white;
 	background-color: rgba(0,0,0, 0.4);
 	padding: 6px;
@@ -47,19 +49,9 @@ a.backLink {
 }
 
 @media (max-width: 600px) {
-	.container {
-		flex-direction: column;
-		height: auto;
-	}
-
 	.titleSection {
 		position: relative;
 		width: fit-content;
-		height: auto;
 		order: 2;
 	}
-
-	/* .h1 {
-		font-size: var(--fs-l);
-	} */
 }

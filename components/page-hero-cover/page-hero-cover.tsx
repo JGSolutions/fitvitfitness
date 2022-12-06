@@ -14,7 +14,7 @@ export default function PageHeroCover({headerTitle, subTitle, image, backHref}) 
 
 	return (
 		<div className={styles.container} style={{ backgroundImage: `url(${image})` }}>
-			<div className="container-lg">
+			<div className={`container-lg ${styles.contentWrapper}`}>
 				<div className={styles.titleSection}>
 					{ displayBackLink() }
 
