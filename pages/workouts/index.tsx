@@ -6,6 +6,7 @@ import Footer  from '../../components/footer/footer';
 import WorkoutItem  from '../../components/workout-item/workout-item';
 import PageHeaderSolid  from '../../components/page-header-solid/page-header-solid';
 import { getWorkoutData } from '../../lib/workouts';
+import Contact from '../../components/contact/contact';
 
 export async function getStaticProps() {
     const allPostsData = getWorkoutData();
@@ -36,9 +37,18 @@ export default function Workouts({ allPostsData }) {
             </Head>
 
             <Header />
-            <PageHeaderSolid headerTitle={'Workouts'} subTitle={'Workouts'} />
+            <PageHeaderSolid headerTitle={'FitVit Workouts'} subTitle={'Try a free workout routine created by a certified personal trainer.'} />
             <main className={styles.main}>
                 <div className="container-lg">
+                    <div className="row">
+                        <div className="col">
+                            <div style={{ marginBottom: '16px'}}>
+
+                                Are you looking for a more personalized routine that is uniquely tailored to your goals and needs so that you can look and feel your best? Reach out today to book your free consultation.
+                                <Contact/> 
+                            </div>
+                        </div>
+                    </div>
                     <div className="row">
                         {allPostsData.map(({ id, title, description, duration, times, numExercises }) => (
                             <div className={`col col-md-6 col-lg-6 col-xl-4 col-12 ${styles.col}`} key={id}>
