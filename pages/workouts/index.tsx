@@ -25,12 +25,12 @@ export default function Workouts({ allPostsData }) {
                 <meta name="description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey and getting in shape." />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Fitness & Workout Articles" />
+                <meta property="og:title" content="FitVit Workouts" />
                 <meta property="og:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey and getting in shape." />
                 {/* <meta name="image" property="og:image" content="" itemProp="image"/> */}
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Fitness & Workout Articles" />
+                <meta name="twitter:title" content="FitVit Workouts" />
                 <meta name="twitter:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey and getting in shape." />
                 {/* <meta name="twitter:image" content="" /> */}
                 {/* <meta name="twitter:creator" content=""></meta> */}
@@ -42,8 +42,7 @@ export default function Workouts({ allPostsData }) {
                 <div className="container-lg">
                     <div className="row">
                         <div className="col">
-                            <div style={{ marginBottom: '16px'}}>
-
+                            <div style={{ marginBottom: '48px'}}>
                                 Are you looking for a more personalized routine that is uniquely tailored to your goals and needs so that you can look and feel your best? Reach out today to book your free consultation.
                                 <Contact/> 
                             </div>
