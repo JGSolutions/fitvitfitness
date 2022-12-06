@@ -110,5 +110,10 @@
 		width: 100%;
 		justify-content: center;
 		order: 2;
+		margin-top: var(--padding-large);
+	}
+
+	.subTitles {
+		font-size: var(--fs-m);
 	}
 }
