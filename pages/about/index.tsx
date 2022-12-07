@@ -11,16 +11,16 @@ export default function About() {
         <>
             <Head>
                 <title>FitVit - About Christopher Daoud</title>
-                <meta name="description" content="About Christopher Daoud a certified trainer helping other get in shape and motivated" />
+                <meta name="description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
 
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="About Christopher Daoud" />
-                <meta property="og:description" content="About Christopher Daoud a certified trainer helping other get in shape and motivated" />
+                <meta property="og:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
                 <meta name="image" property="og:image" content="" itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="About Christopher Daoud" />
-                <meta name="twitter:description" content="About Christopher Daoud a certified trainer helping other get in shape and motivated" />
+                <meta name="twitter:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
                 <meta name="twitter:image" content="" />
                 <meta name="twitter:creator" content=""></meta>
             </Head>
@@ -37,7 +37,7 @@ export default function About() {
                     </p>
 
                     <p className={utilsStyle.textParagraph}>
-                        My passion for fitness began in my teenage years. I was initially unhealthy and unfit. Within my first year, I lost 60 pounds through resistance training, cardio, and improved nutrition. My nutrition changed significantly too. I went from a diet filled with processed foods and refined sugars to one based on whole, natural, and unprocessed foods. I truly believe that nutrition is just as important as exercise. Since then, 
+                        My passion for fitness began in my teenage years. I was initially unhealthy and unfit. Within my first year, I lost 60 pounds through resistance training and cardio. My nutrition changed significantly too. I went from a diet filled with processed foods and refined sugars to one based on whole, natural, and unprocessed foods. I truly believe that nutrition is just as important as exercise. Since then, 
                         I&#39;ve continued to push myself physically. I enjoy hiking in the mountains, running, and doing martial arts. I also enjoy playing a variety of sports, including basketball and tennis. 
                     </p>
 
