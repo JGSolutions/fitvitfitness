@@ -22,16 +22,16 @@ export default function Workouts({ allPostsData }) {
         <>
             <Head>
                 <title>Gym & Home Workouts | FitVit</title>
-                <meta name="description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey and getting in shape." />
+                <meta name="description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
 
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="FitVit Workouts" />
-                <meta property="og:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey and getting in shape." />
+                <meta property="og:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
                 {/* <meta name="image" property="og:image" content="" itemProp="image"/> */}
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="FitVit Workouts" />
-                <meta name="twitter:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey and getting in shape." />
+                <meta name="twitter:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
                 {/* <meta name="twitter:image" content="" /> */}
                 {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
