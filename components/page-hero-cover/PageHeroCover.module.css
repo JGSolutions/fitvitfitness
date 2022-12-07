@@ -1,0 +1,57 @@
+.container {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contentWrapper {
+	height: 100%;
+}
+
+.titleSection {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+a.backLink {
+	text-decoration: none;
+	color: white;
+	font-size: var(--fs-m);
+}
+
+.h1 {
+	font-family: var(--ff-secondary);
+	font-size: var(--fs-l);
+	font-weight: var( --fw-bold);
+	color: white;
+	background-color: rgba(0,0,0, 0.4);
+	padding: 6px;
+	max-width: fit-content;
+	margin-bottom: 6px;
+}
+
+.subTitle {
+	font-family: var(--ff-secondary);
+	font-size: var(--fs-reg);
+	font-weight: var(--fw-semi-bold);
+	color: white;
+	background-color: rgba(0,0,0, 0.4);
+	padding: 6px;
+	max-width: fit-content;
+}
+
+@media (max-width: 600px) {
+	.titleSection {
+		position: relative;
+		width: fit-content;
+		order: 2;
+	}
+}

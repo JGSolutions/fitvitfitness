@@ -5,7 +5,7 @@ import styles from './Posts.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
-import PageHeader from '../../components/page-header/page-header';
+import PageHeroCover from '../../components/page-hero-cover/page-hero-cover';
 import { domainByEnvironment } from '../../lib/utils';
 
 export async function getStaticProps({ params }) {
@@ -48,9 +48,13 @@ export default function Post({ postData }) {
       </Head>
       
       <Header/>
-      <div className="container-lg">
-        <PageHeader image={postData.coverImage} headerTitle={postData.title} subTitle={postData.description} backHref="/blog"></PageHeader>
-      </div>
+      <PageHeroCover 
+        image={postData.coverImage} 
+        headerTitle={postData.title} 
+        subTitle={postData.description} 
+        backHref="/blog">
+      
+        </PageHeroCover>
 
       <main className={styles.main}>
         <div className={`container-lg`}>
