@@ -1,0 +1,84 @@
+.main {
+    margin-bottom: var(--padding-large);
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    padding-top: var(--padding-xlarge);
+    padding-bottom: var(--padding-xlarge);
+}
+
+.authorDetails {
+    display: flex; 
+    flex-direction: column;
+    color: var(--primary-text);
+}
+
+.authorDate {
+    font-size: var(--fs-caption);
+}
+/*  article  formatting  */
+
+.articleText {
+    margin-bottom: var(--padding-large);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-sm);
+}
+
+.article p {
+    margin-bottom: var(--padding-large);
+}
+
+.article  strong {
+    font-weight: var(--fw-bold);
+}
+
+.article  h2 {
+    margin-top: 30px;
+    font-weight: var(--fw-bold);
+    color: var(--primary);
+    font-size: var(--fs-m);
+}
+
+.article ul {
+    list-style-type: decimal;
+    /* padding: var(--padding-xs); */
+    margin-bottom: var(--padding-large);
+    margin-left: 40px;
+}
+
+/* .article  li {
+    padding: var(--padding-xs) var(--padding-sm);
+} */
+
+.article a {
+    color: var(--primary-text);
+    font-weight: var(--fw-semi-medium);
+}
+
+.article em {
+    font-style: italic;
+    font-size: var(--fs-sm);
+}
+
+.article blockquote {
+    font-style: italic;
+    padding: 0 var(--padding-large);
+}
+
+.article pre {
+    background-color: var(--third-background);
+    border-radius: 6px;
+    padding: var(--padding-large);
+    font-size: var(--fs-sm);
+    font-weight: var(--fs-reg);
+    margin-bottom: var(--padding-medium);
+    width: fit-content;
+}
+
+.articleText {
+    line-height: 32px;
+    text-justify: newspaper;
+}

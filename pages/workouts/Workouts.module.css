@@ -1,0 +1,21 @@
+.main {
+    margin-bottom: var(--padding-xlarge);
+}
+
+.col {
+    margin-bottom: var(--padding-large);
+}
+
+a.item {
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+a.item {
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+a.item:hover {
+    transform: scale(1.55);
+}

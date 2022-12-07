@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: var(--padding-regular) 0;
+    gap: var(--padding-sm);
+}
+
+.author {
+    font-size: var(--fs-sm);
+}
+
+.img {
+    border-radius: 50%;
+}

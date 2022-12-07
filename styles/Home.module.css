@@ -1,131 +1,119 @@
-
-/* .title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-} */
-
-.heroText {
-  font-family: var(--ff-secondary);
-  font-weight: var(--fw-bold);
-  font-size: 48px;
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
-.heroSubTextContainer {
-  margin: 24px 0;
+.section {
+	width: 100%;
+	display: flex;
 }
 
-.subTitle {
-  font-family: var(--ff-secondary);
-  font-size: 24px;
-  font-weight: var(--fw-bold);
+.section .row {
+	flex: 1;
 }
 
-.googleFitContainer {
-  width: 75%; 
-  padding-right: 16px;
+.headerSection {
+	gap: 36px;
+	display: flex;
+	flex-direction: column;
 }
 
-.googleFitHeader {
-  display: flex;
-  margin-bottom: 24px;
-  align-items: center;
+.buttonHeaderWrapper {
+	display: flex; 
+	gap: 10px;
 }
 
-.googleFitHeader h2 {
-  padding-left: 16px;
+.headerText {
+	color: var(--primary-text);
+	font-family: var(--ff-secondary);
+	font-size: clamp(36px, 5vw, var(--fs-xl));
+	font-weight: var(--fw-bold);
 }
 
-.keyFeatures {
-  display: flex;
-  justify-content: space-between;
+.subTitles {
+	color: var(--primary-text);
+	font-family: var(--ff-secondary);
+	font-size: var(--fs-l);
+	font-weight: var(--fw-bold);
 }
 
-.keyFeatures .featuresList {
-  order: 2;
-  width: 50%;
+.text {
+	color: var(--primary-text);
+	font-size: var(--fs-reg);
+	font-weight: var(--fw-regular);
 }
 
-.keyFeatures .screenShots {
-  order: 1;
-  width: 50%;
+.trainerDetails {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: var(--padding-large);
+	width: 60%;
 }
 
-.featuresList .list {
-  line-height: 2.5rem;
-  font-size: 16px;
-  padding-left: 36px;
+.dd {
+	list-style-type: none;
+	font-size: var(--fs-sm);
 }
 
-.blueBGSection {
-  background-color: var(--primary);
-  padding: 24px;
-  color: white;
-  gap: 20px;
+.dd li {
+	height: auto;
+    min-height: 40px;
+    padding-left: 44px;
+    margin-bottom: 10px;
+	background: url('/list-bullet.svg') no-repeat left top;
 }
 
-.blueBGSection .screenShots {
-  flex: 0 0 50%;
-  /* display: flex; */
+.trainerImageRow {
+	display: flex;
+	width: 40%;
 }
 
-.blueBGSection .description {
-  flex: 0 0 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.testimonialSection {
+	background-color: var(--secondary-background);
+	padding: var(--padding-large) 0;
 }
 
-@media (max-width: 800px) {
-  .googleFitContainer {
-    width: 100%; 
-    padding: 0;
-  }
-
-  .googleFitScreenshot {
-    text-align: center;
-  }
-
-  .keyFeatures {
-    flex-direction: column;
-  }
-
-  .keyFeatures .screenShots {
-    text-align: center;
-    order: 2;
-    width: 100%;
-  }
-
-  .keyFeatures .featuresList {
-    order: 1;
-    margin-bottom: 36px;
-    width: 100%;
-  }
-
-  .blueBGSection .screenShots {
-    flex: 0 0 50%;
-    order: 2;
-    justify-content: center;
-    display: flex;
-  }
-  
-  .blueBGSection .description { 
-    flex: 0 0 50%;
-    order: 1;
-  }
+.testimonialSection .text {
+	font-size: var(--fs-sm);
+	margin-top: var(--padding-medium);
+	font-weight: var(--fw-regular);
 }
 
-/* @media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
+.testimonialSection .from {
+	font-size: var(--fs-sm);
+	font-weight: var(--fw-semi-bold);
+	display: flex;
+	margin-top: var(--padding-medium);
+	margin-bottom: var(--padding-large);
+	flex-direction: column;
+}
 
-  .code {
-    background: #111;
-  }
+@media (max-width: 900px) {
+	.main {
+		margin-top: 50px;
+	}
 
-  .logo img {
-    filter: invert(1);
-  }
-} */
+	.section {
+		flex-direction: column;
+	}
+
+	.trainerDetails {
+		width: 100%;
+		order: 1;
+	}
+	
+	.trainerImageRow {
+		width: 100%;
+		justify-content: center;
+		order: 2;
+		margin-top: var(--padding-large);
+	}
+
+	.subTitles {
+		font-size: var(--fs-m);
+	}
+}

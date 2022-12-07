@@ -1,15 +1,33 @@
 :root {
   --primary: #2C58A6;
   --secondary: #5BC7B2;
-  --drop-shadow: 0 2px 6px 0 rgb(32 33 37 / 10%);
+  --main-background: #F5F7F6;
+  --secondary-background: #F1F1F1;
 
-  --ff-primary: "Roboto", sans-serif;
+  --ff-primary: "Poppins", sans-serif;
   --ff-secondary: "Montserrat", sans-serif;
-  --ff-logo: "Dosis", sans-serif;
 
   --fw-regular: 400;
-  --fw-semi-bold: 500;
+  --fw-semi-bold: 600;
   --fw-bold: 700;
+
+  --primary-text: #5B5858;
+
+  --padding-xs: 6px;
+  --padding-sm: 10px;
+  --padding-regular: 12px;
+  --padding-medium: 16px;
+  --padding-large: 24px;
+  --padding-xlarge: 36px;
+
+  --fs-caption: 12px;
+  --fs-sm: 14px;
+  --fs-reg: 16px;
+  --fs-m: 20px;
+  --fs-l: 36px;
+  --fs-xl: 48px;
+
+  --border-radius: 6px;
 }
 
 /* Box sizing rules */
@@ -41,6 +59,7 @@ html,
 body {
   height: 100%;
   font-family: var(--ff-primary);
+  color: var(--primary-text);
 }
 
 body {
@@ -82,6 +101,10 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+body {
+  background: var(--main-background);
 }
 
 /* @media (prefers-color-scheme: dark) {
