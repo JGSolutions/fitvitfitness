@@ -41,14 +41,6 @@ export default function Workouts({ allPostsData }) {
             <main className={styles.main}>
                 <div className="container-lg">
                     <div className="row">
-                        <div className="col">
-                            <div style={{ marginBottom: '48px'}}>
-                                Are you looking for a more personalized routine that is uniquely tailored to your goals and needs so that you can look and feel your best? Reach out today to book your free consultation.
-                                <Contact/> 
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row">
                         {allPostsData.map(({ id, title, description, duration, times, numExercises }) => (
                             <div className={`col col-md-6 col-lg-6 col-xl-4 col-12 ${styles.col}`} key={id}>
                                 <Link href={`/workout/${id}`} className={styles.item}>
@@ -63,6 +55,17 @@ export default function Workouts({ allPostsData }) {
                                 </Link>
                             </div>
                         ))}
+                    </div>
+
+                    <div className="row">
+                        <div className="col">
+                            <div style={{ marginTop: '36px'}}>
+                                Are you looking for a more personalized routine that is uniquely tailored to your goals
+                                and needs so that you can look and feel your best? Reach out today to book your free
+                                consultation. 
+                                <Contact/> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
