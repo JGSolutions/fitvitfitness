@@ -27,7 +27,7 @@ export default function Home() {
 
 				<Header/>
 				<main className={styles.main}>
-					<div className="container-lg" style={{ display: 'flex', flexDirection: 'column', gap: '25px' }}>
+					<div className="container-lg" style={{ display: 'flex', flexDirection: 'column', gap: '100px' }}>
 						<section className={styles.section}>
 							<div className={`${styles.row} ${styles.headerSection}`}>
 								<h1 className={styles.headerText}>
@@ -47,7 +47,7 @@ export default function Home() {
 								</div>
 							</div>
 							<div className={styles.row}>
-								<Image src="/hero-min.png" width={673} height={603} alt="home and gym workouts" priority/>
+								<Image src="/hero-min.png" width={673} height={503} alt="home and gym workouts" priority style={{ objectFit: "contain"}}/>
 							</div>
 						</section>
 
