@@ -47,7 +47,7 @@ export default function Home() {
 								</div>
 							</div>
 							<div className={styles.row}>
-								<Image src="/hero.svg" width={673} height={603} alt="" />
+								<Image src="/hero-min.png" width={673} height={603} alt="home and gym workouts" priority/>
 							</div>
 						</section>
 
