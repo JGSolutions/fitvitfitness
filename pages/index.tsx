@@ -53,7 +53,7 @@ export default function Home() {
 
 						<section className={styles.section}>
 							<div className={styles.trainerImageRow}>
-								<Image src="/chris-trainer.png" width={388} height={427} alt="Christopher Daoud Certified Trainer" />
+								<Image src="/chris-trainer.png" width={388} height={427} alt="Christopher Daoud Certified Trainer" priority/>
 							</div>
 							<div className={styles.trainerDetails}>
 								<h2 className={styles.subTitles}>Christopher Daoud - Certified Trainer</h2>
