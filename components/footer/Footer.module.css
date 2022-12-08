@@ -31,10 +31,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 65%;
+    width: 75%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
     .footer {
         flex-direction: column;
         gap: var(--padding-large);

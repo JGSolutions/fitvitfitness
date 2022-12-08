@@ -8,7 +8,7 @@ export default function BlogItem({id, title, description, image, date, author, a
         <div className={styles.wrapper}>
             <div className={styles.titleSection}>{title}</div>
             <div className={styles.imageSection}>
-                <Image src={image} fill alt={title} quality={45} />
+                <Image src={image} fill alt={title} quality={45} priority  />
             </div>
             <div className={styles.contentSection}>
                 <AuthorAvator avatar={avatar} author={author}/>

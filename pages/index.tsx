@@ -12,15 +12,15 @@ export default function Home() {
 		<>
 			<Head>
 				<title>FitVit - Gym & Home Workouts By A Certified Trainer</title>
-				<meta name="description" content="Get in shape with Christopher Daoud providing home and gym workouts keeping you motivated." />
+				<meta name="description" content="Reach your fitness goals with home and gym workouts." />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Get in shape with Christopher Daoud providing home and gym workouts keeping you motivated." />
+				<meta property="og:title" content="Reach your fitness goals with home and gym workouts." />
 				<meta property="og:description" content="" />
 				<meta name="image" property="og:image" content="" itemProp="image"/>
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:title" content="Gym & Home Workouts By A Certified Trainer" />
-				<meta name="twitter:description" content="Get in shape with Christopher Daoud providing home and gym workouts keeping you motivated." />
+				<meta name="twitter:description" content="Reach your fitness goals with home and gym workouts." />
 				<meta name="twitter:image" content="" />
 				<meta name="twitter:creator" content=""></meta>
 			</Head>
