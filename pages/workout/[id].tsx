@@ -32,6 +32,7 @@ export default function Workout({ postData }) {
     <div>
       <Head>
         <title>{postData.title}</title>
+        <meta name="description" content={postData.description} />
 
         <meta property="og:url" content={`${url}${postData.path}`} />
         <meta property="og:type" content="article" />
