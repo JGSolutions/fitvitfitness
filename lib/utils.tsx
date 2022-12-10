@@ -1,4 +1,4 @@
-export function sorting(data: unknown[]): unknown[] {
+export function sortByDate(data: unknown[]): unknown[] {
     return data.sort(({ date: a }, { date: b }) => {
         if (a < b) {
             return 1;

@@ -1,13 +1,24 @@
 import Head from 'next/head'
+import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/Utils.module.css'
 import button from '../styles/Button.module.css'
 import Header  from '../components/header/header';
 import Footer from '../components/footer/footer'
-import Link from 'next/link';
-import Image from 'next/image';
+import { getRecentBlogs } from '../lib/posts';
 
-export default function Home() {
+export async function getStaticProps() {
+    const getRecentPosts = getRecentBlogs();
+    return {
+        props: {
+            getRecentPosts,
+        },
+    };
+}
+
+export default function Home({ getRecentPosts }) {
+	// console.log(getRecentPosts);
 	return (
 		<>
 			<Head>
