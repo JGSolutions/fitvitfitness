@@ -15,7 +15,7 @@ export default function Contact() {
 				<div className={styles.icon}>
 					<Image src="/cell.svg" width={13} height={24} alt="cell phone" priority/>
 				</div>
-				<p>514 29 3586 (call or text)</p>
+				<p>514-239-3586 (call or text)</p>
 			</div>
 		</div>
 	);
