@@ -92,6 +92,11 @@
 	flex-direction: column;
 }
 
+.col {
+    margin-top: var(--padding-large);
+    margin-bottom: var(--padding-large);
+}
+
 @media (max-width: 800px) {
 	.main {
 		margin-top: 50px;

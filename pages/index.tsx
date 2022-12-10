@@ -6,10 +6,11 @@ import utilStyles from '../styles/Utils.module.css'
 import button from '../styles/Button.module.css'
 import Header  from '../components/header/header';
 import Footer from '../components/footer/footer'
+import BlogItem from '../components/blog-item/blog-item'
 import { getRecentBlogs } from '../lib/posts';
 
 export async function getStaticProps() {
-    const getRecentPosts = getRecentBlogs();
+    const getRecentPosts = await getRecentBlogs();
     return {
         props: {
             getRecentPosts,
@@ -18,7 +19,6 @@ export async function getStaticProps() {
 }
 
 export default function Home({ getRecentPosts }) {
-	// console.log(getRecentPosts);
 	return (
 		<>
 			<Head>
@@ -62,6 +62,32 @@ export default function Home({ getRecentPosts }) {
 							</div>
 						</section>
 
+						<section className={styles.section}>
+							<div className="container-lg" style={{gap: 0}}>
+								<div className="row">
+									<div className="col">
+										<h2 className={styles.subTitles}>Our Recent Blogs</h2>
+									</div>
+								</div>
+
+								<div className="row">
+									{getRecentPosts.map(({ id, date, title, description, coverImage, author, avatar }) => (
+										<div className={`col col-md-6 col-lg-6 col-xl-4 col-12 ${styles.col}`} key={id}>
+											<Link href={`/posts/${id}`} className={utilStyles.blogItem}>
+												<BlogItem 
+													id={id}
+													image={coverImage}
+													title={title} 
+													author={author}
+													avatar={avatar}
+													description={description}
+													date={date} />
+											</Link>
+										</div>
+									))}
+								</div>
+							</div>
+						</section>
 						<section className={styles.section}>
 							<div className={styles.trainerImageRow}>
 								<Image src="/chris-trainer.png" width={388} height={427} alt="Christopher Daoud Certified Trainer" priority/>

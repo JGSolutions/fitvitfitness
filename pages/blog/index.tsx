@@ -1,4 +1,5 @@
 import styles from './blog.module.css';
+import utilStyles from "../../styles/Utils.module.css";
 import Head from 'next/head'
 import Link from 'next/link'
 import Header  from '../../components/header/header';
@@ -42,7 +43,7 @@ export default function Blog({ allPostsData }) {
                     <div className="row">
                         {allPostsData.map(({ id, date, title, description, coverImage, author, avatar }) => (
                             <div className={`col col-md-6 col-lg-4 col-xl-4 col-12 ${styles.col}`} key={id}>
-                                <Link href={`/posts/${id}`} className={styles.blogItem}>
+                                <Link href={`/posts/${id}`} className={utilStyles.blogItem}>
                                     <BlogItem 
                                         id={id}
                                         image={coverImage}
