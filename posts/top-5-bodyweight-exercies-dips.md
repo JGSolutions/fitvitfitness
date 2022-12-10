@@ -1,7 +1,7 @@
 ---
 title: 'My Top 5 Bodyweight Exercises - Dips'
 description: 'Dips are a great way to challenge your push muscles.'
-coverImage: '/blog/inverted-row.png'
+coverImage: '/blog/dip-blog-min.png'
 date: '2022-12-12T12:30:07.322Z'
 updateDate: '2022-12-12T12:30:07.322Z'
 author: Christopher Daoud
