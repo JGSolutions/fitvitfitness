@@ -6,14 +6,14 @@ export default function Contact() {
 		<div className={styles.contactInfo}>
 			<div className={styles.contactDetails}>
 				<div className={styles.icon}>
-					<Image src="/email.svg" width={24} height={24} alt="email" />
+					<Image src="/email.svg" width={24} height={24} alt="email" priority />
 				</div>
 				<p>christophercharbeldaoud@gmail.com</p>
 			</div>
 
 			<div className={styles.contactDetails}>
 				<div className={styles.icon}>
-					<Image src="/cell.svg" width={13} height={24} alt="cell phone" />
+					<Image src="/cell.svg" width={13} height={24} alt="cell phone" priority/>
 				</div>
 				<p>514 29 3586 (call or text)</p>
 			</div>
