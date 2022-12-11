@@ -7,6 +7,7 @@ import WorkoutItem  from '../../components/workout-item/workout-item';
 import PageHeaderSolid  from '../../components/page-header-solid/page-header-solid';
 import { getWorkoutData } from '../../lib/workouts';
 import Contact from '../../components/contact/contact';
+import { domainByEnvironment } from '../../lib/utils';
 
 export async function getStaticProps() {
     const allPostsData = getWorkoutData();
@@ -18,6 +19,7 @@ export async function getStaticProps() {
 }
 
 export default function Workouts({ allPostsData }) {
+    const url = domainByEnvironment();
     return (
         <>
             <Head>
@@ -25,14 +27,14 @@ export default function Workouts({ allPostsData }) {
                 <meta name="description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="FitVit Workouts" />
+                <meta property="og:title" content="Gym & Home Workouts" />
                 <meta property="og:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
-                {/* <meta name="image" property="og:image" content="" itemProp="image"/> */}
+                <meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="FitVit Workouts" />
+                <meta name="twitter:title" content="Gym & Home Workouts" />
                 <meta name="twitter:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
-                {/* <meta name="twitter:image" content="" /> */}
+                <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
                 {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
 

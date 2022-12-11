@@ -4,24 +4,26 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import PageHeaderSolid from '../../components/page-header-solid/page-header-solid';
 import Contact from '../../components/contact/contact';
+import { domainByEnvironment } from '../../lib/utils';
 
 export default function PersonalTraining() {
+    const url = domainByEnvironment();
     return (
         <>
             <Head>
-                <title>FitVit - Personal Training Sessions</title>
+                <title>FitVit - Personal Training Sessions with Christopher Daoud</title>
                 <meta name="description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
 
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Personal Training Sessions" />
                 <meta property="og:description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
-                <meta name="image" property="og:image" content="" itemProp="image"/>
+                <meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Personal Training Sessions" />
                 <meta name="twitter:description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
-                <meta name="twitter:image" content="" />
-                <meta name="twitter:creator" content=""></meta>
+                <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
+                {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
 
             <Header></Header>

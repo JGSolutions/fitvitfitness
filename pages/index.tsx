@@ -8,6 +8,7 @@ import Header  from '../components/header/header';
 import Footer from '../components/footer/footer'
 import BlogItem from '../components/blog-item/blog-item'
 import { getRecentBlogs } from '../lib/posts';
+import { domainByEnvironment } from '../lib/utils';
 
 export async function getStaticProps() {
     const getRecentPosts = await getRecentBlogs();
@@ -19,6 +20,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ getRecentPosts }) {
+	const url = domainByEnvironment();
 	return (
 		<>
 			<Head>
@@ -27,13 +29,13 @@ export default function Home({ getRecentPosts }) {
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Reach your fitness goals with home and gym workouts." />
 				<meta property="og:description" content="" />
-				<meta name="image" property="og:image" content="" itemProp="image"/>
+				<meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:title" content="Gym & Home Workouts By A Certified Trainer" />
 				<meta name="twitter:description" content="Reach your fitness goals with home and gym workouts." />
-				<meta name="twitter:image" content="" />
-				<meta name="twitter:creator" content=""></meta>
+				<meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
+				{/* <meta name="twitter:creator" content=""></meta> */}
 			</Head>
 
 				<Header/>
