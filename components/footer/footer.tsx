@@ -4,18 +4,19 @@ import styles from './Footer.module.css';
 import utilStyles from "../../styles/Utils.module.css";
 
 export default function Footer() {
+	const currentYear = new Date().getFullYear();
 	return (
 		<div className="container-lg">
 			<footer className={styles.footer}>
 				<div className={styles.logo}>
 					<Image
 					src="/logo.svg"
-					height={38}
-					width={32}
+					height={34}
+					width={28}
 					alt="fitVitfitness"
 					/>
 
-					<div className={styles.copyRight}>© 2023 FitVitFitness</div>
+					<div className={styles.copyRight}>© {currentYear} FitVitFitness</div>
 				</div>
 
 				<div className={styles.nav}>
