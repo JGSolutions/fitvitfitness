@@ -63,32 +63,6 @@ export default function Home({ getRecentPosts }) {
 						</section>
 
 						<section className={styles.section}>
-							<div className="container-lg" style={{gap: 0}}>
-								<div className="row">
-									<div className="col">
-										<h2 className={styles.subTitles}>Our Recent Blogs</h2>
-									</div>
-								</div>
-
-								<div className="row">
-									{getRecentPosts.map(({ id, date, title, description, coverImage, author, avatar }) => (
-										<div className={`col col-md-6 col-lg-6 col-xl-4 col-12 ${styles.col}`} key={id}>
-											<Link href={`/posts/${id}`} className={utilStyles.blogItem}>
-												<BlogItem 
-													id={id}
-													image={coverImage}
-													title={title} 
-													author={author}
-													avatar={avatar}
-													description={description}
-													date={date} />
-											</Link>
-										</div>
-									))}
-								</div>
-							</div>
-						</section>
-						<section className={styles.section}>
 							<div className={styles.trainerImageRow}>
 								<Image src="/chris-trainer.png" width={388} height={427} alt="Christopher Daoud Certified Trainer" priority/>
 							</div>
@@ -154,6 +128,33 @@ export default function Home({ getRecentPosts }) {
 										<p>In-person client from Kingsville, Ontario  </p>
 									</div>
 								</div>
+							</div>
+						</div>
+					</section>
+
+					<section className={styles.section}>
+						<div className="container-lg" style={{gap: 0}}>
+							<div className="row">
+								<div className="col">
+									<h2 className={styles.subTitles}>Our Recent Blogs</h2>
+								</div>
+							</div>
+
+							<div className="row">
+								{getRecentPosts.map(({ id, date, title, description, coverImage, author, avatar }) => (
+									<div className={`col col-md-6 col-lg-6 col-xl-4 col-12 ${styles.col}`} key={id}>
+										<Link href={`/posts/${id}`} className={utilStyles.blogItem}>
+											<BlogItem 
+												id={id}
+												image={coverImage}
+												title={title} 
+												author={author}
+												avatar={avatar}
+												description={description}
+												date={date} />
+										</Link>
+									</div>
+								))}
 							</div>
 						</div>
 					</section>
