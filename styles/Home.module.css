@@ -70,6 +70,7 @@
 .trainerImageRow {
 	display: flex;
 	width: 40%;
+	position: relative;
 }
 
 .testimonialSection {

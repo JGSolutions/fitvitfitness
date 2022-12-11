@@ -64,7 +64,7 @@ export default function Home({ getRecentPosts }) {
 
 						<section className={styles.section}>
 							<div className={styles.trainerImageRow}>
-								<Image src="/chris-trainer.png" width={388} height={427} alt="Christopher Daoud Certified Trainer" priority/>
+								<Image src="/chris-trainer.png" width={388} height={427} alt="Christopher Daoud Certified Trainer" priority style={{ objectFit: "contain"}}/>
 							</div>
 							<div className={styles.trainerDetails}>
 								<h2 className={styles.subTitles}>Christopher Daoud - Certified Trainer</h2>
