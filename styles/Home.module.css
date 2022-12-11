@@ -34,7 +34,7 @@
 }
 
 .subTitles {
-	color: var(--primary-text);
+	color: var(--primary);
 	font-family: var(--ff-secondary);
 	font-size: var(--fs-l);
 	font-weight: var(--fw-bold);
