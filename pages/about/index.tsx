@@ -1,12 +1,13 @@
-import styles from './about.module.css';
 import utilsStyle from '../../styles/Utils.module.css';
 import Head from 'next/head'
 import Header  from '../../components/header/header';
 import Footer  from '../../components/footer/footer';
 import PageHeader from '../../components/page-header/page-header';
 import Contact from '../../components/contact/contact';
+import { domainByEnvironment } from '../../lib/utils';
 
 export default function About() {
+    const url = domainByEnvironment();
     return (
         <>
             <Head>
@@ -16,13 +17,13 @@ export default function About() {
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="About Christopher Daoud" />
                 <meta property="og:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
-                <meta name="image" property="og:image" content="" itemProp="image"/>
+                <meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="About Christopher Daoud" />
                 <meta name="twitter:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
-                <meta name="twitter:image" content="" />
-                <meta name="twitter:creator" content=""></meta>
+                <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
+                {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
 
             <Header/>

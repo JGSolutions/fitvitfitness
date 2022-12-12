@@ -1,4 +1,5 @@
 import styles from './blog.module.css';
+import utilStyles from "../../styles/Utils.module.css";
 import Head from 'next/head'
 import Link from 'next/link'
 import Header  from '../../components/header/header';
@@ -6,6 +7,7 @@ import Footer  from '../../components/footer/footer';
 import PageHeaderSolid  from '../../components/page-header-solid/page-header-solid';
 import BlogItem from '../../components/blog-item/blog-item';
 import { getSortedPostsData } from '../../lib/posts';
+import { domainByEnvironment } from '../../lib/utils';
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData();
@@ -17,6 +19,7 @@ export async function getStaticProps() {
 }
 
 export default function Blog({ allPostsData }) {
+    const url = domainByEnvironment();
     return (
         <>
             <Head>
@@ -26,12 +29,12 @@ export default function Blog({ allPostsData }) {
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Fitness & Workout Blogs" />
                 <meta property="og:description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
-                <meta name="image" property="og:image" content="" itemProp="image"/>
+                <meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Fitness & Workout Blogs" />
                 <meta name="twitter:description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
-                <meta name="twitter:image" content="" />
+                <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
                 {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
 
@@ -42,7 +45,7 @@ export default function Blog({ allPostsData }) {
                     <div className="row">
                         {allPostsData.map(({ id, date, title, description, coverImage, author, avatar }) => (
                             <div className={`col col-md-6 col-lg-4 col-xl-4 col-12 ${styles.col}`} key={id}>
-                                <Link href={`/posts/${id}`} className={styles.blogItem}>
+                                <Link href={`/posts/${id}`} className={utilStyles.blogItem}>
                                     <BlogItem 
                                         id={id}
                                         image={coverImage}

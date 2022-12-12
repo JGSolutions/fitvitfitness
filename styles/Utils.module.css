@@ -46,3 +46,8 @@
     margin-top: var(--padding-xlarge);
     margin-bottom: var(--padding-large);
 }
+
+a.blogItem {
+    text-decoration: none;
+    margin-bottom: 24px;
+}

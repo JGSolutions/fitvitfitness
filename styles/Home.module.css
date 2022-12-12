@@ -34,7 +34,7 @@
 }
 
 .subTitles {
-	color: var(--primary-text);
+	color: var(--primary);
 	font-family: var(--ff-secondary);
 	font-size: var(--fs-l);
 	font-weight: var(--fw-bold);
@@ -70,6 +70,7 @@
 .trainerImageRow {
 	display: flex;
 	width: 40%;
+	position: relative;
 }
 
 .testimonialSection {
@@ -90,6 +91,11 @@
 	margin-top: var(--padding-medium);
 	margin-bottom: var(--padding-large);
 	flex-direction: column;
+}
+
+.col {
+    margin-top: var(--padding-large);
+    margin-bottom: var(--padding-large);
 }
 
 @media (max-width: 800px) {

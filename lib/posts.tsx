@@ -3,22 +3,17 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
-import { sorting } from './utils';
+import { sortByDate } from './utils';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
 export function getSortedPostsData() {
-  // Get file names under /posts
     const fileNames = fs.readdirSync(postsDirectory);
     const allPostsData = fileNames.map((fileName) => {
-        // Remove ".md" from file name to get id
         const id = fileName.replace(/\.md$/, '');
-
-        // Read markdown file as string
         const fullPath = path.join(postsDirectory, fileName);
         const fileContents = fs.readFileSync(fullPath, 'utf8');
 
-        // Use gray-matter to parse the post metadata section
         const matterResult = matter(fileContents);
 
         // Combine the data with the id
@@ -29,7 +24,13 @@ export function getSortedPostsData() {
     });
 
     // Sort posts by date
-    return sorting(allPostsData);
+    return sortByDate(allPostsData);
+}
+
+export const getRecentBlogs = () => {
+    const data = getSortedPostsData();
+
+    return data.slice(0, 3);
 }
 
 export function getAllPostIds() {

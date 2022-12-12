@@ -1,13 +1,26 @@
 import Head from 'next/head'
+import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css'
 import utilStyles from '../styles/Utils.module.css'
 import button from '../styles/Button.module.css'
 import Header  from '../components/header/header';
 import Footer from '../components/footer/footer'
-import Link from 'next/link';
-import Image from 'next/image';
+import BlogItem from '../components/blog-item/blog-item'
+import { getRecentBlogs } from '../lib/posts';
+import { domainByEnvironment } from '../lib/utils';
 
-export default function Home() {
+export async function getStaticProps() {
+    const getRecentPosts = await getRecentBlogs();
+    return {
+        props: {
+            getRecentPosts,
+        },
+    };
+}
+
+export default function Home({ getRecentPosts }) {
+	const url = domainByEnvironment();
 	return (
 		<>
 			<Head>
@@ -16,13 +29,13 @@ export default function Home() {
 				<meta property="og:type" content="website" />
 				<meta property="og:title" content="Reach your fitness goals with home and gym workouts." />
 				<meta property="og:description" content="" />
-				<meta name="image" property="og:image" content="" itemProp="image"/>
+				<meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:title" content="Gym & Home Workouts By A Certified Trainer" />
 				<meta name="twitter:description" content="Reach your fitness goals with home and gym workouts." />
-				<meta name="twitter:image" content="" />
-				<meta name="twitter:creator" content=""></meta>
+				<meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
+				{/* <meta name="twitter:creator" content=""></meta> */}
 			</Head>
 
 				<Header/>
@@ -53,7 +66,7 @@ export default function Home() {
 
 						<section className={styles.section}>
 							<div className={styles.trainerImageRow}>
-								<Image src="/chris-trainer.png" width={388} height={427} alt="Christopher Daoud Certified Trainer" priority/>
+								<Image src="/chris-trainer.png" width={388} height={427} alt="Christopher Daoud Certified Trainer" priority style={{ objectFit: "contain"}}/>
 							</div>
 							<div className={styles.trainerDetails}>
 								<h2 className={styles.subTitles}>Christopher Daoud - Certified Trainer</h2>
@@ -117,6 +130,33 @@ export default function Home() {
 										<p>In-person client from Kingsville, Ontario  </p>
 									</div>
 								</div>
+							</div>
+						</div>
+					</section>
+
+					<section className={styles.section}>
+						<div className="container-lg" style={{gap: 0}}>
+							<div className="row">
+								<div className="col">
+									<h2 className={styles.subTitles}>Our Recent Blogs</h2>
+								</div>
+							</div>
+
+							<div className="row">
+								{getRecentPosts.map(({ id, date, title, description, coverImage, author, avatar }) => (
+									<div className={`col col-md-6 col-lg-6 col-xl-4 col-12 ${styles.col}`} key={id}>
+										<Link href={`/posts/${id}`} className={utilStyles.blogItem}>
+											<BlogItem 
+												id={id}
+												image={coverImage}
+												title={title} 
+												author={author}
+												avatar={avatar}
+												description={description}
+												date={date} />
+										</Link>
+									</div>
+								))}
 							</div>
 						</div>
 					</section>
