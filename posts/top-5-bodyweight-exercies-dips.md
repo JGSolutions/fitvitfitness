@@ -19,7 +19,7 @@ Dips are one of the best exercises for increasing the size and strength of your 
 - Explode back up and straighten your arms. Don't lock your elbows.
 - Repeat.
 
-Too hard? Try an assisted dip. An assisted dip machine will allow you to select how much upward assistance is required when performing the exercise. By selecting 20 pounds, for example, you will make the upward phase 20 pounds easier.
+Too hard? Try an assisted dip. An assisted dip machine will allow you to select how much upward assistance is required when performing the exercise. By selecting 20 pounds, for example, you will make the upward phase 20 pounds easier. 
 
 Too easy? Weighted dips allow you to increase the resistance during the upward phase. Try using a weighted vest or simply holding a dumbbell between your feet during the movement. Using gym rings instead of a dip station will also make the exercise more challenging. I especially love ring dips for two main reasons. Rings allow your wrists to move freely, which reduces stress on your elbows and shoulders. Secondly, the instability of rings also requires greater activation of your lats and shoulders.
 
@@ -33,5 +33,3 @@ Complete this circuit three times
 Complete this circuit three times 
 - Overhead Tricep Extension (3 sets x 10 reps) 
 - Tricep Dips (As many as you can do) 
-
-
