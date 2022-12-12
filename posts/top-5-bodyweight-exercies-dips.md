@@ -23,13 +23,13 @@ Too hard? Try an assisted dip. An assisted dip machine will allow you to select 
 
 Too easy? Weighted dips allow you to increase the resistance during the upward phase. Try using a weighted vest or simply holding a dumbbell between your feet during the movement. Using gym rings instead of a dip station will also make the exercise more challenging. I especially love ring dips for two main reasons. Rings allow your wrists to move freely, which reduces stress on your elbows and shoulders. Secondly, the instability of rings also requires greater activation of your lats and shoulders.
 
-Try this sample dip routine yourself! 
+Try this sample dip routine yourself!
 
-Complete this circuit three times 
+**Complete this circuit three times**  
 - Bench Press (3 sets x 10 reps) 
 - Chest Dips (As many as you can do) 
-- Pushups (As many as you can do)
+- Pushups (As many as you can do)  
 
-Complete this circuit three times 
+**Complete this circuit three times**  
 - Overhead Tricep Extension (3 sets x 10 reps) 
 - Tricep Dips (As many as you can do) 
