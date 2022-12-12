@@ -59,7 +59,7 @@ export default function Post({ postData }) {
         </PageHeroCover>
 
       <main className={styles.main}>
-        <div className={`container-lg`}>
+        <div className={`container-md ${styles.containerMd}`}>
           <div className="row">
             <div className={`col ${styles.details}`}>
               <div className={styles.authorDetails}>

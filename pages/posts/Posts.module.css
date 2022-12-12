@@ -2,6 +2,11 @@
     margin-bottom: var(--padding-large);
 }
 
+.containerMd {
+    max-width: 900px;
+    text-align: justify;
+}
+
 .details {
     display: flex;
     justify-content: space-between;
