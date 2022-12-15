@@ -1,9 +1,9 @@
 ---
 title: 'Beet Spinach Banana Smoothie'
 description: 'Try this nutritious and fruit and veggie smoothie giving you a blast of nutrients'
-coverImage: '/blog/blueberry-shake.jpg'
-date: '2022-12-10T12:30:07.322Z'
-updateDate: '2022-10-10T12:30:07.322Z'
+coverImage: '/blog/blog-beet-smoothie.png'
+date: '2022-12-16T12:30:07.322Z'
+updateDate: '2022-12-16T12:30:07.322Z'
 author: Jerry Gagliano
 avatar: '/avatar/jerry-avatar.png'
 path: '/posts/spinach-beet-smoothie'
