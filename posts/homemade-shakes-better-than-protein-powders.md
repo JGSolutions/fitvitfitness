@@ -3,7 +3,7 @@ title: 'Homemade Shakes Are Better Than Protein Powders'
 description: 'Try this nutritious and delicious Blueberry Banana Protein Shake Recipe '
 coverImage: '/blog/blueberry-shake.jpg'
 date: '2022-12-10T12:30:07.322Z'
-updateDate: '2022-10-10T12:30:07.322Z'
+updateDate: '2022-12-10T12:30:07.322Z'
 author: Jerry Gagliano
 avatar: '/avatar/jerry-avatar.png'
 path: '/posts/homemade-shakes-better-than-protein-powders'
