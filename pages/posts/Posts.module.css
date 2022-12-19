@@ -50,7 +50,8 @@
 .article ul {
     list-style-type: decimal;
     margin-bottom: var(--padding-large);
-    margin-left: 40px;
+    margin-left: 36px;
+    margin-right: 36px;
 }
 
 .article a {
@@ -60,6 +61,7 @@
 
 .article img {
     max-width: 400px;
+    width: 100%;
     height: auto;
     margin-bottom: 16px;
 }
