@@ -49,18 +49,19 @@
 
 .article ul {
     list-style-type: decimal;
-    /* padding: var(--padding-xs); */
     margin-bottom: var(--padding-large);
     margin-left: 40px;
 }
 
-/* .article  li {
-    padding: var(--padding-xs) var(--padding-sm);
-} */
-
 .article a {
     color: var(--primary-text);
     font-weight: var(--fw-semi-medium);
+}
+
+.article img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 16px;
 }
 
 .article em {
