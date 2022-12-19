@@ -1,7 +1,7 @@
 ---
 title: 'Full-Body Seated Workout for Seniors'
 description: ' Low-impact chair exercises are an excellent way for seniors to increase strength and flexibility while keeping pressure off their joints'
-coverImage: '/blog/'
+coverImage: '/blog/senior-fullbody.png'
 date: '2022-12-19T12:30:07.322Z'
 updateDate: '2022-12-19T12:30:07.322Z'
 author: Christopher Daoud
