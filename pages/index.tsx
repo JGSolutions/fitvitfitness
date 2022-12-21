@@ -26,9 +26,10 @@ export default function Home({ getRecentPosts }) {
 			<Head>
 				<title>FitVit - Gym & Home Workouts By A Certified Trainer</title>
 				<meta name="description" content="Reach your fitness goals with home and gym workouts." />
+				
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Reach your fitness goals with home and gym workouts." />
-				<meta property="og:description" content="" />
+				<meta property="og:title" content=" Gym & Home Workouts By A Certified Trainer" />
+				<meta property="og:description" content="Reach your fitness goals with home and gym workouts." />
 				<meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
 				<meta name="twitter:card" content="summary_large_image" />
@@ -36,6 +37,8 @@ export default function Home({ getRecentPosts }) {
 				<meta name="twitter:description" content="Reach your fitness goals with home and gym workouts." />
 				<meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
 				{/* <meta name="twitter:creator" content=""></meta> */}
+
+				<link rel="canonical" href="https://fitvitfitness.com" />
 			</Head>
 
 				<Header/>
