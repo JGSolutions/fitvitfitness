@@ -29,7 +29,7 @@
 .articleText {
     margin-bottom: var(--padding-large);
     font-weight: var(--fw-regular);
-    font-size: var(--fs-sm);
+    font-size: var(--fs-reg);
 }
 
 .article p {
