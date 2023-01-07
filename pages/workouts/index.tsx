@@ -25,6 +25,7 @@ export default function Workouts({ allPostsData }) {
             <Head>
                 <title>Gym & Home Workouts | FitVit</title>
                 <meta name="description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
+                <link rel="canonical" href="https://fitvitfitness.com/workouts/" />
 
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Gym & Home Workouts" />

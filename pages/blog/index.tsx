@@ -25,6 +25,7 @@ export default function Blog({ allPostsData }) {
             <Head>
                 <title>Fitness & Workout Blogs | FitVit</title>
                 <meta name="description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
+                <link rel="canonical" href="https://fitvitfitness.com/blog/" />
 
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Fitness & Workout Blogs" />

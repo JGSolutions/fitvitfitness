@@ -10,6 +10,8 @@ export default function PrivacyPolicy() {
         <div>
             <Head>
                 <title>FitVitFitness - Privacy Policy</title>
+                <meta name="description" content="FitVitFitness' Privacy Policy" />
+                <link rel="canonical" href="https://fitvitfitness.com/privacy-policy/" />
             </Head>
 
             <Header></Header>

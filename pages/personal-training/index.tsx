@@ -13,7 +13,8 @@ export default function PersonalTraining() {
             <Head>
                 <title>FitVit - Personal Training Sessions with Christopher Daoud</title>
                 <meta name="description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
-
+                <link rel="canonical" href="https://fitvitfitness.com/personal-training/" />
+    
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Personal Training Sessions" />
                 <meta property="og:description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />

@@ -33,7 +33,8 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
         <meta name="description" content={postData.description} />
-    
+        <link rel="canonical" href={`${url}${postData.path}`} />
+        
         <meta property="og:url" content={`${url}${postData.path}`} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={postData.title} />

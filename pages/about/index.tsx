@@ -13,6 +13,7 @@ export default function About() {
             <Head>
                 <title>FitVit - About Christopher Daoud</title>
                 <meta name="description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
+                <link rel="canonical" href="https://fitvitfitness.com/about/" />
 
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="About Christopher Daoud" />
