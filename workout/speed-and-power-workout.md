@@ -3,7 +3,7 @@ title: 'Speed and Power Routine'
 description: 'A three-day strength and speed conditioning routine. This routine is ideal for individuals looking to increase their strength but who do not want to sacrifice their speed or athletic performance.'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/workout/speed-and-power-workout.md'
+path: '/workout/speed-and-power-workout'
 numExercises: '13'
 duration: '25-30'
 times: '8'
