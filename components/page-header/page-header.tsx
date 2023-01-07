@@ -5,7 +5,7 @@ export default function PageHeader({headerTitle, subTitle, image, backHref}) {
 	function displayBackLink() {
 		if (backHref) {
 			return (
-				<Link href={backHref} passHref className={styles.backLink} rel="noopener noreferrer">
+				<Link href={backHref} passHref className={styles.backLink} rel="dofollow">
 					&larr; Go Back
 				</Link>
 			)

@@ -25,16 +25,16 @@ export default function Header() {
 				<nav className={styles.menuNavigation}>
 					<ul className={utilStyles.menuOptions}>
 						<li>
-							<Link href="/about">About me</Link>
+							<Link href="/about" rel="dofollow">About me</Link>
 						</li>
 						<li>
-							<Link href="/personal-training">Personal training</Link>
+							<Link href="/personal-training" rel="dofollow">Personal training</Link>
 						</li>
 						<li>
-							<Link href="/workouts">Workouts</Link>
+							<Link href="/workouts" rel="dofollow">Workouts</Link>
 						</li>
 						<li>
-							<Link href="/blog">Blog</Link>
+							<Link href="/blog" rel="dofollow">Blog</Link>
 						</li>
 					</ul>
 				</nav>

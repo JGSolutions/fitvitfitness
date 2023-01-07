@@ -4,14 +4,28 @@ import privacy from './privacy-policy.module.css';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import PageHeaderSolid from '../../components/page-header-solid/page-header-solid';
+import { domainByEnvironment } from '../../lib/utils';
 
 export default function PrivacyPolicy() {
+    const url = domainByEnvironment();
     return (
         <div>
             <Head>
                 <title>FitVitFitness - Privacy Policy</title>
                 <meta name="description" content="FitVitFitness' Privacy Policy" />
                 <link rel="canonical" href="https://fitvitfitness.com/privacy-policy/" />
+
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://fitvitfitness.com/privacy-policy/" />
+                <meta property="og:title" content="FitVitFitness Privacy Policy" />
+                <meta property="og:description" content="FitVitFitness' privacy policy must read." />
+                <meta itemProp="image" name="image" property="og:image" content={`${url}/open-graph-fitvit.png`}/>
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://fitvitfitness.com/privacy-policy/" />
+                <meta name="twitter:title" content="FitVitFitness Privacy Policy" />
+                <meta name="twitter:description" content="FitVitFitness' privacy policy must read." />
+                <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
             </Head>
 
             <Header></Header>

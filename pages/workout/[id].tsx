@@ -57,7 +57,7 @@ export default function Workout({ postData }) {
             <div className="col">
               
               <div className={styles.headerHero}>
-                <Link href="/workouts" passHref className={styles.backLink} rel="noopener noreferrer">
+                <Link href="/workouts" passHref className={styles.backLink} rel="dofollow">
                   &larr; Go Back
                 </Link>
                 <h1 className={styles.h1}>{postData.title}</h1>
