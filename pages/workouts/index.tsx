@@ -28,11 +28,13 @@ export default function Workouts({ allPostsData }) {
                 <link rel="canonical" href="https://fitvitfitness.com/workouts/" />
 
                 <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://fitvitfitness.com/workouts/" />
                 <meta property="og:title" content="Gym & Home Workouts" />
                 <meta property="og:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
                 <meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://fitvitfitness.com/workouts/" />
                 <meta name="twitter:title" content="Gym & Home Workouts" />
                 <meta name="twitter:description" content="Free Fitness and workout programs from FitVit! Helping you begin your fitness journey." />
                 <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />

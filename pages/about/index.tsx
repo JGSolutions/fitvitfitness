@@ -16,11 +16,13 @@ export default function About() {
                 <link rel="canonical" href="https://fitvitfitness.com/about/" />
 
                 <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://fitvitfitness.com/about/" />
                 <meta property="og:title" content="About Christopher Daoud" />
                 <meta property="og:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
-                <meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
+                <meta property="og:image" name="image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://fitvitfitness.com/about/" />
                 <meta name="twitter:title" content="About Christopher Daoud" />
                 <meta name="twitter:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
                 <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />

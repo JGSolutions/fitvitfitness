@@ -28,11 +28,13 @@ export default function Blog({ allPostsData }) {
                 <link rel="canonical" href="https://fitvitfitness.com/blog/" />
 
                 <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://fitvitfitness.com/blog/" />
                 <meta property="og:title" content="Fitness & Workout Blogs" />
                 <meta property="og:description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
-                <meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
+                <meta property="og:image" name="image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content="https://fitvitfitness.com/blog/" />
                 <meta name="twitter:title" content="Fitness & Workout Blogs" />
                 <meta name="twitter:description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
                 <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
