@@ -39,9 +39,6 @@ export default function Home({ getRecentPosts }) {
 				<meta name="twitter:title" content="Gym & Home Workouts By A Certified Trainer" />
 				<meta name="twitter:description" content="Reach your fitness goals with home and gym workouts." />
 				<meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
-				{/* <meta name="twitter:creator" content=""></meta> */}
-
-				
 			</Head>
 
 				<Header/>
@@ -165,6 +162,15 @@ export default function Home({ getRecentPosts }) {
 								))}
 							</div>
 						</div>
+					</section>
+
+					<section>
+						<h2>sdsds</h2>
+						<p>ddjdjdjdjjd</p>
+						<form>
+							<input type="text" />
+							<button>Sign Me Up</button>
+						</form>
 					</section>
 				</main>
 
