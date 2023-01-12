@@ -6,6 +6,7 @@ import utilStyles from '../styles/Utils.module.css'
 import button from '../styles/Button.module.css'
 import Header  from '../components/header/header';
 import Footer from '../components/footer/footer'
+import NewsletterForm from '../components/newsletter-form/newsletter-form'
 import BlogItem from '../components/blog-item/blog-item'
 import { getRecentBlogs } from '../lib/posts';
 import { domainByEnvironment } from '../lib/utils';
@@ -15,11 +16,14 @@ export async function getStaticProps() {
     return {
         props: {
             getRecentPosts,
+			AUDIENCE_ID: process.env.MAILCHIMP_AUDIENCE_ID,
+			API_KEY: process.env.MAILCHIMP_API_KEY,
+			DATACENTER: process.env.MAILCHIMP_API_SERVER
         },
     };
 }
 
-export default function Home({ getRecentPosts }) {
+export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER }) {
 	const url = domainByEnvironment();
 	return (
 		<>
@@ -165,12 +169,7 @@ export default function Home({ getRecentPosts }) {
 					</section>
 
 					<section>
-						<h2>sdsds</h2>
-						<p>ddjdjdjdjjd</p>
-						<form>
-							<input type="text" />
-							<button>Sign Me Up</button>
-						</form>
+						<NewsletterForm datacenter={DATACENTER} audienceid={AUDIENCE_ID} apikey={API_KEY}/>
 					</section>
 				</main>
 
