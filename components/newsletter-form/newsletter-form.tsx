@@ -25,8 +25,7 @@ export default function NewsletterForm() {
 		inputRef.current.value = "";
 	};
 	return (
-		<form onSubmit={subscribeUser}>
-	
+		<form onSubmit={subscribeUser} className={styles.form}>
 			<input
 				type="email"
 				className={styles.inputField}

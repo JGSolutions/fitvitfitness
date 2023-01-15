@@ -168,12 +168,12 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 					<section className={`${styles.newsletterSection}`}>
 						<div className="container-lg">
 							<div className="row">
-								<div className="col">
+								<div className="col col-md-12 col-lg-6 col-12">
 									<h2 className={styles.subTitles}>FitVit’s Newsletter</h2>
 									<p>Get the latest news & workouts sent right to your inbox! </p>
 								</div>
 
-								<div className="col">
+								<div className="col col-md-12 col-lg-6 col-12">
 									<NewsletterForm />
 								</div>
 							</div>
