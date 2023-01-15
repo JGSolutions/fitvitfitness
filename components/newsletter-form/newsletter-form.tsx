@@ -1,14 +1,15 @@
 import styles from "./Newsletter.module.css";
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 export default function NewsletterForm() {
 	const inputRef = useRef(null);
-
+	const [loading, setLoading] = useState(false);
+	
 	const subscribeUser = async (e) => {
 		e.preventDefault();
+		setLoading(true);
 
 		await fetch('https://fitvit-api.web.app/subscribe-newsletter', {
-		// await fetch('http://localhost:5000/subscribe-newsletter', {
 		body: JSON.stringify({
 			email: inputRef.current.value,
 		}),
@@ -20,22 +21,25 @@ export default function NewsletterForm() {
 		method: 'POST',
 		});
 
+		setLoading(false);
+		inputRef.current.value = "";
 	};
 	return (
 		<form onSubmit={subscribeUser}>
 	
 			<input
-			type="email"
-			id="email-input"
-			name="email"
-			placeholder="your best email"
-			ref={inputRef}
-			required
-			autoCapitalize="off"
-			autoCorrect="off"
+				type="email"
+				className={styles.inputField}
+				id="email-input"
+				name="email"
+				placeholder="email address"
+				ref={inputRef}
+				required
+				autoCapitalize="off"
+				autoCorrect="off"
 			/>
 
-			<button type="submit" value="" name="subscribe">
+			<button type="submit" disabled={loading} className={styles.button}>
 				Subscribe
 			</button>
 		</form>
