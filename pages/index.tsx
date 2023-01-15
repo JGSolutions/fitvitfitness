@@ -15,10 +15,7 @@ export async function getStaticProps() {
     const getRecentPosts = await getRecentBlogs();
     return {
         props: {
-            getRecentPosts,
-			AUDIENCE_ID: process.env.MAILCHIMP_AUDIENCE_ID,
-			API_KEY: process.env.MAILCHIMP_API_KEY,
-			DATACENTER: process.env.MAILCHIMP_API_SERVER
+            getRecentPosts
         },
     };
 }
@@ -169,7 +166,7 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 					</section>
 
 					<section>
-						<NewsletterForm datacenter={DATACENTER} audienceid={AUDIENCE_ID} apikey={API_KEY}/>
+						<NewsletterForm />
 					</section>
 				</main>
 
