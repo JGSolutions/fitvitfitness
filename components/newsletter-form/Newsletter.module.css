@@ -27,32 +27,3 @@
   display: flex;
   justify-content: flex-end;
 }
-
-.menuPanelLinks {
-  list-style: none;
-}
-
-.menuPanelLinks li {
-  padding:  var(--padding-medium) 0;
-}
-
-.menuPanelLinks a {
-  color: white;
-  font-size: var(--fs-m);
-  text-decoration: none;
-}
-
-@media (max-width: 700px) {
-  .header {
-    justify-content: space-between;
-    padding: 0 var(--padding-xs);
-  }
-
-  .menuNavigation {
-    display: none;
-  }
-
-  .menuButton {
-    display: block;
-  }
-}
