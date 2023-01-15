@@ -165,8 +165,19 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 						</div>
 					</section>
 
-					<section>
-						<NewsletterForm />
+					<section className={`${styles.newsletterSection}`}>
+						<div className="container-lg">
+							<div className="row">
+								<div className="col">
+									<h2 className={styles.subTitles}>FitVit’s Newsletter</h2>
+									<p>Get the latest news & workouts sent right to your inbox! </p>
+								</div>
+
+								<div className="col">
+									<NewsletterForm />
+								</div>
+							</div>
+						</div>
 					</section>
 				</main>
 
