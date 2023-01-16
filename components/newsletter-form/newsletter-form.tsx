@@ -4,6 +4,7 @@ import { useRef, useState } from 'react';
 export default function NewsletterForm() {
 	const inputRef = useRef(null);
 	const [loading, setLoading] = useState(false);
+	const [isCompleted, setCompleted] = useState(false);
 	
 	const subscribeUser = async (e) => {
 		e.preventDefault();
@@ -22,25 +23,38 @@ export default function NewsletterForm() {
 		});
 
 		setLoading(false);
+		setCompleted(true);
+
 		inputRef.current.value = "";
 	};
 	return (
-		<form onSubmit={subscribeUser} className={styles.form}>
-			<input
-				type="email"
-				className={styles.inputField}
-				id="email-input"
-				name="email"
-				placeholder="email address"
-				ref={inputRef}
-				required
-				autoCapitalize="off"
-				autoCorrect="off"
-			/>
+		<>
+			{!isCompleted && (
+				<form onSubmit={subscribeUser} className={styles.form}>
+					<input
+						type="email"
+						className={styles.inputField}
+						id="email-input"
+						name="email"
+						disabled={loading}
+						placeholder="email address"
+						ref={inputRef}
+						required
+						autoCapitalize="off"
+						autoCorrect="off"
+					/>
 
-			<button type="submit" disabled={loading} className={styles.button}>
-				Subscribe
-			</button>
-		</form>
+					<button type="submit" disabled={loading} className={styles.button}>
+						Subscribe
+					</button>
+				</form>
+			)}
+
+			{isCompleted && (
+				<div className={styles.subscribedSuccessfully}>
+					Thank you for subscribing to our newsletter.
+				</div>
+			)}
+		</>
 	);
 }
