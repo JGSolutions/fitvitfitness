@@ -7,6 +7,7 @@ import Footer from '../../components/footer/footer';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
 import PageHeroCover from '../../components/page-hero-cover/page-hero-cover';
 import { domainByEnvironment } from '../../lib/utils';
+import NewsletterForm from '../../components/newsletter-form/newsletter-form'
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id);
@@ -76,6 +77,11 @@ export default function Post({ postData }) {
               </article>
 
               <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p>
+
+              <div className={styles.newsletterSection}>
+                <h3 className={styles.h3}>Subscribe to our Newsletter</h3>
+                <NewsletterForm />
+              </div>
             </div>
           </div>
         </div>
