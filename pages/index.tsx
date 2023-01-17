@@ -6,6 +6,7 @@ import utilStyles from '../styles/Utils.module.css'
 import button from '../styles/Button.module.css'
 import Header  from '../components/header/header';
 import Footer from '../components/footer/footer'
+import NewsletterForm from '../components/newsletter-form/newsletter-form'
 import BlogItem from '../components/blog-item/blog-item'
 import { getRecentBlogs } from '../lib/posts';
 import { domainByEnvironment } from '../lib/utils';
@@ -14,12 +15,12 @@ export async function getStaticProps() {
     const getRecentPosts = await getRecentBlogs();
     return {
         props: {
-            getRecentPosts,
+            getRecentPosts
         },
     };
 }
 
-export default function Home({ getRecentPosts }) {
+export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER }) {
 	const url = domainByEnvironment();
 	return (
 		<>
@@ -39,9 +40,6 @@ export default function Home({ getRecentPosts }) {
 				<meta name="twitter:title" content="Gym & Home Workouts By A Certified Trainer" />
 				<meta name="twitter:description" content="Reach your fitness goals with home and gym workouts." />
 				<meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
-				{/* <meta name="twitter:creator" content=""></meta> */}
-
-				
 			</Head>
 
 				<Header/>
@@ -163,6 +161,21 @@ export default function Home({ getRecentPosts }) {
 										</Link>
 									</div>
 								))}
+							</div>
+						</div>
+					</section>
+
+					<section className={`${styles.newsletterSection}`}>
+						<div className="container-lg">
+							<div className="row">
+								<div className="col col-md-12 col-lg-6 col-12">
+									<h2 className={styles.subTitles}>FitVit’s Newsletter</h2>
+									<p>Get the latest news & workouts sent right to your inbox! </p>
+								</div>
+
+								<div className="col col-md-12 col-lg-6 col-12">
+									<NewsletterForm />
+								</div>
 							</div>
 						</div>
 					</section>

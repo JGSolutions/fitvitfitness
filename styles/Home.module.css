@@ -98,6 +98,11 @@
     margin-bottom: var(--padding-large);
 }
 
+.newsletterSection {
+	padding: var(--fs-xl) 0;
+	background-color: #F1F1F1;
+}
+
 @media (max-width: 800px) {
 	.main {
 		margin-top: 50px;

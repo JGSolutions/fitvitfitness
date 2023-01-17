@@ -51,3 +51,15 @@ a.blogItem {
     text-decoration: none;
     margin-bottom: 24px;
 }
+
+.newsletterSection {
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #F1F1F1;
+    margin-top: 24px;
+}
+
+.newsletterSection .h3 {
+    font-size: var(--fs-m);
+    color: var(--primary);
+}

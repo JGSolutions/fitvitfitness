@@ -2,11 +2,13 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import FormatDate from '../../components/date';
 import styles from './Posts.module.css'
+import utilStyles from '../../styles/Utils.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
 import PageHeroCover from '../../components/page-hero-cover/page-hero-cover';
 import { domainByEnvironment } from '../../lib/utils';
+import NewsletterForm from '../../components/newsletter-form/newsletter-form'
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id);
@@ -55,9 +57,7 @@ export default function Post({ postData }) {
         image={postData.coverImage} 
         headerTitle={postData.title} 
         subTitle={postData.description} 
-        backHref="/blog">
-      
-        </PageHeroCover>
+        backHref="/blog" /> 
 
       <main className={styles.main}>
         <div className={`container-md ${styles.containerMd}`}>
@@ -76,6 +76,11 @@ export default function Post({ postData }) {
               </article>
 
               <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p>
+
+              <div className={utilStyles.newsletterSection}>
+                <h3 className={utilStyles.h3}>Subscribe to my Newsletter</h3>
+                <NewsletterForm />
+              </div>
             </div>
           </div>
         </div>

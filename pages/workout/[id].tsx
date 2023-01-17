@@ -2,11 +2,13 @@ import { getWorkoutById, getWorkoutIds } from '../../lib/workouts';
 import Head from 'next/head';
 import WorkoutSpec from '../../components/workout-specs/workout-specs';
 import styles from './Workout.module.css'
+import utilStyles from '../../styles/Utils.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
 import Link from 'next/link';
 import { domainByEnvironment } from '../../lib/utils';
+import NewsletterForm from '../../components/newsletter-form/newsletter-form'
 
 export async function getStaticProps({ params }) {
     const postData = await getWorkoutById(params.id);
@@ -76,6 +78,11 @@ export default function Workout({ postData }) {
               <article className={styles.article}>
                 <div className={styles.articleText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
               </article>
+
+              <div className={utilStyles.newsletterSection}>
+                <h3 className={utilStyles.h3}>Subscribe to my newsletter for the latest workouts and tips.</h3>
+                <NewsletterForm />
+              </div>
             </div>
           </div>
         </div>

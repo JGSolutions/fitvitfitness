@@ -1,0 +1,45 @@
+.inputField {
+  padding: 10px 24px;
+  width: 100%;
+  max-width: 600px;
+  background: #F5F7F6;
+  border: 1px solid #CACACA;
+  border-radius: 6px 0px 0px 6px;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-regular);
+}
+
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #2C58A6;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-regular);
+  color: white;
+  border-radius: 0px 6px 6px 0px;
+  padding: var(--padding-sm) var(--padding-large);
+}
+
+.button:disabled,
+.button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #8a8a8a;
+}
+
+.error {
+  color: var(--error);
+  font-size: var(--fs-sm);
+}
+
+.form {
+  display: flex;
+  padding-top: var(--padding-medium);
+}
+
+.subscribedSuccessfully {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
