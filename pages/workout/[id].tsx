@@ -80,7 +80,7 @@ export default function Workout({ postData }) {
               </article>
 
               <div className={utilStyles.newsletterSection}>
-                <h3 className={utilStyles.h3}>Subscribe to our newsletter for the latest workouts and tips.</h3>
+                <h3 className={utilStyles.h3}>Subscribe to my newsletter for the latest workouts and tips.</h3>
                 <NewsletterForm />
               </div>
             </div>

@@ -78,7 +78,7 @@ export default function Post({ postData }) {
               <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p>
 
               <div className={utilStyles.newsletterSection}>
-                <h3 className={utilStyles.h3}>Subscribe to our Newsletter</h3>
+                <h3 className={utilStyles.h3}>Subscribe to my Newsletter</h3>
                 <NewsletterForm />
               </div>
             </div>

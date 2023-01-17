@@ -5,6 +5,7 @@ import Footer  from '../../components/footer/footer';
 import PageHeader from '../../components/page-header/page-header';
 import Contact from '../../components/contact/contact';
 import { domainByEnvironment } from '../../lib/utils';
+import NewsletterForm from '../../components/newsletter-form/newsletter-form'
 
 export default function About() {
     const url = domainByEnvironment();
@@ -13,16 +14,16 @@ export default function About() {
             <Head>
                 <title>FitVit - About Christopher Daoud</title>
                 <meta name="description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
-                <link rel="canonical" href="https://fitvitfitness.com/about/" />
+                <link rel="canonical" href="https://www.fitvitfitness.com/about/" />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://fitvitfitness.com/about/" />
+                <meta property="og:url" content="https://www.fitvitfitness.com/about/" />
                 <meta property="og:title" content="About Christopher Daoud" />
                 <meta property="og:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
                 <meta property="og:image" name="image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://fitvitfitness.com/about/" />
+                <meta property="twitter:url" content="https://www.fitvitfitness.com/about/" />
                 <meta name="twitter:title" content="About Christopher Daoud" />
                 <meta name="twitter:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
                 <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
@@ -55,6 +56,11 @@ export default function About() {
                     </p>
 
                     <Contact/>
+
+                    <div className={utilsStyle.newsletterSection}>
+                        <h3 className={utilsStyle.h3}>Subscribe to my newsletter for the latest workouts and tips.</h3>
+                        <NewsletterForm />
+                    </div>
                 </div>
             </main>
             <Footer/>
