@@ -61,7 +61,7 @@ export default function NewsletterForm() {
 
 			{isCompleted && (
 				<div className={styles.subscribedSuccessfully}>
-					Thank you for subscribing to our newsletter.
+					Thank you for subscribing to our newsletter. We promise you we will not spam!
 				</div>
 			)}
 		</>
