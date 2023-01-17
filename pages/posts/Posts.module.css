@@ -90,15 +90,3 @@
     line-height: 32px;
     text-justify: newspaper;
 }
-
-.newsletterSection {
-    padding: 16px;
-    border-radius: 6px;
-    background-color: #F1F1F1;
-    margin-top: 24px;
-}
-
-.h3 {
-    font-size: var(--fs-m);
-    color: var(--primary);
-}

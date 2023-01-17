@@ -2,6 +2,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import FormatDate from '../../components/date';
 import styles from './Posts.module.css'
+import utilStyles from '../../styles/Utils.module.css'
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import AvatarAuthor from '../../components/avatar-author/avatar-author';
@@ -56,9 +57,7 @@ export default function Post({ postData }) {
         image={postData.coverImage} 
         headerTitle={postData.title} 
         subTitle={postData.description} 
-        backHref="/blog">
-      
-        </PageHeroCover>
+        backHref="/blog" /> 
 
       <main className={styles.main}>
         <div className={`container-md ${styles.containerMd}`}>
@@ -78,8 +77,8 @@ export default function Post({ postData }) {
 
               <p className={styles.authorDate}>Last update: <FormatDate dateString={postData.updateDate} /></p>
 
-              <div className={styles.newsletterSection}>
-                <h3 className={styles.h3}>Subscribe to our Newsletter</h3>
+              <div className={utilStyles.newsletterSection}>
+                <h3 className={utilStyles.h3}>Subscribe to our Newsletter</h3>
                 <NewsletterForm />
               </div>
             </div>
