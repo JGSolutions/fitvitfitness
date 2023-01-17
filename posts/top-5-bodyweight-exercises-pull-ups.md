@@ -1,9 +1,9 @@
 ---
 title: 'My Top 5 Bodyweight Exercises - Pull-Ups'
 description: 'Pull-ups are one of the most effective upper-body exercises.'
-coverImage: '/blog/inverted-row.png'
-date: '2022-12-05T12:30:07.322Z'
-updateDate: '2022-12-05T12:30:07.322Z'
+coverImage: '/blog/blog-pullup-min.jpg'
+date: '2023-01-17T12:30:07.322Z'
+updateDate: '2023-01-17T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
 path: '/posts/top-5-bodyweight-exercises-pull-ups'
