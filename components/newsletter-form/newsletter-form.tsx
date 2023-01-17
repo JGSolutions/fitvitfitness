@@ -42,7 +42,7 @@ export default function NewsletterForm() {
 							id="email-input"
 							name="email"
 							disabled={loading}
-							placeholder="email address"
+							placeholder="Your Email Address"
 							ref={inputRef}
 							required
 							autoCapitalize="off"
