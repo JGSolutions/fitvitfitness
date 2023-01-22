@@ -9,6 +9,8 @@ duration: '30-45'
 times: '6'
 ---
 
+This is a strength-building routine split into two workouts. Aim to complete 3-4 workouts per week, alternating between A and B. A day of rest is recommended between each workout. On your rest days, you can do cardio, go for a walk, or take it easy.
+
 ## Workout A
 Number of exercises: 6  
 Time: 45 minutes

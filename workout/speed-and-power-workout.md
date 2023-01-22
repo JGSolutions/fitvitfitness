@@ -9,6 +9,7 @@ duration: '25-30'
 times: '8'
 ---
 
+A three-day strength and speed conditioning routine. This routine is ideal for individuals looking to increase their strength but who do not want to sacrifice their speed or athletic performance.
 ## Push
 Number of exercises: 4  
 Time: 25 minutes
