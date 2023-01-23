@@ -3,7 +3,7 @@ title: 'Bodyweight Exercise Advantages'
 description: 'Bodyweight exercises are a fixture in my workout routines. Learn more about why I find them so effective and efficient.'
 coverImage: '/blog/body-weight-blog.png'
 date: '2022-11-28T12:30:07.322Z'
-updateDate: '2022-11-28T12:30:07.322Z'
+updateDate: '2023-01-23T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
 path: '/posts/bodyweight-exercise-advantages'
@@ -17,4 +17,10 @@ The third factor is effectiveness. Research published in the journal Physiology 
 
 In closing, doing bodyweight exercises are convenient, cheap, and effective. Even if you go to the gym, I would still recommend including bodyweight exercises in your routine. I personally love doing pushups after a set on the bench press and jumping squats after a heavy set of barbell squats.
 
-Stay tuned! In the upcoming blogs, I will go over my five favorite bodyweight exercises. 
+Here are my five favorite bodyweight exercises below:
+
+- [Inverted Rows](https://fitvitfitness.com/posts/top-5-bodyweight-exercises-inverted-row/)
+- [Pulls](https://fitvitfitness.com/posts/top-5-bodyweight-exercises-pull-ups/)
+- [Push-Ups](https://fitvitfitness.com/posts/top-5-bodyweight-exercises-pushups/)
+- [Planks](https://fitvitfitness.com/posts/top-5-bodyweight-exercises-plank/)
+- [Dips](https://fitvitfitness.com/posts/top-5-bodyweight-exercises-dips/)
