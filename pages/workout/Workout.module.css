@@ -17,11 +17,6 @@
 }
 /** end of header **/
 
-.description {
-    font-size: var(--fs-reg);
-    color: v
-}
-
 .specs {
     width: 100%;
     max-width: 400px;

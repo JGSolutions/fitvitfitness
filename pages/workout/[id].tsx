@@ -74,7 +74,6 @@ export default function Workout({ postData }) {
 
           <div className="row">
             <div className="col">
-              <div className={styles.description}>{postData.description}</div>
               <article className={styles.article}>
                 <div className={styles.articleText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
               </article>
