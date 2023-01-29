@@ -41,8 +41,11 @@ TEACHING CUES
 VARIATION  
 Raising one foot off the ground increases the need for greater balance and trunk stability.
 
-![Fig a](/blog/trx-upper-body/trx-chest-fly-a.jpg)
-![Fig b](/blog/trx-upper-body/trx-chest-fly-b.jpg)
+*Figure A*  
+![Fig a](/blog/trx-upper-body/trx-chest-fly-a.jpeg)
+
+*Figure B*
+![Fig b](/blog/trx-upper-body/trx-chest-fly-b.jpeg)
 
 
 

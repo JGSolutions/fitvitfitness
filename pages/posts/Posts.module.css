@@ -54,18 +54,14 @@
     margin-right: 36px;
 }
 
-.article img {
-    display: inline;
-}
-
 .article a {
     color: var(--primary-text);
     font-weight: var(--fw-semi-medium);
 }
 
 .article img {
-    max-width: 400px;
-    width: 100%;
+    /* display: inline; */
+    max-width: 300px;
     height: auto;
     margin-bottom: 16px;
 }
