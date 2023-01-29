@@ -54,6 +54,10 @@
     margin-right: 36px;
 }
 
+.article img {
+    display: inline;
+}
+
 .article a {
     color: var(--primary-text);
     font-weight: var(--fw-semi-medium);
