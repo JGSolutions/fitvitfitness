@@ -69,7 +69,15 @@ TEACHING CUES
 - Stay stiff as a board from the head to heels.
 - Move the handles toward the body in a slow, controlled manner.
 
-
 VARIATIONS  
 - In order to place a greater emphasis on strength development, additional resistance can be added to this exercise through the use of a weighted vest.
 - To emphasize trunk stability and balance, this exercise can be performed using a single leg for support (see figure c).
+
+*Figure A*  
+![Fig a](/blog/trx-upper-body/trx-chest-press-a.jpeg)
+
+*Figure B*
+![Fig b](/blog/trx-upper-body/trx-chest-press-b.jpeg)
+
+*Figure C*
+![Fig c](/blog/trx-upper-body/trx-chest-press-c.jpeg)
