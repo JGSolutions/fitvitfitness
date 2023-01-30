@@ -25,6 +25,7 @@
   --fs-sm: 14px;
   --fs-reg: 16px;
   --fs-m: 20px;
+  --fs-ml: 24px;
   --fs-l: 36px;
   --fs-xl: 48px;
 
@@ -53,6 +54,11 @@ ol[role='list'] {
 
 /* Set core root defaults */
 html:focus-within {
+  scroll-behavior: smooth;
+}
+
+
+html {
   scroll-behavior: smooth;
 }
 
