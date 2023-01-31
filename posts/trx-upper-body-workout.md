@@ -108,6 +108,12 @@ VARIATIONS
 - External resistance in the form of a weighted vest can be added to this exercise to increase the intensity.
 - This exercise can also be modified by grabbing the handle straps with one hand, assuming a staggered stance, and applying manual resistance throughout the exercise movement.
 
+*Figure A*  
+![Fig a](/blog/trx-upper-body/trx-tricep-press-a.jpeg)
+
+*Figure B*
+![Fig b](/blog/trx-upper-body/trx-tricep-press-b.jpeg)
+
 ## 4.TRX Pause Push-Up {#pushup}  
 
 
