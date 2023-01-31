@@ -1,12 +1,12 @@
 ---
 title: 'TRX Upper Body Workout - Pull Exercises'
 description: 'Try some of my favorite TRX upper body exercises! Try out the entire workout or add some of your favorite exercises to your current workout routine.'
-coverImage: '/blog/senior-fullbody.png'
-date: '2023-01-30T12:30:07.322Z'
-updateDate: '2023-01-30T12:30:07.322Z'
+coverImage: '/blog/blog-push-trx.jpeg'
+date: '2023-02-30T12:30:07.322Z'
+updateDate: '2023-02-30T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/posts/full-body-seated-workout-seniors'
+path: '/posts/trx-upper-body-workout'
 ---
 
 Advanced list of push exercises
