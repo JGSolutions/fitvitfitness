@@ -103,7 +103,7 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 							</div>
 							<div className="row">
 								<div className="col" style={{ display: 'flex', justifyContent: 'center'}}>
-									<div style={{ width: '85%', height: 'auto', display: 'flex', justifyContent: 'center'}}>
+									<div style={{ width: '85%', height: 'auto', display: 'flex', justifyContent: 'center', position: 'relative'}}>
 										<ScrollSlider>
 											<section className={styles.testimonialSection}>
 												<p className={styles.text}>
