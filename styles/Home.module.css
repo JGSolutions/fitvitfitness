@@ -103,11 +103,12 @@
 	background-color: #F1F1F1;
 }
 
-.sectionR {
+.testimonialSection {
     height: 100%;
     width: 100%;
 	flex-shrink: 0;
     scroll-snap-align: start;
+	padding: var(--fs-reg);
 }
 
 @media (max-width: 800px) {
