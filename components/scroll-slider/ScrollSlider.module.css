@@ -4,5 +4,7 @@
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     display: flex;
+    gap: 16px;
     overflow-x: auto;
+    padding: 40px 0;
 }

@@ -102,10 +102,10 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 								</div>
 							</div>
 							<div className="row">
-								<div className="col" style={{ display: 'flex', justifyContent: 'center'}}>
-									<div style={{ width: '85%', height: 'auto', display: 'flex', justifyContent: 'center', position: 'relative'}}>
+								<div className="col">
+									<div className={styles.scrollContainer}>
 										<ScrollSlider>
-											<section className={styles.testimonialSection}>
+											<section className={styles.testimonialItem}>
 												<p className={styles.text}>
 													“ I was struggling to accommodate a workout routine into a new busy work schedule and I couldn’t find the time
 													to train anymore while I was cutting. Then I discovered Chris’ personal training services and worked with him
@@ -121,7 +121,7 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 													<p>Online Client from Montreal, Quebec</p>
 												</div>
 											</section>
-											<section className={styles.testimonialSection}>
+											<section className={styles.testimonialItem}>
 												<div className={styles.text}>
 													<p className={utilStyles.textParagraph}>I was scared to go back to the gym after a stroke in 2018.
 														I didn’t want to be judged or laughed at. I had lost my confidence.
@@ -137,7 +137,7 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 													<p>In-person client from Kingsville, Ontario  </p>
 												</div>
 											</section>
-											<section className={styles.testimonialSection}>
+											<section className={styles.testimonialItem}>
 												<div className={styles.text}>
 													<p className={utilStyles.textParagraph}>
 														Chris your training style has guided me towards my goals. You have demonstrated techniques and form and explained the
