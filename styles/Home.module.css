@@ -103,6 +103,13 @@
 	background-color: #F1F1F1;
 }
 
+.sectionR {
+    height: 100%;
+    width: 100%;
+	flex-shrink: 0;
+    scroll-snap-align: start;
+}
+
 @media (max-width: 800px) {
 	.main {
 		margin-top: 50px;

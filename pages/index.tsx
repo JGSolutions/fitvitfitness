@@ -8,6 +8,7 @@ import Header  from '../components/header/header';
 import Footer from '../components/footer/footer'
 import NewsletterForm from '../components/newsletter-form/newsletter-form'
 import BlogItem from '../components/blog-item/blog-item'
+import ScrollSlider from '../components/scroll-slider/scroll-slider'
 import { getRecentBlogs } from '../lib/posts';
 import { domainByEnvironment } from '../lib/utils';
 
@@ -101,7 +102,31 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 								</div>
 							</div>
 							<div className="row">
-								<div className="col-md-6">
+								<div className="col">
+									<div style={{ width: '100%', height: '500px'}}>
+										<ScrollSlider>
+											<section className={styles.sectionR}>
+												<p className={styles.text}>
+													“ I was struggling to accommodate a workout routine into a new busy work schedule and I couldn’t find the time
+													to train anymore while I was cutting. Then I discovered Chris’ personal training services and worked with him
+													for 6 months. During that time, he did an amazing job at building a training program that would fit both my schedule
+													and fitness goals. He then provided follow-up sessions every two weeks to see how I was doing and provided great 
+													feedback for the issues I was having. At the end of the program, I had lost over 10 pounds and re-created a habit
+													of training a little bit every day with the exercises he provided. All of it was done remotely as I live 12 hours 
+													away from him. I was impressed with the depth of his knowledge and it was an amazing experience, I would highly recommend Chris. “
+												</p>
+
+												<div className={styles.from}>
+													<p>Iaroslav Rybakov</p>
+													<p>Online Client from Montreal, Quebec</p>
+												</div>
+											</section>
+											<section className={styles.sectionR}>fffsdss</section>
+											<section className={styles.sectionR}>fffsdss</section>
+										</ScrollSlider>
+									</div>
+								</div>
+								{/* <div className="col-md-6">
 									<p className={styles.text}>
 										“ I was struggling to accommodate a workout routine into a new busy work schedule and I couldn’t find the time
 										to train anymore while I was cutting. Then I discovered Chris’ personal training services and worked with him
@@ -133,7 +158,7 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 										<p>Sharon Preston</p>
 										<p>In-person client from Kingsville, Ontario  </p>
 									</div>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</section>
