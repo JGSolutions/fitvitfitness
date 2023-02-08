@@ -136,4 +136,8 @@ Lie on the ground facing away from the anchor point and place the feet in the fo
 - Stay stiff as a board from the head to heels.
 - Push the ground away.
 
+*Figure A*  
+![Fig a](/blog/trx-upper-body/trx-pause-pushup-a.jpeg)
 
+*Figure B*
+![Fig b](/blog/trx-upper-body/trx-pause-pushup-b.jpeg)
