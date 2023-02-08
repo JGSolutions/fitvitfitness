@@ -81,7 +81,8 @@
 
 .testimonialItem {
     height: 100%;
-    width: 75%;
+    width: 90%;
+	max-width: 700px;
 	flex-shrink: 0;
 	padding: var(--padding-large);
 	scroll-snap-align: start;
@@ -142,7 +143,7 @@
 	}
 
 	.subTitles {
-		font-size: var(--fs-m);
+		font-size: var(--fs-ml);
 	}
 
 	.scrollContainer {
