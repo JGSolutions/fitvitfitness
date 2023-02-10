@@ -25,6 +25,7 @@
   --fs-sm: 14px;
   --fs-reg: 16px;
   --fs-m: 20px;
+  --fs-ml: 24px;
   --fs-l: 36px;
   --fs-xl: 48px;
 
@@ -108,6 +109,10 @@ body {
   background: var(--main-background);
 }
 
+.container-lg {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
