@@ -9,41 +9,33 @@ avatar: '/avatar/chris-avatar.png'
 path: '/posts/trx-upper-body-workout'
 ---
 
-Advanced list of push exercises
+Table of content of pull exercises
 
- - [TRX Chest Fly](#user-content-chest-fly)
- - [TRX Chest Press](#user-content-chest-press)
- - [TRX Triceps Press](#user-content-triceps-press)
- - [TRX Pause Push-Up](#user-content-pushup)
+ - [TRX Low Row](#user-content-low-row)
 
-It is generally accepted that performing resistance training regularly can help maintain and improve health, fitness, and quality of life. However, people often encounter obstacles to resistance training. These obstacles include time, space, equipment, and cost. Using a TRX suspension trainer can help you overcome these obstacles. These exercises can be performed anywhere and only requires one portable piece of equipment. In addition, suspension training exercises can be used to address a wide range of fitness needs, such as enhancing and maintaining general fitness, improving sports performance, and as a rehabilitation or injury prevention tool.
 
-Using exercises from The Complete Guide to Suspension Training 2E, I’ve put together some of my favorite TRX upper body exercises. Try out the entire workout or add some of your favorite exercises to your current workout routine.
-
-## 1.TRX Chest Fly {#chest-fly}
+## 1.TRX Low {#low-row}
 
 PURPOSE  
-To develop the pectoralis major, which is responsible for horizontal adduction of the arms.
+To develop the muscles of the back.
 
 ADJUSTMENT  
-Fully lengthen the straps of the Suspension Trainer.
+Fully shorten the straps of the Suspension Trainer.
 
 STARTING POSITION  
-Stand facing away from the anchor point and grab a handle with each hand. Place the feet hip- to shoulder-width apart. Set the body in a straight line, or plank position.
+Stand facing the anchor point and grab a handle with each hand using a neutral, overhand, or supinated grip. Lean back until the torso is at a 45-degree angle to the ground.
 
 DESCRIPTION  
-- Brace the trunk and keep the arms straight.
-- Internally rotate the shoulders so the elbows point out to the sides (see figure a).
-- Keeping the arms locked in this position, slowly push the hands away from each other while pulling the shoulder blades down and together.
-- Attempt to move the hands outward until they are almost directly aligned with the torso, or until a deep stretch is felt in the chest (see figure b).
-- In this position, bring the hands back to the starting position.
+- Pull the shoulder blades together and downward (see figure a).
+- Pull the body toward the anchor point by flexing the arms and extending the shoulders (see figure b).
+- Slowly extend the arms and allow the shoulders to flex to return to the starting position.
 
 TEACHING CUES
-- When returning to the starting position, act as if wrapping the hands around a tree trunk.
-- Maintain a rigid torso throughout the exercise.
+- Maintain a braced core throughout the exercise and squeeze the glutes.
+- Pull the straps to the chest.
 
 VARIATION  
-Raising one foot off the ground increases the need for greater balance and trunk stability.
+The intensity of this exercise can be increased by elevating the feet on a step or box while planking, by adding a weighted vest, or by performing the single-arm variation.
 
 *Figure A*  
 ![Fig a](/blog/trx-upper-body/trx-chest-fly-a.jpeg)
