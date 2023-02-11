@@ -1,6 +1,6 @@
 ---
 title: 'TRX Upper Body Workout - Push Exercises'
-description: 'Try some of my favorite TRX upper body exercises! Try out the entire workout or add some of your favorite exercises to your current workout routine.'
+description: 'Try some of my favorite TRX upper body push exercises! Try out the entire workout or add some of your favorite exercises to your current workout routine.'
 coverImage: '/blog/blog-push-trx.jpeg'
 date: '2023-02-30T12:30:07.322Z'
 updateDate: '2023-02-30T12:30:07.322Z'
@@ -9,7 +9,7 @@ avatar: '/avatar/chris-avatar.png'
 path: '/posts/trx-upper-body-push-workout'
 ---
 
-Advanced list of push exercises
+List of push exercises
 
  - [TRX Chest Fly](#user-content-chest-fly)
  - [TRX Chest Press](#user-content-chest-press)
@@ -18,7 +18,7 @@ Advanced list of push exercises
 
 It is generally accepted that performing resistance training regularly can help maintain and improve health, fitness, and quality of life. However, people often encounter obstacles to resistance training. These obstacles include time, space, equipment, and cost. Using a TRX suspension trainer can help you overcome these obstacles. These exercises can be performed anywhere and only requires one portable piece of equipment. In addition, suspension training exercises can be used to address a wide range of fitness needs, such as enhancing and maintaining general fitness, improving sports performance, and as a rehabilitation or injury prevention tool.
 
-Using exercises from The Complete Guide to Suspension Training 2E, I’ve put together some of my favorite TRX upper body exercises. Try out the entire workout or add some of your favorite exercises to your current workout routine.
+Using exercises from The Complete Guide to Suspension Training 2E, I’ve put together some of my favorite TRX upper body push exercises. Try out the entire workout or add some of your favorite exercises to your current workout routine.
 
 ## 1.TRX Chest Fly {#chest-fly}
 
@@ -116,7 +116,6 @@ VARIATIONS
 
 ## 4.TRX Pause Push-Up {#pushup}  
 
-
 **PURPOSE**  
 To develop muscular size, strength, and endurance of the chest, shoulders, and triceps.
 
@@ -141,3 +140,5 @@ Lie on the ground facing away from the anchor point and place the feet in the fo
 
 *Figure B*
 ![Fig b](/blog/trx-upper-body/trx-pause-pushup-b.jpeg)
+
+Credit: Adapted from Complete Guide to TRX Suspension Training 2E. Available for purchase at [Human Kinetics - Canada](https://canada.humankinetics.com/)
