@@ -13,8 +13,8 @@ Table of content of pull exercises
 
  - [TRX Low Row](#user-content-low-row)
  - [TRX Assisted Chin-up](#user-content-chin-up)
- - [TRX Bicep Curl](#user-content-low-row)
- - [TRX Inverted Row](#user-content-low-row)
+ - [TRX Bicep Curl](#user-content-bicep-curl)
+ - [TRX Inverted Row](#user-content-inverted-row)
 
 Using exercises from The Complete Guide to Suspension Training 2E, I’ve put together some of my favorite TRX upper body pull exercises. Try out the entire workout or add some of your favorite exercises to your current workout routine.
 
@@ -68,43 +68,44 @@ VARIATIONS
 A greater emphasis can be placed on the muscles of the biceps by using a neutral or underhand grip when performing this exercise.
 
 *Figure A*  
-![Fig a](/blog/trx-upper-body/trx-chest-press-a.jpeg)
+![Fig a](/blog/trx-pull/TRX-chinup-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-upper-body/trx-chest-press-b.jpeg)
+![Fig b](/blog/trx-pull/TRX-chinup-b.jpeg)
 
-*Figure C*
-![Fig c](/blog/trx-upper-body/trx-chest-press-c.jpeg)
 
-## 3.TRX Triceps Press {#triceps-press}
+## 3.TRX Bicep Curl {#bicep-curl}  
+
 
 PURPOSE  
-To isolate and develop the triceps and develop isometric trunk strength and stability. Using the Suspension Trainer results in greater total-body development than using traditional barbell and dumbbell versions of this exercise.
+To develop the biceps.
 
 ADJUSTMENT  
-Fully lengthen the straps of the Suspension Trainer.
+Fully shorten or adjust the straps of the Suspension Trainer to mid length.
 
 STARTING POSITION  
-Stand facing away from the anchor point. Grab a handle with each hand and lean forward so the torso is at an angle of at least 45 degrees to the ground.
+Stand facing the anchor point and grab a handle with each hand using an underhand or supinated grip. Position the feet hip- to shoulder-width apart. Keeping the arms completely straight, lean back until the torso is at a 45-degree angle to the ground (see figure a).
 
 DESCRIPTION  
-- Extend the arms overhead with the upper arms beside the ears (see figure a).
-- Flex the elbows to 90 degrees. At this point, the hands should be behind the head with a neutral grip (see figure b).
-- While keeping the balls of the feet in contact with the ground and the trunk rigid, extend the elbows to return to the starting position.
+- Pull the shoulder blades together and downward, flex the elbows, and bring the hands toward the face (see figure b).
+- Extend the elbows and return to the starting position.
+
 
 TEACHING CUES  
-- Maintain a rigid torso throughout the exercise.
 - Move only at the elbows.
+- Brace the trunk and squeeze the glutes.
+
 
 VARIATIONS  
-- External resistance in the form of a weighted vest can be added to this exercise to increase the intensity.
-- This exercise can also be modified by grabbing the handle straps with one hand, assuming a staggered stance, and applying manual resistance throughout the exercise movement.
+- An overhand grip can be used, which places a greater emphasis on the brachialis and brachioradialis.
+- The intensity of this exercise can be increased by performing a single-arm variation.
+
 
 *Figure A*  
-![Fig a](/blog/trx-upper-body/trx-tricep-press-a.jpeg)
+![Fig a](/blog/trx-pull/TRX-biceps-curl-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-upper-body/trx-tricep-press-b.jpeg)
+![Fig b](/blog/trx-pull/TRX-biceps-curl-b.jpeg)
 
 ## 4.TRX Pause Push-Up {#pushup}  
 
