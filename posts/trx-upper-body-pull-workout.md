@@ -107,30 +107,33 @@ VARIATIONS
 *Figure B*
 ![Fig b](/blog/trx-pull/TRX-biceps-curl-b.jpeg)
 
-## 4.TRX Pause Push-Up {#pushup}  
-
+## 4.TRX Inverted Row {#inverted-row}  
 
 **PURPOSE**  
-To develop muscular size, strength, and endurance of the chest, shoulders, and triceps.
+To develop the muscles of the back.
 
 **ADJUSTMENT**   
-Adjust the straps of the Suspension Trainer to mid-calf length.
+Shorten the handles to hip height (over shortened).
 
 **STARTING POSITION**  
-Lie on the ground facing away from the anchor point and place the feet in the foot cradles. Place the hands on the ground slightly wider than shoulder-width apart (see figure a). Set the body in a straight line, or plank position.
+Stand facing the anchor point and grab a handle in each hand using a neutral, overhand, or supinated grip. Position the feet hip- to shoulder-width apart. Extend the arms and walk underneath the anchor point until the chest is under the anchor point. While keeping the arms completely straight, slowly flex the knees and lean back until the torso is parallel to the ground and the knees are at a 90-degree angle.
 
 **DESCRIPTION**  
-- Flex at the elbows to lower the body to the ground until the upper arms are parallel to the ground and hold this position for approximately three to four seconds (see figure b).
-- Extend the arms and push the body back to the starting position.
-- Repeat for the desired number of repetitions.
+- Pull the shoulder blades together and downward (see figure a).
+- Pull the body toward the anchor point by flexing the arms and extending the shoulders while allowing the knees to extend to 110 to 120 degrees at the apex of the pull (see figure b).
+- Extend the arms and allow the shoulders to flex to return to the starting position.
 
 **TEACHING CUES**  
-- Maintain a plank position.
-- Stay stiff as a board from the head to heels.
-- Push the ground away.
+- Maintain a braced core throughout the exercise and squeeze the glutes.
+- Pull the straps to the chest.
+
+**VARIATION**  
+The intensity of this exercise can be increased by slowly lowering the body back to the starting position (i.e., a 1:3; 1:4 count).
 
 *Figure A*  
-![Fig a](/blog/trx-upper-body/trx-pause-pushup-a.jpeg)
+![Fig a](/blog/trx-pull/TRX-inverted-row-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-upper-body/trx-pause-pushup-b.jpeg)
+![Fig b](/blog/trx-pull/TRX-inverted-row-b.jpeg)
+
+Credit: Adapted from Complete Guide to TRX Suspension Training 2E. Available for purchase at [Human Kinetics - Canada](https://canada.humankinetics.com/)
