@@ -1,6 +1,6 @@
 ---
 title: 'TRX Upper Body Workout - Pull Exercises'
-description: ''
+description: 'Here are some of my favorite TRX upper body pull exercises! Try out the entire workout or add some of your favorite exercises to your current workout routine.'
 coverImage: '/blog/blog-push-trx.jpeg'
 date: '2023-02-30T12:30:07.322Z'
 updateDate: '2023-02-30T12:30:07.322Z'
@@ -12,7 +12,11 @@ path: '/posts/trx-upper-body-workout'
 Table of content of pull exercises
 
  - [TRX Low Row](#user-content-low-row)
+ - [TRX Assisted Chin-up](#user-content-chin-up)
+ - [TRX Bicep Curl](#user-content-low-row)
+ - [TRX Inverted Row](#user-content-low-row)
 
+Using exercises from The Complete Guide to Suspension Training 2E, I’ve put together some of my favorite TRX upper body pull exercises. Try out the entire workout or add some of your favorite exercises to your current workout routine.
 
 ## 1.TRX Low {#low-row}
 
@@ -38,34 +42,30 @@ VARIATION
 The intensity of this exercise can be increased by elevating the feet on a step or box while planking, by adding a weighted vest, or by performing the single-arm variation.
 
 *Figure A*  
-![Fig a](/blog/trx-upper-body/trx-chest-fly-a.jpeg)
+![Fig a](/blog/trx-pull/TRX-low-row-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-upper-body/trx-chest-fly-b.jpeg)
+![Fig b](/blog/trx-pull/TRX-low-row-b.jpeg)
 
-## 2.TRX Chest Press {#chest-press}
+## 2.TRX Assisted Chin-up {#chin-up}
 
 PURPOSE  
-To develop upper-body muscular strength and endurance in the chest, shoulders, and triceps, as well as trunk stability.
+To strengthen the muscles of the back and biceps.
 
 ADJUSTMENT  
-Fully lengthen the straps of the Suspension Trainer.
+Overshorten the straps of the Suspension Trainer.
 
 STARTING POSITION  
-Stand facing away from the anchor point and grab a handle with each hand. Extend the arms and position the hands shoulder-width apart. Place the feet hip- to shoulder-width apart. Set the body in a straight line, or in plank position.
+Grasp the handles and simultaneously perform a full squat while extending the arms overhead (see figure a).
 
 DESCRIPTION  
-- Brace the trunk and slowly step backward until there is tension on the straps and the body is at an incline (see figure a).
-- Flex the arms and lower the chest between the handles, similar to performing a push-up (see figure b).
-Extend the arms to return to the starting position.
+Squeeze the back muscles and pull yourself up toward the handles so that the upper chest is level with the handles (see figure b). The legs can be used to provide support and assistance if a sticking point is reached during this movement.
 
-TEACHING CUES   
-- Stay stiff as a board from the head to heels.
-- Move the handles toward the body in a slow, controlled manner.
+TEACHING CUE  
+Pull the handles to your shoulders.
 
 VARIATIONS  
-- In order to place a greater emphasis on strength development, additional resistance can be added to this exercise through the use of a weighted vest.
-- To emphasize trunk stability and balance, this exercise can be performed using a single leg for support (see figure c).
+A greater emphasis can be placed on the muscles of the biceps by using a neutral or underhand grip when performing this exercise.
 
 *Figure A*  
 ![Fig a](/blog/trx-upper-body/trx-chest-press-a.jpeg)
