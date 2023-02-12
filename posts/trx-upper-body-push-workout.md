@@ -2,8 +2,8 @@
 title: 'TRX Upper Body Workout - Push Exercises'
 description: 'Try some of my favorite TRX upper body push exercises! Try out the entire workout or add some of your favorite exercises to your current workout routine.'
 coverImage: '/blog/blog-push-trx.jpeg'
-date: '2023-02-30T12:30:07.322Z'
-updateDate: '2023-02-30T12:30:07.322Z'
+date: '2023-02-13T12:30:07.322Z'
+updateDate: '2023-02-13T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
 path: '/posts/trx-upper-body-push-workout'
