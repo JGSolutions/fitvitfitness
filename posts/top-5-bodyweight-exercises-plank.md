@@ -6,7 +6,7 @@ date: '2022-12-27T12:30:07.322Z'
 updateDate: '2022-12-27T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/posts/top-5-bodyweight-exercises-plank'
+path: '/posts/top-5-bodyweight-exercises-plank/'
 ---
 
 The plank is a simple isometric exercise that engages many major muscle groups of the body at the same time. Some of the muscles that are engaged include the following. 

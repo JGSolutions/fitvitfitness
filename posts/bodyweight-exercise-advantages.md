@@ -6,7 +6,7 @@ date: '2022-11-28T12:30:07.322Z'
 updateDate: '2023-01-23T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/posts/bodyweight-exercise-advantages'
+path: '/posts/bodyweight-exercise-advantages/'
 ---
 
 I am a big fan of bodyweight exercises because of the following three factors: convenience, cost, and effectiveness. Convenience is a huge factor, especially if you are a busy working professional or have little ones at home. Driving to the gym, changing, getting a workout in, and coming back home can take two hours of your time each day or more. However, a bodyweight at-home workout may take only thirty minutes. This can save you a massive amount of time, which you can spend with family or friends or use on other hobbies or pursuits. Additionally, bodyweight exercises are convenient while traveling. You can do many of them from your hotel room or outdoors in a park.

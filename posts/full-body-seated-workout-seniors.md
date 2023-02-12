@@ -6,7 +6,7 @@ date: '2022-12-19T12:30:07.322Z'
 updateDate: '2022-12-19T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/posts/full-body-seated-workout-seniors'
+path: '/posts/full-body-seated-workout-seniors/'
 ---
 
 Try this full-body seated bodyweight workout for seniors. This is an excellent workout for those who have compromised legs or knees or limitations in their balance. During the workout, focus on sitting up nice and tall, keeping your back straight. Keep your core muscles engaged and tight while doing the exercises. Take a 20-second break between each exercise. To make the exercises harder, try doing them with dumbbells to increase tension and resistance. If you feel comfortable, you can also try these exercises standing up. 

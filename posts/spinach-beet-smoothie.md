@@ -6,7 +6,7 @@ date: '2022-12-16T12:30:07.322Z'
 updateDate: '2022-12-16T12:30:07.322Z'
 author: Jerry Gagliano
 avatar: '/avatar/jerry-avatar.png'
-path: '/posts/spinach-beet-smoothie'
+path: '/posts/spinach-beet-smoothie/'
 ---
 
 My previous blog why [Homemade Shakes better than protein powders](https://fitvitfitness.com/posts/homemade-shakes-better-than-protein-powders/) your typical high-protein shake, perfect for breakfast or after a workout. This shake is different. It's a healthy, antioxidant-packed smoothie option, great any time during the day when you need a lighter snack. Beets are often lacking in our diets, so this smoothie is an easy way to increase your intake. To increase protein, you can always add greek yogurt and hemp seeds.
