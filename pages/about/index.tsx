@@ -14,20 +14,19 @@ export default function About() {
             <Head>
                 <title>FitVit - About Christopher Daoud</title>
                 <meta name="description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
-                <link rel="canonical" href="https://www.fitvitfitness.com/about/" />
+                <link rel="canonical" href={`${url}/about/`} />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://www.fitvitfitness.com/about/" />
+                <meta property="og:url" content={`${url}/about/`} />
                 <meta property="og:title" content="About Christopher Daoud" />
                 <meta property="og:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
                 <meta property="og:image" name="image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://www.fitvitfitness.com/about/" />
+                <meta property="twitter:url" content={`${url}/about/`} />
                 <meta name="twitter:title" content="About Christopher Daoud" />
                 <meta name="twitter:description" content="About Christopher Daoud a certified trainer helping people getting in shape." />
                 <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
-                {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
 
             <Header/>

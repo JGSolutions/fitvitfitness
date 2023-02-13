@@ -48,7 +48,6 @@ export default function Post({ postData }) {
         <meta property="twitter:title" content={postData.title} />
         <meta property="twitter:description" content={postData.description} />
         <meta property="twitter:image" content={`${url}${postData.coverImage}`} />
-        {/* <meta property="twitter:creator" content="@"></meta> */}
       </Head>
       
       <Header/>

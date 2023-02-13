@@ -25,20 +25,19 @@ export default function Blog({ allPostsData }) {
             <Head>
                 <title>Fitness & Workout Blogs | FitVit</title>
                 <meta name="description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
-                <link rel="canonical" href="https://fitvitfitness.com/blog/" />
+                <link rel="canonical" href={`${url}/blog/`} />
 
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://fitvitfitness.com/blog/" />
+                <meta property="og:url" content={`${url}/blog/`} />
                 <meta property="og:title" content="Fitness & Workout Blogs" />
                 <meta property="og:description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
                 <meta property="og:image" name="image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="https://fitvitfitness.com/blog/" />
+                <meta property="twitter:url" content={`${url}/blog/`} />
                 <meta name="twitter:title" content="Fitness & Workout Blogs" />
                 <meta name="twitter:description" content="Fitness and workout articles from FitVit! Everything you need to learn and reach your fitness goals." />
                 <meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
-                {/* <meta name="twitter:creator" content=""></meta> */}
             </Head>
 
             <Header />
