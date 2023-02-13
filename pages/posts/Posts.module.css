@@ -45,7 +45,8 @@
     margin-top: 30px;
     font-weight: var(--fw-bold);
     color: var(--primary);
-    font-size: var(--fs-m);
+    font-size: var(--fs-ml);
+    scroll-margin-top: 65px;
 }
 
 .article ul {
@@ -61,8 +62,7 @@
 }
 
 .article img {
-    max-width: 400px;
-    width: 100%;
+    max-width: 300px;
     height: auto;
     margin-bottom: 16px;
 }
