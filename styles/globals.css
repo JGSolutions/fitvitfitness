@@ -114,6 +114,10 @@ body {
   background: var(--main-background);
 }
 
+.container-lg {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
 /* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

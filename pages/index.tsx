@@ -8,6 +8,7 @@ import Header  from '../components/header/header';
 import Footer from '../components/footer/footer'
 import NewsletterForm from '../components/newsletter-form/newsletter-form'
 import BlogItem from '../components/blog-item/blog-item'
+import ScrollSlider from '../components/scroll-slider/scroll-slider'
 import { getRecentBlogs } from '../lib/posts';
 import { domainByEnvironment } from '../lib/utils';
 
@@ -101,37 +102,56 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 								</div>
 							</div>
 							<div className="row">
-								<div className="col-md-6">
-									<p className={styles.text}>
-										“ I was struggling to accommodate a workout routine into a new busy work schedule and I couldn’t find the time
-										to train anymore while I was cutting. Then I discovered Chris’ personal training services and worked with him
-										for 6 months. During that time, he did an amazing job at building a training program that would fit both my schedule
-										and fitness goals. He then provided follow-up sessions every two weeks to see how I was doing and provided great 
-										feedback for the issues I was having. At the end of the program, I had lost over 10 pounds and re-created a habit
-										of training a little bit every day with the exercises he provided. All of it was done remotely as I live 12 hours 
-										away from him. I was impressed with the depth of his knowledge and it was an amazing experience, I would highly recommend Chris. “
-									</p>
+								<div className="col">
+									<div className={styles.scrollContainer}>
+										<ScrollSlider>
+											<section className={styles.testimonialItem}>
+												<p className={styles.text}>
+													“ I was struggling to accommodate a workout routine into a new busy work schedule and I couldn’t find the time
+													to train anymore while I was cutting. Then I discovered Chris’ personal training services and worked with him
+													for 6 months. During that time, he did an amazing job at building a training program that would fit both my schedule
+													and fitness goals. He then provided follow-up sessions every two weeks to see how I was doing and provided great 
+													feedback for the issues I was having. At the end of the program, I had lost over 10 pounds and re-created a habit
+													of training a little bit every day with the exercises he provided. All of it was done remotely as I live 12 hours 
+													away from him. I was impressed with the depth of his knowledge and it was an amazing experience, I would highly recommend Chris. “
+												</p>
 
-									<div className={styles.from}>
-										<p>Iaroslav Rybakov</p>
-										<p>Online Client from Montreal, Quebec</p>
-									</div>
-								</div>
-								<div className="col-md-6">
-									<div className={styles.text}>
-										<p className={utilStyles.textParagraph}>I was scared to go back to the gym after a stroke in 2018.
-											I didn’t want to be judged or laughed at. I had lost my confidence.
-										</p>
+												<div className={styles.from}>
+													<p>Iaroslav Rybakov</p>
+													<p>Online Client from Montreal, Quebec</p>
+												</div>
+											</section>
+											<section className={styles.testimonialItem}>
+												<div className={styles.text}>
+													<p className={utilStyles.textParagraph}>I was scared to go back to the gym after a stroke in 2018.
+														I didn’t want to be judged or laughed at. I had lost my confidence.
+													</p>
 
-										<p className={utilStyles.textParagraph}>In the spring I noticed how incredibly clumsy I was. I fell twice in one day, and I decided I needed to get help. I went to a gym and had an assessment of my overall health done by Chris. He was kind and patient and never once said “you can’t”. He went over a fitness program, and I signed up that day! He helped me get my confidence back. Chris smiles all the time and is a very intelligent man. He was very knowledgeable about balance exercises, machines, free weights, and nutrition. If anyone needs encouragement, Chris is there for you. </p>
+													<p className={utilStyles.textParagraph}>In the spring I noticed how incredibly clumsy I was. I fell twice in one day, and I decided I needed to get help. I went to a gym and had an assessment of my overall health done by Chris. He was kind and patient and never once said “you can’t”. He went over a fitness program, and I signed up that day! He helped me get my confidence back. Chris smiles all the time and is a very intelligent man. He was very knowledgeable about balance exercises, machines, free weights, and nutrition. If anyone needs encouragement, Chris is there for you. </p>
 
-										<p className={utilStyles.textParagraph}>I count myself fortunate to have met Chris, now I can go to the gym and enjoy my friends and my workouts. Thank you, Chris. I am lucky that you helped me when I needed it most!! </p>
+													<p className={utilStyles.textParagraph}>I count myself fortunate to have met Chris, now I can go to the gym and enjoy my friends and my workouts. Thank you, Chris. I am lucky that you helped me when I needed it most!! </p>
+												</div>
 
-									</div>
+												<div className={styles.from}>
+													<p>Sharon Preston</p>
+													<p>In-person client from Kingsville, Ontario  </p>
+												</div>
+											</section>
+											<section className={styles.testimonialItem}>
+												<div className={styles.text}>
+													<p className={utilStyles.textParagraph}>
+														Chris your training style has guided me towards my goals. You have demonstrated techniques and form and explained the
+														 corrective measures to improve my workouts. Thank you for inspiring me and your encouragement to push me to reach my goals.
+														  I highly recommend you as a great coach.
+													</p>
+												</div>
 
-									<div className={styles.from}>
-										<p>Sharon Preston</p>
-										<p>In-person client from Kingsville, Ontario  </p>
+												<div className={styles.from}>
+													<p>Gona Mucci</p>
+													<p>In-person client from Kingsville, Ontario  </p>
+												</div>
+											</section>
+										</ScrollSlider>
 									</div>
 								</div>
 							</div>

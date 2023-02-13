@@ -73,6 +73,24 @@
 	position: relative;
 }
 
+.scrollContainer {
+	width: 100%; 
+	height: auto;
+	position: relative;
+}
+
+.testimonialItem {
+    height: 100%;
+    width: 90%;
+	max-width: 700px;
+	flex-shrink: 0;
+	padding: var(--padding-large);
+	scroll-snap-align: start;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.09);
+}
+
 .testimonialSection {
 	background-color: var(--secondary-background);
 	padding: var(--padding-large) 0;
@@ -125,6 +143,10 @@
 	}
 
 	.subTitles {
-		font-size: var(--fs-m);
+		font-size: var(--fs-ml);
+	}
+
+	.scrollContainer {
+		width: 100%; 
 	}
 }
