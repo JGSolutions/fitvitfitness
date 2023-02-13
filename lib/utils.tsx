@@ -13,7 +13,7 @@ export function sortByDate(data: unknown[]): unknown[] {
 export function domainByEnvironment(): string {
     const env = process.env.NODE_ENV;
     if (env === "production") {
-        return 'https://fitvitfitness.com';
+        return 'https://www.fitvitfitness.com';
     } else {
         return 'http://localhost:3000';
     }

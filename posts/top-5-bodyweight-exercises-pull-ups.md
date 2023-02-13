@@ -6,7 +6,7 @@ date: '2023-01-17T12:30:07.322Z'
 updateDate: '2023-01-17T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/posts/top-5-bodyweight-exercises-pull-ups'
+path: '/posts/top-5-bodyweight-exercises-pull-ups/'
 ---
 
 Pull-ups are one of the most challenging bodyweight exercises. Performing this exercise requires upper body strength, core stability, and muscle coordination. One of the best things about pull-ups is they are very effective compound exercises. No single muscle can pull your body weight up over the bar on its own. Here all the upper body muscles must work together to perform this movement. Another great thing about pull-ups is you can emphasize different muscles depending on how you grip the bar. A close grip will target the lats and biceps, whereas a wider grip will help you build the middle of your back.

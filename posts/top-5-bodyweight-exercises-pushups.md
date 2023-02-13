@@ -6,7 +6,7 @@ date: '2023-01-09T12:30:07.322Z'
 updateDate: '2023-01-09T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/posts/top-5-bodyweight-exercises-pushups'
+path: '/posts/top-5-bodyweight-exercises-pushups/'
 ---
 
 Push-ups are a great way to increase upper body strength. These are one of my go-to exercises when I travel, as they are highly efficient and require minimal space. But you don't need to wait until your next trip to do them! I love doing push-ups at the gym too. I often do push-ups immediately following a set of bench press or dumbbell press.

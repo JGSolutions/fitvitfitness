@@ -28,16 +28,16 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 			<Head>
 				<title>FitVit - Gym & Home Workouts By A Certified Trainer</title>
 				<meta name="description" content="Reach your fitness goals with home and gym workouts." />
-				<link rel="canonical" href="https://fitvitfitness.com" />
+				<link rel="canonical" href="https://www.fitvitfitness.com/" />
 
 				<meta property="og:type" content="website" />
-				<meta property="og:url" content="https://fitvitfitness.com/" />
+				<meta property="og:url" content="https://www.fitvitfitness.com/" />
 				<meta property="og:title" content=" Gym & Home Workouts By A Certified Trainer" />
 				<meta property="og:description" content="Reach your fitness goals with home and gym workouts." />
 				<meta name="image" property="og:image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta property="twitter:url" content="https://fitvitfitness.com/" />
+				<meta property="twitter:url" content="https://www.fitvitfitness.com/" />
 				<meta name="twitter:title" content="Gym & Home Workouts By A Certified Trainer" />
 				<meta name="twitter:description" content="Reach your fitness goals with home and gym workouts." />
 				<meta name="twitter:image" content={`${url}/open-graph-fitvit.png`} />
