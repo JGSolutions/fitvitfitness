@@ -23,7 +23,7 @@ export default function Footer() {
 					<nav>
 						<ul className={`${utilStyles.menuOptions} ${styles.menuOptions}`}>
 							<li>
-								<Link href="mailto:jerrygag@gmail.com">Contact Me</Link>
+								<Link href="mailto: christophercharbeldaoud@gmail.com">Contact Me</Link>
 							</li>
 							<li>
 								<Link href="/privacy-policy"> Privacy Policy </Link>
