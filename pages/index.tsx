@@ -56,7 +56,7 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 								</p>
 								<div className={styles.buttonHeaderWrapper}>
 									<Link href="/workouts" className={button.fvButton}>
-										Start A Workout
+										Home & Gym Workouts
 									</Link>
 
 									<Link href="/personal-training" className={button.fvButtonStroke}>

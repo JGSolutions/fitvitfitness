@@ -1,9 +1,9 @@
 ---
-title: 'Homemade Shakes Are Better Than Protein Powders'
-description: 'Try this nutritious and delicious Blueberry Banana Protein Shake Recipe '
+title: 'An Example of A Natural High Protein Shake'
+description: 'Great way to have a natural protein shake replacing with your over rated whey protein after your workout. Will provide more nutirents for your body.'
 coverImage: '/blog/blueberry-shake.jpg'
 date: '2022-12-10T12:30:07.322Z'
-updateDate: '2022-12-10T12:30:07.322Z'
+updateDate: '2023-02-18T12:30:07.322Z'
 author: Jerry Gagliano
 avatar: '/avatar/jerry-avatar.png'
 path: '/posts/homemade-shakes-better-than-protein-powders/'

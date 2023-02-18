@@ -1,9 +1,9 @@
 ---
 title: 'Antioxidant Rich Beet and Spinach Smoothie'
-description: 'Get a blast of nutrients with this delicious fruit and veggie smoothie.'
+description: 'A a blast of nutrients from a beet smoothie packed with spinach, berries, banana, and many more fruits! This smoothie will get you going before or after a workout'
 coverImage: '/blog/blog-beet-smoothie.png'
 date: '2022-12-16T12:30:07.322Z'
-updateDate: '2022-12-16T12:30:07.322Z'
+updateDate: '2023-02-16T12:30:07.322Z'
 author: Jerry Gagliano
 avatar: '/avatar/jerry-avatar.png'
 path: '/posts/spinach-beet-smoothie/'
