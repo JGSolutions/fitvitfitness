@@ -27,7 +27,7 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 		<>
 			<Head>
 				<title>FitVit - Gym & Home Workouts By A Certified Trainer</title>
-				<meta name="description" content="Check out the latest gym and home workouts. With Chris Daoud helping you reach your fitness goals." />
+				<meta name="description" content="Check out the latest fitness trends, gym and home workouts. With Chris Daoud helping you reach your fitness goals." />
 				<link rel="canonical" href="https://fitvitfitness.com/" />
 
 				<meta property="og:type" content="website" />
