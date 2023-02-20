@@ -6,7 +6,7 @@ date: '2022-12-12T12:30:07.322Z'
 updateDate: '2022-12-12T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/posts/top-5-bodyweight-exercises-dips'
+path: '/posts/top-5-bodyweight-exercises-dips/'
 ---
 
 Dips are one of the best exercises for increasing the size and strength of your push muscles. Depending on how you perform the exercise, you can emphasize either your chest or triceps during the movement. To emphasize your triceps, remain upright and keep your elbows close to your body. If you want to focus on your chest instead, try leaning forward at a 45-degree angle while performing the exercise. 

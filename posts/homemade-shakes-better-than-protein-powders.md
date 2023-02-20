@@ -1,12 +1,12 @@
 ---
-title: 'Homemade Shakes Are Better Than Protein Powders'
-description: 'Try this nutritious and delicious Blueberry Banana Protein Shake Recipe '
+title: 'An Example of A Natural High Protein Shake'
+description: 'Great way to have a natural protein shake replacing with your over rated whey protein after your workout. Will provide more nutirents for your body.'
 coverImage: '/blog/blueberry-shake.jpg'
 date: '2022-12-10T12:30:07.322Z'
-updateDate: '2022-12-10T12:30:07.322Z'
+updateDate: '2023-02-18T12:30:07.322Z'
 author: Jerry Gagliano
 avatar: '/avatar/jerry-avatar.png'
-path: '/posts/homemade-shakes-better-than-protein-powders'
+path: '/posts/homemade-shakes-better-than-protein-powders/'
 ---
 
 Eat more protein! We need protein! Let's face it, with increased inflation it's tough to get cheap forms of high-quality protein. When we start exercising, we immediately think about protein powders. The cost of protein powders has significantly increased over the past few years. Do we really need these processed powders in our bodies? Why are there so many companies producing these powders? Isn't it better to spend your money on natural foods instead?

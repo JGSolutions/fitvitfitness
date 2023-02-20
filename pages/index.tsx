@@ -27,8 +27,8 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 		<>
 			<Head>
 				<title>FitVit - Gym & Home Workouts By A Certified Trainer</title>
-				<meta name="description" content="Reach your fitness goals with home and gym workouts." />
-				<link rel="canonical" href="https://fitvitfitness.com" />
+				<meta name="description" content="Check out the latest fitness trends, gym and home workouts. With Chris Daoud helping you reach your fitness goals." />
+				<link rel="canonical" href="https://fitvitfitness.com/" />
 
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://fitvitfitness.com/" />
@@ -56,7 +56,7 @@ export default function Home({ getRecentPosts, AUDIENCE_ID, API_KEY, DATACENTER 
 								</p>
 								<div className={styles.buttonHeaderWrapper}>
 									<Link href="/workouts" className={button.fvButton}>
-										Start A Workout
+										Home & Gym Workouts
 									</Link>
 
 									<Link href="/personal-training" className={button.fvButtonStroke}>

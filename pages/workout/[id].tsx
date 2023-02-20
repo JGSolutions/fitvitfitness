@@ -41,14 +41,11 @@ export default function Workout({ postData }) {
         <meta property="og:type" content="article" />
         <meta property="og:title" content={postData.title} />
         <meta property="og:description" content={postData.description} />
-        {/* <meta name="image" property="og:image" content={`${url}${postData.coverImage}`} itemProp="image"/> */}
-
+  
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={`${url}${postData.path}`} />
         <meta property="twitter:title" content={postData.title} />
         <meta property="twitter:description" content={postData.description} />
-        {/* <meta property="twitter:image" content={`${url}${postData.coverImage}`} /> */}
-        <meta property="twitter:creator" content="@"></meta>
       </Head>
       
       <Header/>

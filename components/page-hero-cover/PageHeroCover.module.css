@@ -24,6 +24,10 @@ a.backLink {
 	text-decoration: none;
 	color: white;
 	font-size: var(--fs-m);
+	margin-bottom: var(--padding-xs);
+	padding: 0 var(--padding-xs);
+	background-color: rgba(0,0,0, 0.4);
+	max-width: fit-content;
 }
 
 .h1 {

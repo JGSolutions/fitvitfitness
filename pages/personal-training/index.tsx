@@ -13,15 +13,15 @@ export default function PersonalTraining() {
             <Head>
                 <title>FitVit - Personal Training Sessions with Christopher Daoud</title>
                 <meta name="description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
-                <link rel="canonical" href="https://fitvitfitness.com/personal-training/" />
+                <link rel="canonical" href={`${url}/personal-training/`} />
     
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://fitvitfitness.com/personal-training/" />
+                <meta property="og:url" content={`${url}/personal-training/`} />
                 <meta property="og:title" content="Personal Training Sessions" />
                 <meta property="og:description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
                 <meta property="og:image" name="image" content={`${url}/open-graph-fitvit.png`} itemProp="image"/>
 
-                <meta property="twitter:url" content="https://fitvitfitness.com/personal-training/" />
+                <meta property="twitter:url" content={`${url}/personal-training/`} />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Personal Training Sessions" />
                 <meta name="twitter:description" content="Personal training sessions with Christopher Daoud to help you with your workout goals." />
