@@ -1,9 +1,9 @@
 ---
 title: 'TRX Lower Body Workout - Legs Exercises'
-description: ' Here are some of my favorite TRX lower body exercises. Try out the entire workout or add some of your favorite exercises to your current workout routine.'
+description: 'My favorite lower body exercises with TRX suspension training. A great way to target your lower body muscles while also working on your balance and stability.'
 coverImage: '/blog/blog-trx-leg-workout.jpeg'
-date: '2023-02-28T12:30:07.322Z'
-updateDate: '2023-02-28T12:30:07.322Z'
+date: '2023-03-07T12:30:07.322Z'
+updateDate: '2023-03-07T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
 path: '/posts/trx-upper-body-push-workout'
