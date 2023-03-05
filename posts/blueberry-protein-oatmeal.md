@@ -1,7 +1,7 @@
 ---
 title: 'High Protein Cinnamon Blueberry Oatmeal'
-description: 'Delicious high protein and homemade blueberry oatmeal!'
-coverImage: '/blog/blueberry-shake.jpg'
+description: 'Delicious high protein and homemade blueberry oatmeal! Providing your extra nutrients such as Flax, Chai and Hamp seeds.'
+coverImage: '/blog/blog-oatmeal.jpg'
 date: '2023-03-05T12:30:07.322Z'
 updateDate: '2023-03-05T12:30:07.322Z'
 author: Jerry Gagliano
@@ -9,9 +9,11 @@ avatar: '/avatar/jerry-avatar.png'
 path: '/posts/blueberry-protein-oatmeal/'
 ---
 
-One of my favorite quick high protein delicious meals to have for breakfast or even during your bulking phase to gain muscle. What I love about oatmeal it’s quick and easy to make, you can customize it with any toppings, and it keeps you full with lots of energy espesically before a workout!
+One of my favorite quick high protein delicious meals to have for breakfast or and during your bulking phase to gain muscle. This won't be your regular packaged flavoured oatmeal!
 
-As you will see, I use other ingredients such as flaxseeds, chai and hemp seeds that adds more protein and makes it nutritious without the need of those protein powders.
+What I love about oatmeal it’s quick and easy to make, you can customize it with any toppings, and it keeps you full with lots of energy espesically before a workout!
+
+As you will see, I use other ingredients such as Flaxseeds, Chai and Hemp seeds that adds more protein and makes it nutritious without the need of those high cost protein powders.
 
 [Jump to Oatmeal Recipe](#user-content-oatmeal-recipe)
 ## Oatmeal Nutritional Facts
@@ -37,21 +39,23 @@ Overall, hemp seeds are a nutritious and versatile food that offer a range of he
 Flaxseeds are rich in fiber, protein, and healthy fats, particularly omega-3 fatty acids. They are also a good source of vitamins and minerals, such as vitamin E, magnesium, and manganese. Because of their high fiber content, flaxseeds can help promote regular digestion and may also help to reduce cholesterol levels in the body.
 ## Recipe {#oatmeal-recipe}
 
-- Oatmeal
-- Frozen or fresh blueberries or strawberries
-- Flaxseeds
-- Hemp Seeds
-- Chai Seeds
-- Cinnamon
-- peanut butter or almond butter (optional)
+- Oatmeal (1 cup)
+- Frozen or fresh blueberries or strawberries (1 cup)
+- Flaxseeds (1 tbsp)
+- Hemp Seeds (1 tbsp)
+- Chai Seeds(1 tbsp)
+- Cinnamon (1 teaspoon)
+- peanut butter (1 tbsp)
 
 ## Macros
+Calories: **846cal**  
+Protein: **32g**  
+Carbs: **78g**  
+Fat: **37g**  
 
-Here you will provide exact macros of meal
 
 ## Directions
 
-Mix all ingrdients in a bowl and add hot water. You may add as much water thickness. Throw it in the microwave for about 3-4min. If you want to cook the oatmeal on a stove you may do so. Let it stand for few minutes and enjoy!
+Mix all ingrdients in a bowl and add hot water. You may add as much water depending on thickness prefernce. Throw it in the microwave for about 3-4min. You may cook the oatmeal on a stove if you wish. Then let it stand in a bowl for few minutes and enjoy!
 ## Conclusion
-I hope you try and enjoy this recipe. I got the habit of eating this meal eveyday. It's very low cost meal
-as you see provides you with lots of vitamins and minerals.
+I hope you try and enjoy this recipe get the habit of eating this meal eveyday. Best of all, it's a low cost meal, providing you with lots of vitamins and minerals.
