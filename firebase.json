@@ -12,6 +12,11 @@
         "source": "/privacy-policy/privacy-policy",
         "destination": "/privacy-policy",
         "type": 301
+      },
+      {
+        "source": "http://fitvitfitness.com/",
+        "destination": "https://fitvitfitness.com/",
+        "type": 301
       }
     ],
     "headers": [
