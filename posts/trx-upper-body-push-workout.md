@@ -46,10 +46,10 @@ VARIATION
 Raising one foot off the ground increases the need for greater balance and trunk stability.
 
 *Figure A*  
-![Fig a](/blog/trx-upper-body/trx-chest-fly-a.jpeg)
+![Fig a - chest fly](/blog/trx-upper-body/trx-chest-fly-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-upper-body/trx-chest-fly-b.jpeg)
+![Fig b - chest fly](/blog/trx-upper-body/trx-chest-fly-b.jpeg)
 
 ## 2.TRX Chest Press {#chest-press}
 
@@ -76,13 +76,13 @@ VARIATIONS
 - To emphasize trunk stability and balance, this exercise can be performed using a single leg for support (see figure c).
 
 *Figure A*  
-![Fig a](/blog/trx-upper-body/trx-chest-press-a.jpeg)
+![Fig a trx chest press](/blog/trx-upper-body/trx-chest-press-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-upper-body/trx-chest-press-b.jpeg)
+![Fig b trx chest press](/blog/trx-upper-body/trx-chest-press-b.jpeg)
 
 *Figure C*
-![Fig c](/blog/trx-upper-body/trx-chest-press-c.jpeg)
+![Fig c trx chest press](/blog/trx-upper-body/trx-chest-press-c.jpeg)
 
 ## 3.TRX Triceps Press {#triceps-press}
 
@@ -109,10 +109,10 @@ VARIATIONS
 - This exercise can also be modified by grabbing the handle straps with one hand, assuming a staggered stance, and applying manual resistance throughout the exercise movement.
 
 *Figure A*  
-![Fig a](/blog/trx-upper-body/trx-tricep-press-a.jpeg)
+![Fig a trx triceps press](/blog/trx-upper-body/trx-tricep-press-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-upper-body/trx-tricep-press-b.jpeg)
+![Fig b trx triceps press](/blog/trx-upper-body/trx-tricep-press-b.jpeg)
 
 ## 4.TRX Pause Push-Up {#pushup}  
 
@@ -136,9 +136,9 @@ Lie on the ground facing away from the anchor point and place the feet in the fo
 - Push the ground away.
 
 *Figure A*  
-![Fig a](/blog/trx-upper-body/trx-pause-pushup-a.jpeg)
+![Fig a trx pause pushup](/blog/trx-upper-body/trx-pause-pushup-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-upper-body/trx-pause-pushup-b.jpeg)
+![Fig b trx pause pushup](/blog/trx-upper-body/trx-pause-pushup-b.jpeg)
 
 Credit: Adapted from Complete Guide to TRX Suspension Training 2E. Available for purchase at [Human Kinetics - Canada](https://canada.humankinetics.com/)
