@@ -2,8 +2,8 @@
 title: 'High Protein Cinnamon Blueberry Oatmeal'
 description: 'Delicious high protein and homemade blueberry oatmeal! Providing your extra nutrients such as Flax, Chai and Hamp seeds.'
 coverImage: '/blog/blog-oatmeal.jpg'
-date: '2023-03-05T12:30:07.322Z'
-updateDate: '2023-03-05T12:30:07.322Z'
+date: '2023-03-14T12:30:07.322Z'
+updateDate: '2023-03-14T12:30:07.322Z'
 author: Jerry Gagliano
 avatar: '/avatar/jerry-avatar.png'
 path: '/posts/blueberry-protein-oatmeal/'
