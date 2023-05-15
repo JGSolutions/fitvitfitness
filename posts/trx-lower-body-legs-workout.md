@@ -6,7 +6,7 @@ date: '2023-03-14T12:30:07.322Z'
 updateDate: '2023-03-14T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
-path: '/posts/trx-upper-body-push-workout'
+path: '/posts/trx-lower-body-leg-workout'
 ---
 
 List of lower body exercises:
