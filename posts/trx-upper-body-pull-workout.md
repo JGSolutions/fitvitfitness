@@ -1,9 +1,9 @@
 ---
 title: 'TRX Upper Body Workout - Pull Exercises'
-description: 'Here are some of my favorite TRX upper body pull exercises! Try out the entire workout or add some of your favorite exercises to your current workout routine.'
+description: 'Free workout guide for TRX upper body pull workout! TRX pull exercises to sculpt an insanely strong body.'
 coverImage: '/blog/blog-trx-pull.jpeg'
 date: '2023-02-20T12:30:07.322Z'
-updateDate: '2023-02-20T12:30:07.322Z'
+updateDate: '2023-05-16T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
 path: '/posts/trx-upper-body-pull-workout'
@@ -42,10 +42,10 @@ VARIATION
 The intensity of this exercise can be increased by elevating the feet on a step or box while planking, by adding a weighted vest, or by performing the single-arm variation.
 
 *Figure A*  
-![Fig a](/blog/trx-pull/TRX-low-row-a.jpeg)
+![Fig a TRX low row](/blog/trx-pull/TRX-low-row-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-pull/TRX-low-row-b.jpeg)
+![Fig b TRX low row](/blog/trx-pull/TRX-low-row-b.jpeg)
 
 ## 2.TRX Assisted Chin-up {#chin-up}
 
@@ -68,14 +68,13 @@ VARIATIONS
 A greater emphasis can be placed on the muscles of the biceps by using a neutral or underhand grip when performing this exercise.
 
 *Figure A*  
-![Fig a](/blog/trx-pull/TRX-chinup-a.jpeg)
+![Fig a TRX chinup](/blog/trx-pull/TRX-chinup-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-pull/TRX-chinup-b.jpeg)
+![Fig b TRX chinup](/blog/trx-pull/TRX-chinup-b.jpeg)
 
 
 ## 3.TRX Bicep Curl {#bicep-curl}  
-
 
 PURPOSE  
 To develop the biceps.
@@ -102,17 +101,17 @@ VARIATIONS
 
 
 *Figure A*  
-![Fig a](/blog/trx-pull/TRX-biceps-curl-a.jpeg)
+![Fig a TRX biceps curl](/blog/trx-pull/TRX-biceps-curl-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-pull/TRX-biceps-curl-b.jpeg)
+![Fig b TRX biceps curl](/blog/trx-pull/TRX-biceps-curl-b.jpeg)
 
 ## 4.TRX Inverted Row {#inverted-row}  
 
 **PURPOSE**  
 To develop the muscles of the back.
 
-**ADJUSTMENT**   
+**ADJUSTMENT**  
 Shorten the handles to hip height (over shortened).
 
 **STARTING POSITION**  
@@ -131,9 +130,9 @@ Stand facing the anchor point and grab a handle in each hand using a neutral, ov
 The intensity of this exercise can be increased by slowly lowering the body back to the starting position (i.e., a 1:3; 1:4 count).
 
 *Figure A*  
-![Fig a](/blog/trx-pull/TRX-inverted-row-a.jpeg)
+![Fig a TRX inverted row](/blog/trx-pull/TRX-inverted-row-a.jpeg)
 
 *Figure B*
-![Fig b](/blog/trx-pull/TRX-inverted-row-b.jpeg)
+![Fig b TRX inverted row](/blog/trx-pull/TRX-inverted-row-b.jpeg)
 
 Credit: Adapted from Complete Guide to TRX Suspension Training 2E. Available for purchase at [Human Kinetics - Canada](https://canada.humankinetics.com/)
