@@ -2,83 +2,69 @@
 title: 'TRX Lower Body Workout - Core Exercises'
 description: 'My favorite core body exercises with TRX suspension training. A great way to target your core body while also working on your balance and stability.'
 coverImage: '/blog/blog-trx-leg-workout.jpeg'
-date: '2023-03-14T12:30:07.322Z'
-updateDate: '2023-03-14T12:30:07.322Z'
+date: '2023-05-16T12:30:07.322Z'
+updateDate: '2023-05-16T12:30:07.322Z'
 author: Christopher Daoud
 avatar: '/avatar/chris-avatar.png'
 path: '/posts/trx-lower-body-core-workout'
 ---
 
-List of lower body exercises:
+List of core exercises:
 
- - [TRX Lunge](#user-content-lunge)
- - [TRX Overhead Squat](#user-content-squat)
- - [TRX Suspended Single Leg Deadlift](#user-content-single-leg-deadlift)
- - [TRX Single-Leg Squat](#user-content-single-leg-squat)
+ - [TRX Walking Plank](#user-content-plank)
+ - [TRX Crunch](#user-content-crunch)
+ - [TRX Mountain Climbers](#user-content-climbers)
+ - [TRX Explosive Row to Pallof Press](#user-content-pallof)
 
-Using exercises from The Complete Guide to Suspension Training 2E, I’ve put together some of my favorite TRX lower body exercises. Try out the entire workout or add some of your favorite exercises to your current workout routine.
+Using exercises from The Complete Guide to Suspension Training 2E, I’ve put together some of my favorite TRX core exercises. Try out the entire workout or add some of your favorite exercises to your current workout routine.
 
-## 1.TRX Lunge {#lunge}
+
+## TRX Walking Plank  {#plank}
 
 PURPOSE  
-To develop lower-body muscular strength and endurance.
+To develop shoulder and trunk stability.
 
 ADJUSTMENT  
-Adjust the straps of the Suspension Trainer to mid-length.
+Adjust the straps of the Suspension Trainer to mid-calf length.
 
 STARTING POSITION  
-Stand facing the anchor point. Grasp the handles, bend the elbows, align the upper arms by the waist with the palms facing one another, and step back until there is no slack in the straps (see figure a).
+Lie face down with the forearms on the ground, facing away from the anchor point. Place the feet in the foot cradles (see figure a).
 
 DESCRIPTION  
-- Simultaneously flex the hip, knee, and ankle on the standing leg, and step back with the free foot (see figure b). Bend the back knee to 90 degrees. Once the lead-leg thigh is approximately parallel to the ground, return to the starting position.
-- Perform for the desired number of repetitions, then switch legs.
+Shift the body toward the left forearm and place the right palm on the ground, then extend the right arm (see figure b). Next, shift the body to the right, place the left hand on the ground and extend the left arm (i.e., the TRX push-up position) (see figure c). Return to the starting position by placing the right forearm down, followed by the left forearm.
 
 TEACHING CUES
-- Keep the trunk braced and maintain a big chest position.
-- Keep the ankles, knees, and hips aligned.
-- Pretend there are flashlights on the hips and shine the lights straight ahead.
-
-VARIATION  
-To increase the balance and stability demands of this exercise, drive the rear knee forward while extending the knee and hip of the lead leg. The ankle of the front leg should remain in a cast position (see figures c-d)
+- Stay stiff as a board from the head to heels.
+- Maintain a rhythmic cadence (e.g., 1 = left palm down, 2 = right palm down, 3 = left forearm down, 4 = right forearm down).
 
 *Figure A*  
-![Fig a trx lunge](/blog/trx-legs/trx-lunge-a.jpeg)
+![TRX Walking Plank A](/blog/trx-core/trx-walking-plank-a.png)
 
 *Figure B*
-![Fig b trx lunge](/blog/trx-legs/trx-lunge-b.jpeg)
+![TRX Walking Plank B](/blog/trx-core/trx-walking-plank-b.png)
 
 *Figure C*
-![Fig b trx lunge](/blog/trx-legs/trx-lunge-c.jpeg)
+![TRX Walking Plank C](/blog/trx-core/trx-walking-plank-c.png)
 
-*Figure D*
-![Fig b trx lunge](/blog/trx-legs/trx-lunge-d.jpeg)
-
-## 2.TRX Overhead Squat {#squat}
+## TRX Crunch {#crunch}
 
 PURPOSE  
-To improve ankle, knee, and hip mobility, as well as lower-body muscular strength and endurance. This exercise also strengthens the muscles of the upper back.
+To develop muscular endurance and stability of the trunk.
 
 ADJUSTMENT  
-Adjust the straps of the Suspension Trainer to mid-calf.
+Adjust the straps of the Suspension Trainer to mid-calf length.
 
 STARTING POSITION  
-Stand facing the anchor point. Grasp the handles, extend the arms overhead, and step back until there is no slack in the straps.
+Face away from the anchor point and place the feet in the foot cradles. Place the hands on the ground shoulder-width apart.
 
 DESCRIPTION  
-- Point the toes outward slightly (see figure a).
-- Squat until the knees are flexed to more than 90 degrees. The knees should remain behind, or directly over, the toes (see figure b).
-- Extend the hips, knees, and ankles, and return to the starting position.
-
+- Set the body in a straight line, or plank position, brace the trunk, and keep the arms straight (see figure a).
+- Pull the shoulder blades down and together while pulling both knees toward the chest (see figure b).
+- Return to the starting position and continue this movement for the desired number of repetitions.
 
 TEACHING CUES
-- Imagine standing in the center of a square and drop the buttocks to the middle of the square.
-- Squeeze the shoulder blades together.
-- Spread the floor.
-- Push the ground away.
-
-
-VARIATIONS  
-Performing a single-leg version increases the balance, stability, and strength demands of this exercise.
+- Brace the core first, then drive the knees toward the chest.
+- Control the movement. Perform at an even tempo (e.g., a count of 2 for the crunch and a count of 2 to return to the fully extended position).
 
 *Figure A*
 ![Fig A trx squat overhead](/blog/trx-legs/trx-squat-a.jpeg)
