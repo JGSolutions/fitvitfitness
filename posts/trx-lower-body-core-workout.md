@@ -1,7 +1,7 @@
 ---
 title: 'TRX Lower Body Workout - Core Exercises'
-description: 'My favorite core body exercises with TRX suspension training. A great way to target your core body while also working on your balance and stability.'
-coverImage: '/blog/blog-trx-leg-workout.jpeg'
+description: 'Free core body exercises with TRX suspension training. A great way to target your core body while also working on your balance and stability.'
+coverImage: '/blog/blog-trx-core.png'
 date: '2023-05-16T12:30:07.322Z'
 updateDate: '2023-05-16T12:30:07.322Z'
 author: Christopher Daoud
@@ -67,67 +67,66 @@ TEACHING CUES
 - Control the movement. Perform at an even tempo (e.g., a count of 2 for the crunch and a count of 2 to return to the fully extended position).
 
 *Figure A*
-![Fig A trx squat overhead](/blog/trx-legs/trx-squat-a.jpeg)
+![Fig A trx crunch](/blog/trx-core/trx-crunch-a.png)
 
 *Figure B*
-![Fig B trx squat overhead](/blog/trx-legs/trx-squat-b.jpeg)
+![Fig B trx crunch](/blog/trx-core/trx-crunch-b.png)
 
-## 3.Suspended Single Leg Deadlift {#single-leg-deadlift}
+## Mountain Climbers {#climbers}
 
 PURPOSE  
-To improve lower-body strength and muscular endurance, and trunk stability.
+To develop muscular endurance and stability of the trunk.
 
 ADJUSTMENT  
 Adjust the straps of the Suspension Trainer to mid-calf length.
 
 STARTING POSITION  
-Stand facing away from the anchor point. Place one foot in both foot cradles and adjust the position until the straps are at a 110- to 130-degree angle to the ground. Grasp a pair of sandbags or kettlebells and hold them at either side of the lead leg (see figure a).
+Face away from the anchor point and place the feet in the foot cradles. Place the hands on the ground shoulder-width apart.
 
 DESCRIPTION  
-- Lower the body by allowing the front knee to flex until it is at 90 degrees and the thigh is parallel to the ground (see figure b).
-- Simultaneously push the suspended foot back.
-- Push through the front heel and extend the knee and hip to return to the starting position.
-- Repeat for the desired number of repetitions, then switch legs and repeat.
+- Set the body in a straight line, or plank position, brace the trunk, and keep the arms straight (see figure a).
+- Simultaneously pull the shoulder blades down and together and bring the right knee up toward the chest (see figure b).
+- While the right leg returns to the starting position, bring the left leg toward the chest in the same manner.
+- Continue this movement, alternating between right and left sides as if pedaling a bike.
 
 TEACHING CUES  
-- Drive off the lead foot.
-- Push the ground away.
-- Maintain an active plank throughout the exercise.
+- Brace the core first, then drive the knee toward the chest.
+- Control the movement. Perform at an even tempo (e.g., a count of 2 for the crunch and a count of 2 to return to the fully extended position).
+
 
 *Figure A*
-![Fig A trx single leg deadlift](/blog/trx-legs/trx-single-leg-deadlift-a.jpeg)
+![Fig A trx mountain climbers](/blog/trx-core/trx-mountain-climbers-a.png)
 
 *Figure B*
-![Fig B trx single leg deadlift](/blog/trx-legs/trx-single-leg-deadlift-b.jpeg)
+![Fig B trx mountain climbers](/blog/trx-core/trx-mountain-climbers-b.png)
 
-## 4.TRX Single-Leg Squat  {#single-leg-squat}  
+## TRX Explosive Row to Pallof Press  {#pallof}  
 
 **PURPOSE**  
-To develop lower-body strength, endurance, stability, and mobility.
+To develop trunk and shoulder stability and endurance.
 
 **ADJUSTMENT**  
 Adjust the straps of the Suspension Trainer to mid-length.
 
 **STARTING POSITION**  
-Stand on one foot while facing the anchor point (see figure a). Grasp the handles, bend the elbows, align the upper arms just behind the waist with the palms facing one another, and step back until there is no slack in the straps.
+Face the anchor point and grasp the handles in both hands using a neutral grip (see figure a).
 
 **DESCRIPTION**  
-- Squat and extend the free leg out in front (see figure b).
-- Return to the starting position, and repeat for the desired number of repetitions, then switch and perform the same number of repetitions on the opposite leg.
+Rapidly pull the torso toward the handles (see figure b), pivot the hips and feet, then quickly push the handles away from the body (see figure c). The foot farther from the anchor point should be the lead foot. Slowly return to the starting position and repeat, pivoting toward the opposite side.
 
 **TEACHING CUES**  
-- Brace the trunk.
-- Keep the shoulders stacked over the hips. The standing knee should not go beyond the standing toes.
-- Push the ground away.
-
-**VARIATIONS**  
 - A weighted vest can be added to increase the intensity of this exercise.
-- Performing combination movements, such as a pistol squat followed by a reverse lunge, can add additional variety and challenge to a workout routine.
+- Brace the trunk as if readying for a punch to the abdomen.
+- Punch the hands away from the body.
+
 
 *Figure A*
-![Fig A trx single leg squat](/blog/trx-legs/trx-single-leg-squat-a.jpeg)
+![Fig A TRX Explosive Row to Pallof Press](/blog/trx-core/trx-explosive-pallof-press-a.png)
 
 *Figure B*
-![Fig A trx single leg squat](/blog/trx-legs/trx-single-leg-squat-b.jpeg)
+![Fig B TRX Explosive Row to Pallof Press](/blog/trx-core/trx-explosive-pallof-press-b.png)
+
+*Figure C*
+![Fig C TRX Explosive Row to Pallof Press](/blog/trx-core/trx-explosive-pallof-press-c.png)
 
 Credit: Adapted from Complete Guide to TRX Suspension Training 2E. Available for purchase at [Human Kinetics - Canada](https://canada.humankinetics.com/)
